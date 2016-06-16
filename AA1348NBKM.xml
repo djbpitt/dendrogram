@@ -1,0 +1,385 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-AA1348NBKM">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Popular Calendar, NBKM 1348, 19th c.</title>
+            <author xml:id="AA">Adelina Angusheva</author>
+            <editor xml:id="AM">Anisava Miltenova</editor>
+            <editor xml:id="AB">Andrej Bojadžiev</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date>30. 08. 1995</date>
+            <idno type="Repertorium">RC-AA1348NBKM</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the creators under
+                        the Creative Commons Attribution-No Derivative Works 3.0 under legislation
+                        in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In short, you could download and disseminate
+                        information, but you are not allowed to alter, transform, or build upon the
+                        works on this section of the site. All reuse or distribution of this work
+                        must contain somewhere a link back to the URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <ref type="bibl" target="bib:Стоянов1971">Стоянов, Кодов 1971:141</ref>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="bg">Bulgarian</language>
+            <language ident="en">English</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Miscellany of mixed content</item>
+                  <item>Prognostic Books</item>
+                  <item>Thunderbooks</item>
+                  <item>Dreambook</item>
+                  <item>Medical Prescriptions</item>
+                  <item>Chap-book</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change who="#AB" when="2009-04-17" status="draft">Removed constructions
+                &lt;author&gt;anonumous&lt;/author&gt;</change>
+         <change who="#AB" when="2009-04-17" status="draft">Added copyright statement</change>
+         <change who="#AB" when="2009-04-15" status="draft">Corrections</change>
+         <change who="#AB" when="2009-04-13" status="draft">Added Repertorium Identifier</change>
+         <change who="AB" when="2009-03-02" status="draft">Conversion to Repertorium 3.0</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName type="general" xml:lang="en">calendar</msName>
+               <msName type="specific" xml:lang="en">popular calendar</msName>
+               <country>Bulgaria</country>
+               <settlement>Sofia</settlement>
+               <repository>National Library</repository>
+               <idno type="shelfmark">1348</idno>
+               <idno type="catalogue">1348</idno>
+               <note>
+                  <name type="relatedPerson" full="yes">Петарь Боженіца</name>
+                  <ref type="bibl" target="bib:Стоянов1971">Стоянов, Кодов 1971:141</ref>
+               </note>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper</material>
+                        <watermark>none</watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">338</measure>
+                        <dimensions unit="mm" type="folia">
+                           <height>165</height>
+                           <width>105</width>
+                        </dimensions>
+                     </extent>
+                     <pagination>with letters, original</pagination>
+                     <collation>
+                        <summary>no data</summary>
+                     </collation>
+                     <condition>The first page is missing. Twenty two folia are missing
+                                between ff. 322 and 323. </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Dark brown</ink>
+               <bindingDesc>
+                  <binding>
+                     <p>New, leather and cardboard</p>
+                     <bindingNote type="cover">
+                        <locus>On the back side of the upper cover:</locus>
+                        <decoNote>
+                           <stamp>angels with circles.</stamp>
+                        </decoNote>
+                     </bindingNote>
+                  </binding>
+               </bindingDesc>
+            </physDesc>
+            <scribeDesc>
+               <scribe>
+                  <locus from="1" to="338">ff. 1r-338v</locus>
+                  <name full="yes">Daskal Todor Pirdopski</name>
+                  <scriptDesc script="cyrs" type="semiuncial"/>
+                  <ref type="bibl" target="bib:Стоянов1971">Стоянов, Кодов 1971</ref>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>The manuscript contains 19 texts</summary>
+               <filiation type="protograph">Bulgarian</filiation>
+               <filiation type="antigraph">Middle Bulgarian</filiation>
+               <msItemStruct xml:id="ACD1" defective="false">
+                  <locus n="1">1r-68v</locus>
+                  <title xml:lang="bg">Гадание за времето по месеци и по години</title>
+                  <note>Prediction begins with the <date from="1840">1840</date> and ends to
+                            the <date to="1890">1890</date>. </note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText>
+                     <incipit defective="false">Въ ц҃риградь велый гдс҃ръ</incipit>
+                     <explicit defective="false">на <seg rend="sup">ли</seg>сть: ке҃</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" defective="false">
+                  <locus n="2">69a-115v</locus>
+                  <title xml:lang="bg">Гадание за съдбата на човека според Зодиака</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false">Мс҃ць марть: нарицаемый овенъ: Което са дѣте поди</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3" defective="false">
+                  <locus n="3">116r-117r</locus>
+                  <title xml:lang="bg">Сведения за злите дни</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сказанїе заради; вї҃тѧхъ мс҃ць како да са чувашь ѿ ѕлы дни що има през годината</head>
+                     <explicit defective="false">аѵгустъ: д҃:ѕ: иї҃</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" defective="false">
+                  <locus n="4">117r-119v</locus>
+                  <title xml:lang="bg">Имената на ангелите</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>А сїй имена суть стымь агг҃ломь</head>
+                     <incipit defective="false">Первый арцагг҃ль Полутосъ</incipit>
+                     <explicit defective="false">и на ц҃рь Костантина</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD5" defective="false">
+                  <locus n="5">119v-123v</locus>
+                  <title xml:lang="bg">Рецепти за пчелите и пчелните кошери</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Аще ли пчели несогласны и не държат сѧ вкупѣ</head>
+                     <incipit defective="false">а ты земи да ѿдѧла ѿ кошеришрата</incipit>
+                     <explicit defective="false">захрани кошарете съ неѧ.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD6" type="translation" defective="false">
+                  <locus n="6">124r-136v</locus>
+                  <title xml:lang="bg">Лунник по 30-те дни на луната</title>
+                  <note>The text is wrongly titled as a prediction about months; it is a book
+                            of divination by the monthly moon phases.</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сказанїе ради двою надесѧти мс҃ць. кои каковь естъ</head>
+                     <incipit defective="false">Мс҃ць мартъ въ а҃ день. Въ тои же денъ въ ѕ҃час дне созданъ
+                                бысть адамъ </incipit>
+                     <explicit defective="false">по тьрїи дни и<unclear>...</unclear>ѣлсе</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD7" defective="false">
+                  <locus n="7">137r-137v</locus>
+                  <title xml:lang="bg">Стихири за Богородица</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Стъхиры стые бцы. гласъ:ѕ</head>
+                     <incipit defective="false">Совѣть предвѣчный</incipit>
+                     <explicit defective="false">съ тобою истинна</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD8" defective="false">
+                  <locus n="8">137v-142r</locus>
+                  <title xml:lang="bg">Сказание на пророк Исая</title>
+                  <note>An original Bulgarian work, created in the 11th c.</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false">Во едно времѣне изидутъ нѣкои насилницы</incipit>
+                     <explicit defective="false">занесуть тѣло его на н҃бса. тому слава <gap hand="AA"/> аминь</explicit>
+                  </sampleText>
+                  <bibl default="false" status="draft">
+                     <ref type="bibl" target="bib:Miltenova2012">Miltenova 2012: 186-217</ref>
+                  </bibl>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD9" type="translation" defective="false">
+                  <locus n="9">142v-144a</locus>
+                  <title xml:lang="bg">Разказ за пустинника и смъртта на човека, от Патерика</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сказанїе ѡ нѣкоем постиницѣ и ѡ смерти ч҃лкомъ.</head>
+                     <incipit defective="false">Искусны паче всѣхъ</incipit>
+                     <explicit defective="false">вь і ҃денъ умретъ.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD10" type="translation" defective="false">
+                  <locus n="10">144r-172r</locus>
+                  <title xml:lang="bg">Съновник, 1</title>
+                  <note>Dreambook in alphabetical order</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Толкованїе сновъ ѿ древныхъ и новыъ
+                                острологовь</head>
+                     <incipit defective="false">а҃ адекїи сїречь голѧмь огнь</incipit>
+                     <explicit defective="false">и богата жена</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD11" type="translation" defective="false">
+                  <locus n="11">172v-173r</locus>
+                  <title xml:lang="bg">Съновник, 2</title>
+                  <note>non-alphabetical</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Послѣдованїе ѡ избитїа сновь видѣниихъ</head>
+                     <incipit defective="false">да вида дѣто жала</incipit>
+                     <explicit defective="false">да ще ти каже</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD12" defective="false">
+                  <locus n="12">173r-176r</locus>
+                  <title xml:lang="bg">Таблица показваща сбъдването на съня</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText>
+                     <head>Таблица ѡказуванїи събытїе сновъ ѿ новаго
+                                мс҃ца дней</head>
+                     <incipit defective="false">а҃ сновъ правѣднейшый</incipit>
+                     <explicit defective="false">да ти са исполны желанїето</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD13" defective="false">
+                  <locus n="13">173r-176a</locus>
+                  <title xml:lang="bg">Сведения за щастливите и нещастните дни през различни месеци</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText>
+                     <head>Зри сїе ѡ мс҃цахъ который денъ съчастливь и несъчастливъ</head>
+                     <incipit defective="false">
+                        <sic>Ханноарїа</sic>
+                     </incipit>
+                     <explicit defective="false">сїрома<seg rend="sup">х</seg> и недолговѣчень</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD14" defective="false">
+                  <locus n="14">177v-275v</locus>
+                  <title xml:lang="bg">Гадания под формата на въпроси и отговори</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText>
+                     <head>Ѡстрологовъ ѿ древныхъ <gap/> предсказанное
+                                будущее</head>
+                     <incipit defective="false">имена проныцательни<seg rend="sup">х</seg> хо
+                                парагмонъ</incipit>
+                     <explicit defective="false">на помощь додѣ</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD15" defective="false">
+                  <locus n="15">276r-276v</locus>
+                  <title xml:lang="bg">Коледник</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText>
+                     <head>Указъ ради рж<seg rend="sup">с</seg>втата х҃рвыхъ.</head>
+                     <incipit defective="false">Аще случитсѧ р҃ж<seg rend="sup">с</seg>тво хс҃во въ
+                                нл҃а҃ю</incipit>
+                     <explicit defective="false">ще да е и болѣсти много</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD16" type="translation" defective="false">
+                  <locus n="16">277r-295v</locus>
+                  <title xml:lang="bg">Гръмник Зодиак</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText>
+                     <head>Сказанїе ради дванадесѧтьтѧхь мс҃ць ка.</head>
+                     <p xml:lang="cu">риба французи,</p>
+                     <explicit defective="false">да са въцари да влада та<seg rend="sup">м</seg>
+                     </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD17" type="translation" defective="false">
+                  <locus n="17">296r-311v</locus>
+                  <title xml:lang="bg">Лунник по месеци</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Инное предсказанїе ради дванадесѧтыхъ мс҃цахъ коѧ мѣсѧчина коква
+                                е</head>
+                     <incipit defective="false">Мс҃ць марта. Ако е права мс҃цать</incipit>
+                     <explicit defective="false">б҃гъ да ни зачува</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD18" type="translation" defective="false">
+                  <locus n="18">312r-315r</locus>
+                  <title xml:lang="bg">Гадание за съдбата на болния</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Инное произвѣстїе заради избавленїе болѧщы<seg rend="sup">х</seg>
+                     </head>
+                     <incipit defective="false">в а҃ днь кога са ч҃лкъ разболи</incipit>
+                     <explicit defective="false">то ще да е живо много</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD19" defective="false">
+                  <locus n="19">315v-337v</locus>
+                  <title xml:lang="bg">Лекарственик</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>епиросовъ мехлеме да направишь зарана</head>
+                     <incipit defective="false">а҃ та земише ѿ овенъ лой</incipit>
+                     <explicit defective="false">така да чины</explicit>
+                  </sampleText>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu" resp="#AA">
+                  <origDate>19th c.</origDate>
+                  <origPlace>Unknown</origPlace>
+                  <ref type="bibl" target="bib:Стоянов1971">Стоянов,
+                            Кодов 1971:141</ref>
+               </origin>
+            </history>
+            <additional>
+               <adminInfo>
+                  <recordHist>
+                     <source>
+                        <p>Directly catalogued from the original manuscript using the
+                                    printed catalogue from <ref type="bibl" target="bib:Стоянов1971">Стоянов, Кодов 1971:141</ref>
+                        </p>
+                     </source>
+                  </recordHist>
+               </adminInfo>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

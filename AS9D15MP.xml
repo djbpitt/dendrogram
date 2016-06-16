@@ -1,0 +1,252 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-AS9D15MP">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Miscellany IX D 15 from the National museum, Prague</title>
+            <author xml:id="AS">Ana Stoykova</author>
+            <editor xml:id="AM">Anisava Miltenova</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date when="1995-12-13">13 December 1995</date>
+            <idno type="Repertorium">RC-AS9D15MP</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the  creators under the Creative Commons Attribution-No Derivative Works  3.0 under legislation in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In short, you could download and disseminate  information, but you are not allowed to alter, transform, or build  upon the works on this section of the site. All reuse or  distribution of this work must contain somewhere a link back to the  URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <ref type="bibl" target="bib:Vašica1957">Vašica &amp; Vajs 1957: 112-114</ref>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="bg">Bulgarian</language>
+            <language ident="cs">Czeh</language>
+            <language ident="ru">Russian</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Panegyrikon</item>
+                  <item>Homilies</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName type="general" xml:lang="en">miscellany</msName>
+               <msName type="general" xml:lang="en">panegyricon</msName>
+               <country>Czech Republic</country>
+               <settlement>Prague</settlement>
+               <repository>National Museum</repository>
+               <idno type="shelfmark">IX D 15</idno>
+               <altIdentifier type="old">
+                  <idno type="shelfmark">S 7</idno>
+               </altIdentifier>
+               <altIdentifier>
+                  <idno type="catalogue">42</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="fragment">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper</material>
+                        <watermark>none</watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">I+12</measure>
+                        <dimensions type="folia" unit="mm">
+                           <height>285</height>
+                           <width>185</width>
+                        </dimensions>
+                     </extent>
+                     <condition>without beginning and end; f.8 is new, blank; some folia from the middle are missing</condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>dark brown</ink>
+               <decoDesc>
+                  <p>red titles and initials</p>
+               </decoDesc>
+            </physDesc>
+            <scribeDesc>
+               <scribe>
+                  <locus>1r-12v</locus>
+                  <scriptDesc script="cyrs" type="semiuncial"/>
+                  <scribeLang>
+                     <orthography>Without juses, with two jers
+                            </orthography>
+                  </scribeLang>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>The manuscript contains 9 texts</summary>
+               <msItemStruct xml:id="ACD1" type="translation" defective="false">
+                  <locus n="1">1r</locus>
+                  <title xml:lang="bg">Слово за Рождество Богородично, фрагмент</title>
+                  <note>without beginning</note>
+                  <note>
+                     <date type="churchCal" when="-09-08">8 September</date>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="true">                      ж<seg rend="sup">д</seg>ающе се. крилы двема оубо лица двема же ногы. двема же лѣтехоу и възываахоу, вѣликоую страш'ноую ѡноы пѣ<seg rend="sup">с</seg>
+                     </incipit>
+                     <explicit defective="false">                оупокоимь слово б҃у въ троици. иже въ ѡ҃ци и самомь с҃не, съ с҃тыи<seg rend="sup">м</seg> д҃хом покланꙗемомоу единоу възсилаемь славоу. въ вѣкы вѣкѡ<seg rend="sup">м</seg>, аминь.     </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" type="translation" defective="false">
+                  <locus n="2">1r-5r</locus>
+                  <title xml:lang="bg">Слово похвално за Рождество Богородично</title>
+                  <note>
+                     <date type="churchCal" when="-09-08">8 September</date>
+                  </note>
+                  <note>
+                     <bibl xml:lang="ru" default="false" status="draft">
+                        <ref type="bibl" target="bib:Петровский1902">Петровский 1902: 118-126</ref>
+                     </bibl>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <head>Слово на рожь<seg rend="sup">д</seg>ство прѣс҃тыѥ вл<seg rend="sup">д</seg>чце наше Б҃це и пр<seg rend="sup">с</seg>но д҃вы Марїе</head>
+                     <incipit defective="false">           Въсакъ ч҃лкь хотеи похвалити. что любо хвалить и ѡномь добрѣишимь прилагаѥ    </incipit>
+                     <explicit defective="false">            твои прѣславны с҃ннь и б҃ь Емоы<seg rend="sup">ж</seg> слава сь безначел'ныи<seg rend="sup">м</seg> ѡ҃цемь, и с҃тыи<seg rend="sup">м</seg> д҃хѡ<seg rend="sup">м</seg>. и н҃нꙗ и пр<seg rend="sup">с</seg>но и вь ве<seg rend="sup">к</seg>
+                     </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3" type="translation" defective="false">
+                  <locus n="3">5r-5v</locus>
+                  <title xml:lang="bg">Слово за празника Въздвижение на честния кръст от Йоан Златоуст</title>
+                  <author>John Chrysostom</author>
+                  <note>without end</note>
+                  <note>
+                     <date type="churchCal" when="-09-14">14 September</date>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <head>Иже въ с҃тыи<seg rend="sup">х</seg> ѡ҃ца нашего !ѡан'на. Зла<seg rend="sup">т</seg>устаго ар'хіеп<seg rend="sup">с</seg>кпа Кон'стантина гра<seg rend="sup">д</seg>. Сло<seg rend="sup">в</seg> на бьз<seg rend="sup">д</seg>виженїе ч<seg rend="sup">с</seg>тнаго и животворещаго кр<seg rend="sup">с</seg>та г҃нꙗ</head>
+                     <incipit defective="false">           Что рекоу, или что вьз<seg rend="sup">г</seg>лю. что вась нареку. ѡв'ца или пастира. греб'ца или крьмчїа    </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" type="translation" defective="false">
+                  <locus n="4">6r-6v</locus>
+                  <title xml:lang="bg">Слово за Богородичен празник, фрагмент</title>
+                  <note>without beginning</note>
+                  <note>
+                     <date type="churchCal" when="-11-21" cert="low">21 November (?)</date>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="true">чит се вь градѣ твое<seg rend="sup">м</seg> иконе и<seg rend="sup">х</seg> да постидѣт<seg rend="sup">с</seg>е исчезноуть. и да погыбноу<seg rend="sup">т</seg> и разоумеють</incipit>
+                     <explicit defective="false">        въ семь рож<seg rend="sup">д</seg>ьшїа выше словеси г҃а наше<seg rend="sup">г</seg> і҃са Х҃а истин'наго б҃а и вл<seg rend="sup">д</seg>коу. емоу<seg rend="sup">ж</seg> по<seg rend="sup">д</seg>обаѥ<seg rend="sup">т</seg> вьсака сла<seg rend="sup">в</seg> вь вѣкы вѣкѡ<seg rend="sup">м</seg>, аминь </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD5" type="original" defective="false">
+                  <locus n="5">6v-7v</locus>
+                  <title xml:lang="bg">Разказ за покръстването на Русия</title>
+                  <note>
+                     <bibl xml:lang="ru" default="false" status="draft">
+                        <ref type="bibl" target="bib:Сырку1896">Сырку 1896: 84-86</ref>
+                     </bibl>
+                  </note>
+                  <note>
+                     <date type="chucrhCal" when="-11-30"/>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <head>М<seg rend="sup">с</seg>ца того, л҃. проꙗвлѥнїе кр҃щенїа роускаго. ѿ с҃тго ап<seg rend="sup">с</seg>ла Ан'дрѣа како приш<seg rend="sup">д</seg>ь вь Русїю и бл<seg rend="sup">с</seg>ви и кр<seg rend="sup">с</seg>ть поставїи. идѣже е<seg rend="sup">с</seg> н҃нꙗ гра<seg rend="sup">д</seg> Кїевь.</head>
+                     <incipit defective="false">            С҃тмоы ап<seg rend="sup">с</seg>лу Анд'рею живущому вь Синопѣ. и оучещу лю<seg rend="sup">д</seg>и    </incipit>
+                     <explicit defective="false">            да избоудѣмь ѿ зль славеще с҃тую тр<seg rend="sup">о</seg>ицу. ѡ҃ца и с҃на и с҃тго д҃ха. и н҃нꙗ и пр<seg rend="sup">с</seg>но и вь вѣ<seg rend="sup">к</seg>.   </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD6" type="translation" defective="false">
+                  <locus n="6">7v</locus>
+                  <title xml:lang="bg">Житие на св. Варвара</title>
+                  <author>anonymous</author>
+                  <note>without end</note>
+                  <note>
+                     <date type="churchCal" when="-12-04">4 December</date>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <head>М<seg rend="sup">с</seg>ца де<seg rend="sup">к</seg>м'врїа, д҃. м<seg rend="sup">ч</seg>нїе с҃тые великом<seg rend="sup">ч</seg>нице Варвары</head>
+                     <incipit defective="false">    При Маѯимїанѣ цари безаконе<seg rend="sup">м</seg>. бѣ некто Диѡскорь на вьсточнѣи странѣ  </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD7" type="translation" defective="false">
+                  <locus n="7">9r</locus>
+                  <title xml:lang="bg">Слово за Рождество Христово, фрагмент</title>
+                  <note>without beginning</note>
+                  <note>
+                     <date type="churchCal" when="-12-25">25 December</date>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false">недрь. и ѿ прѣстола славы твоеѥ. наши аг'нци постра<seg rend="sup">д</seg>ше                  </incipit>
+                     <explicit defective="false">        ꙗко б҃лгъ и мл<seg rend="sup">с</seg>тивь. хотеи вьсѣмь сп<seg rend="sup">с</seg>ти се, и въ разоумь истин'нїи прїити. ꙗко тому пѡ<seg rend="sup">д</seg>баѥть вьсака слава и вь вѣкы вѣкѡ<seg rend="sup">м</seg>. </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD8" type="original" defective="false">
+                  <locus n="8">9r-12r</locus>
+                  <title xml:lang="bg">Слово за Рождество Христово от Йоан Екзарх</title>
+                  <author>John the Exarch</author>
+                  <note>
+                     <date type="churchCal" when="-12-25">25 December</date>
+                  </note>
+                  <note>
+                     <bibl xml:lang="ru" type="published" default="false" status="draft">
+                        <ref type="bibl" target="bib:Сырку1896">Сырку 1896: 88-91</ref>
+                     </bibl>
+                  </note>
+                  <filiation type="source" subtype="other">Original Bulgarian work</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Въ тьж<seg rend="sup">д</seg>е д҃нъ Іѡан'на Ексар'ха слово на рожь<seg rend="sup">д</seg>ство Х<seg rend="sup">с</seg>во</head>
+                     <incipit defective="false">       Х҃оу праве<seg rend="sup">д</seg>ному сл҃нцу. дн<seg rend="sup">с</seg>ь ѿ д҃вы пр<seg rend="sup">ѣ</seg>ч<seg rend="sup">с</seg>тїе вьсїав'шу тьма нечьстїа ѿбѣже  </incipit>
+                     <explicit defective="false">        м҃лим се тому наставити на<seg rend="sup">с</seg> на стазоу заповѣ<seg rend="sup">д</seg>и его. ꙗже боуди полоучити вьсемь. ѿ томь самомь Х҃е г҃и нашемь. емоу<seg rend="sup">ж</seg> славу вьзсилаѥмь. </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD9" type="translation" defective="false">
+                  <locus n="9">12r-12v</locus>
+                  <title xml:lang="bg">Сказание на Афродитиан за раждането на Исус</title>
+                  <note>without end</note>
+                  <sampleText xml:lang="cu">
+                     <head>Въ тьж<seg rend="sup">д</seg>е д҃нь. сказанїе Афродитїана. ѡ быв'шемь чю<seg rend="sup">д</seg>сы вь прьсти земли. о рожь<seg rend="sup">д</seg>стве Х<seg rend="sup">с</seg>ве. сло<seg rend="sup">в</seg>
+                     </head>
+                     <incipit xml:lang="cu" defective="false">ѿ пер'сь оувѣ<seg rend="sup">д</seg>нь бы<seg rend="sup">с</seg> Х҃с. ис прьва бо не утаит се ничтоже. соущїи<seg rend="sup">х</seg> въ ны<seg rend="sup">х</seg> книгочїи    </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD10" type="original" defective="false">
+                  <locus n="10">142r</locus>
+                  <title xml:lang="bg">Колофон</title>
+                  <colophon/>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu" resp="#AS">
+                  <origDate>16th c.</origDate>
+                  <origPlace>Unknown</origPlace>
+                  <ref type="bibl" target="bib:Vašica1957">Vašica &amp; Vajs 1957: 112-114</ref>
+               </origin>
+            </history>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-DD296NBKM">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Nomocanon No 296 NBKM</title>
+            <author xml:id="DD">Dimitrinka Dimitrova</author>
+            <editor xml:id="AM">Anisava Miltenova</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date when="1995-10-05">5 October 1995</date>
+            <idno type="Repertorium">RC-DD296NBKM</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the creators under the Creative
+            Commons Attribution-No Derivative Works 3.0 under legislation in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In
+            short, you could download and disseminate information, but you are not allowed to alter,
+            transform, or build upon the works on this section of the site. All reuse or
+            distribution of this work must contain somewhere a link back to the URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <bibl xml:lang="bg" type="description" default="false" status="draft">
+               <ref type="bibl" target="bib:Цонев1910">Цонев 1910: 204-205</ref>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="bg">Bulgarian</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Church laws</item>
+                  <item>Nomocanon</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName xml:lang="en" type="general">nomocanon</msName>
+               <country>Bulgaria</country>
+               <settlement>Sofia</settlement>
+               <repository>National Library</repository>
+               <idno type="shelfmark">296</idno>
+               <idno type="catalogue">296</idno>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper</material>
+                        <watermark>unclear</watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">173</measure>
+                        <dimensions type="folia" unit="mm">
+                           <height>130</height>
+                           <width>95</width>
+                        </dimensions>
+                     </extent>
+                     <collation>
+                        <summary>14 quires, 8 folia each</summary>
+                        <signatures>Each quire is signed</signatures>
+                     </collation>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="20"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>dark brown</ink>
+               <decoDesc>
+                  <decoNote type="initials">red initials new byzantine style</decoNote>
+                  <decoNote type="capitals">red capitals</decoNote>
+                  <decoNote type="borders">colored borders</decoNote>
+               </decoDesc>
+            </physDesc>
+            <scribeDesc>
+               <scribe>
+                  <locusGrp>
+                     <locus>1r-111r</locus>
+                     <locus>112r-173v</locus>
+                  </locusGrp>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="semiuncial"/>
+                  <scribeLang>
+                     <orthography>Two jers; without juses
+                            </orthography>
+                  </scribeLang>
+                  <respStmt>
+                     <name full="yes">Dimitrinka Dimitrova</name>
+                     <resp>de visu</resp>
+                  </respStmt>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>The manuscript contains 3 texts</summary>
+               <filiation type="protograph">Bulgarian</filiation>
+               <msItemStruct xml:id="ACD1" type="translation" defective="false">
+                  <locus n="1">1-111r</locus>
+                  <title xml:lang="bg">Номоканон</title>
+                  <author>anonymous</author>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">unknown</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Номоканон или законное правило. имѣе правила по сьврьшенїи</head>
+                     <incipit defective="false">Стыи врьховных ап҃ль и стых великых вселенскых седми съборь. и поместных
+                нѣкых кь семоу и иже вь иных отца нашего Васілїа Великаго и иных ст҃лѥи и
+                преподобных</incipit>
+                     <head>Кь сщеннимь читателѥмь</head>
+                     <incipit defective="false">Бголюбазннї сщеннїи дховни нищїи ѡтци, вамь симже власть везати и пѣшїти
+                чльскаа съгрѣшенїа</incipit>
+                     <head>Номоканонь сирѣчь правило законникь сь бгѡм стым</head>
+                     <incipit defective="false">Прїемлѥи помышлѥнїа ччскаа дльжнь есть быти обраазы блгь вьздрьжникь смѣрень
+                и добродетелнь</incipit>
+                     <head>Номоканонь сирѣч каноник имѣе правила по ськрашеннїю свѣтых апсль. Великаго
+                Василїа сты саборь правиль</head>
+                     <incipit defective="false">Иже роукополагати, чрѣз прѣдльсъ роукою полагаемимь да изверьжетсе по .л.
+                правилу стых апль</incipit>
+                     <head>различны главизни събрани ѿ сщен<supplied>ѣ</supplied>
+                        <seg rend="sup">х</seg>
+                     </head>
+                     <incipit defective="false">сщенникь аще понебреженїѥпролїеть сты дары имать запреѣщенїе лѣ<seg rend="sup">т</seg> .г. твореи
+                на вьсакь днь поклонь. въори<seg rend="sup">с</seg> аще ѿ стго поутіра</incipit>
+                     <head>О сроенїи пѣнїа вь кра<seg rend="sup">д</seg>це главизны ѿ правиль събраны<seg rend="sup">х</seg> и нѣкы<seg rend="sup">х</seg> сты<seg rend="sup">х</seg>
+                събора .с. го еже въ трул<seg rend="sup">с</seg>лѣ правило .ое. вь маѳеи</head>
+                     <incipit defective="false">Еже пѣти вь црковь приходещїи<seg rend="sup">х</seg>
+                     </incipit>
+                     <head>Съборь .с. деве<seg rend="sup">д</seg>есѣтое же правило .с.го сьбора</head>
+                     <incipit defective="false">Понеже рече се ѿ бж<seg rend="sup">с</seg>твны<seg rend="sup">х</seg> ѿць. колѣне непрекланꙗти въ не<seg rend="sup">д</seg>ле
+                повелѣше</incipit>
+                     <incipit defective="false">аще кто зажежеть домь и<seg rend="sup">л</seg> гоумно. по<seg rend="sup">с</seg> .г. лѣ<seg rend="sup">т</seg>
+                     </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2"
+                             type="translation"
+                             style="non-narrative"
+                             defective="false">
+                  <locus n="2">108r</locus>
+                  <title xml:lang="bg">Молитви за дните от седмицата</title>
+                  <author>Ephrem the Syrian</author>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Млтвы събранные ѿ бж<seg rend="sup">с</seg>твны<seg rend="sup">х</seg> писанїи множаишаже ѿ стго ефрема хотещїимь
+                ѡпльчитисе противу страстемь и сластѣмь налеващіиии<seg rend="sup">х</seg> произволѥніию</head>
+                  </sampleText>
+                  <msItemStruct xml:id="ACD2.1" defective="false">
+                     <title xml:lang="bg">Молитва за понеделник вечер</title>
+                     <sampleText xml:lang="cu">
+                        <head>плаа<seg rend="sup">ч</seg> въ поне<seg rend="sup">д</seg>лни<seg rend="sup">к</seg> ве<seg rend="sup">ч</seg>рь</head>
+                        <incipit defective="false">Прїими млѥнїе ѿ скврьнныи<seg rend="sup">х</seg>и нечисти<seg rend="sup">х</seg> оусть влл<seg rend="sup">д</seg>ко всѣ<seg rend="sup">х</seg> чколюбче
+                  іѵх хе</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD2.2" defective="false">
+                     <title xml:lang="bg">Молитва за вторник вечер</title>
+                     <sampleText xml:lang="cu">
+                        <head>плачь вь вторникь вечерь</head>
+                        <incipit defective="false">Оувы мнѣ вь коѥмь зазире ста<seg rend="sup">х</seg> въ коѥмь срамѣ възлѣжу</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD2.3" defective="false">
+                     <title xml:lang="bg">Молитва за сряда вечер</title>
+                     <sampleText xml:lang="cu">
+                        <head>пла<seg rend="sup">ч</seg> въ срѣ<seg rend="sup">д</seg>
+                        </head>
+                        <incipit defective="false">Троудь глати къ боу поноуж<seg rend="sup">д</seg>етме</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD2.4" defective="false">
+                     <title xml:lang="bg">Молитва за четвъртък вечер</title>
+                     <sampleText xml:lang="cu">
+                        <head>пла<seg rend="sup">ч</seg> въ че<seg rend="sup">к</seg> ве<seg rend="sup">ч</seg>рь</head>
+                        <incipit defective="false">Се пакы припадаю при две,ѣ<seg rend="sup">х</seg> вл<seg rend="sup">д</seg>кы моего</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD2.5" defective="false">
+                     <title xml:lang="bg">Молитва за петък вечер</title>
+                     <sampleText xml:lang="cu">
+                        <head>Плачь вь петкъ вечерь</head>
+                        <incipit defective="false">Дша ѡскрьблѥннаа присту</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD2.6" defective="false">
+                     <title xml:lang="bg">Молитва за събота вечер, 1</title>
+                     <sampleText>
+                        <head>Вь соуботу вечерь плачь</head>
+                        <incipit defective="false">Ннꙗ еще и днь посрамлѥенныи<seg rend="sup">м</seg> лицемь идолѣ зрещїхмь</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD2.7" defective="false">
+                     <title xml:lang="bg">Молитва за събота вечер, 2</title>
+                     <sampleText xml:lang="cu">
+                        <head>Въ тъж<seg rend="sup">д</seg>е днь млтва втора</head>
+                        <incipit defective="false">Блг<seg rend="sup">д</seg>ть твоꙗ дадддеми глати к те<seg rend="sup">б</seg> ги</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD2.8" defective="false">
+                     <title xml:lang="bg">Молитва за неделя вечер</title>
+                     <sampleText xml:lang="cu">
+                        <head>Пла<seg rend="sup">ч</seg> въ не<seg rend="sup">д</seg>лю вечрь</head>
+                        <incipit defective="false">Ꙗко прѣстрасним ти пррѣстолѡ<seg rend="sup">м</seg> стое ѡсоуж<seg rend="sup">д</seg>ень ги</incipit>
+                     </sampleText>
+                  </msItemStruct>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3"
+                             type="original"
+                             style="non-narrative"
+                             defective="false">
+                  <title xml:lang="bg">Молитва към Богородица</title>
+                  <author>Demetrios Kantakouzenos</author>
+                  <note>Original work from 15th c.</note>
+                  <filiation type="source" subtype="other">original Bulgarian work</filiation>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">no</filiation>
+                  <filiation type="apograph">no</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл съ оумилѥнїемь въ прѣстѣи бци и малою похвалою творенїе Ддиммитррїа
+                Катакоузына. по стыхѡ<seg rend="sup">м</seg>
+                     </head>
+                     <incipit defective="false">Въсѣ<seg rend="sup">х</seg> цра ба мти блгаа въсѣ<seg rend="sup">х</seg> съдѣтелꙗ рожь<seg rend="sup">д</seg>ши единаа.</incipit>
+                     <explicit defective="false">Роу<seg rend="sup">д</seg>и се прѣрадованаа ч<seg rend="sup">с</seg>таа роу<seg rend="sup">д</seg>исе ꙗко с тобою и есть гь
+                ами<seg rend="sup">н</seg>
+                     </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" defective="false">
+                  <locus n="4">106r</locus>
+                  <title xml:lang="bg">Колофон</title>
+                  <colophon xml:lang="cu">Въ с҃тѣи горѣ<name type="scribe" full="yes">Аѳона</name>писа се: въ
+                лѣто<date>.#з҃р҃л҃з҃.</date>м<seg rend="sup">т</seg>ць се҃г д҃ д҃нь</colophon>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu" resp="#DD">
+                  <origDate cert="high">1629</origDate>
+                  <origPlace>unknown</origPlace>
+               </origin>
+            </history>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

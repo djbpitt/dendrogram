@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-AA36NBB">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Apocryphal Miscellany from Prizren, Rs 36 NB Belgrade, 16th c.</title>
+            <author xml:id="AA">Adelina Angusheva</author>
+            <editor xml:id="AM">Anisava Miltenova</editor>
+            <editor xml:id="AB">Andrej Bojadžiev</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Istitute of Literature</publisher>
+            <pubPlace>Sofia, Bulgaria</pubPlace>
+            <date>30. 08.1995</date>
+            <idno>RC-AA36NBB</idno>
+            <availability status="free" default="false">
+               <p>Creative Commons Attribution-No Derivative Works 3.0 <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>.</p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p>
+               <ref type="bibl" target="bib:Штављанин-Ђорђевић1986">Штављанин-Ђорђевић, Гроздановић-Паић, Цернић 1986: 68-72</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="bg">Bulgarian</language>
+            <language ident="sr">Serbian</language>
+            <language ident="en">English</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Apocryphal Miscellany</item>
+                  <item>Prognostic Books</item>
+                  <item>Apocryphal Prayers</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change who="#AB" when="2009-04-17" status="draft">Removed constructions for anonymous author</change>
+         <change who="#AB" when="2009-04-17" status="draft">Added copyright statement</change>
+         <change who="#AB" when="2009-04-15" status="draft">Corrections</change>
+         <change who="#AB" when="2009-04-13" status="draft">Added Repertorium Identifier</change>
+         <change who="AB" when="2009-03-02" status="draft">Conversion to Repertorium 3.0</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName type="general" xml:lang="en">miscellany</msName>
+               <msName type="specific" xml:lang="en">apocryphal miscellany</msName>
+               <msName type="individual" xml:lang="bg">Призренски сборник</msName>
+               <msName type="individual" xml:lang="en">Prizren miscellany</msName>
+               <msName type="individual" xml:lang="ru">Призренский сборник</msName>
+               <country>Serbia</country>
+               <settlement>Belgrade</settlement>
+               <repository>National Library</repository>
+               <idno type="shelfmark">Rs 36</idno>
+               <altIdentifier type="former">
+                  <idno type="shelfmark">37</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper</material>
+                        <watermark>
+                           <motif>Anchor in circle with star above</motif>
+                           <ref type="bibl" target="bib:Moshin1973">
+                              <num>1531</num>
+                              <date>?</date>
+                           </ref>
+                        </watermark>
+                        <watermark>
+                           <motif>Anchor in circle with anchor</motif>
+                           <ref type="bibl" target="bib:Moshin1973">
+                              <num>1942</num>
+                              <date>?</date>
+                           </ref>
+                        </watermark>
+                        <watermark>
+                           <motif>Lion</motif>
+                           <ref type="bibl" target="bib:Grujch">
+                              <num>42</num>
+                              <date>?</date>
+                           </ref>
+                        </watermark>
+                        <watermark>
+                           <motif>Hermit-saint on a column</motif>
+                        </watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">4+102</measure>
+                        <dimensions unit="mm" type="folia">
+                           <height>148</height>
+                           <width>90</width>
+                        </dimensions>
+                        <dimensions type="written" unit="mm">
+                           <height>125</height>
+                           <width>65</width>
+                        </dimensions>
+                     </extent>
+                     <collation>
+                        <summary>no data</summary>
+                     </collation>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="18"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Dark brown</ink>
+               <decoDesc>
+                  <p>Red initials, tables and borders</p>
+               </decoDesc>
+               <bindingDesc>
+                  <binding>
+                     <p>Leather and cardboard</p>
+                  </binding>
+               </bindingDesc>
+            </physDesc>
+            <scribeDesc>
+               <scribe n="1">
+                  <locusGrp>
+                     <locus>1-81</locus>
+                     <locus>95-102</locus>
+                  </locusGrp>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="semiuncial"/>
+                  <scribeLang>
+                     <p>Lowering of jers: <foreign xml:lang="cu">ь</foreign> to <foreign xml:lang="cu">e</foreign>, <foreign xml:lang="cu">ъ</foreign> to <foreign xml:lang="cu">o</foreign>; The letter <foreign xml:lang="cu">ѣ</foreign> is replaced in some cases with <foreign xml:lang="cu">e</foreign> and <foreign xml:lang="cu">ьі</foreign>
+                with <foreign xml:lang="cu">и</foreign> ; peculiar forms for the future tense in some places: <foreign xml:lang="cu">прибегноукешь</foreign>, <foreign xml:lang="cu">имакешь</foreign>
+                     </p>
+                  </scribeLang>
+                  <note>
+                     <ref type="bibl" target="bib:Штављанин-Ђорђевић1986">Штављанин-Ђорђевић, Гроздановић-Паић, Цернић 1986.1: 68-72</ref>
+                  </note>
+               </scribe>
+               <scribe n="2">
+                  <locus>97-104</locus>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="semiuncial"/>
+                  <note>
+                     <date>19th c.</date>
+                     <ref type="bibl" target="bib:Штављанин-Ђорђевић1986">Штављанин-Ђорђевић, Гроздановић-Паић, Цернић 1986.1: 68-72</ref>
+                  </note>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>The manuscript contains 46 texts.</summary>
+               <filiation type="protograph">Bulgarian</filiation>
+               <filiation type="antigraph">Middle Bulgarian</filiation>
+               <msItemStruct xml:id="ACD1" type="translation" defective="false">
+                  <locus n="1">1r-3v</locus>
+                  <title xml:lang="bg">Трепетник</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>А се трѣпетникь</head>
+                     <incipit defective="false">или посрьбит дрсна страна</incipit>
+                     <explicit defective="false">пѹть поити</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" type="translation" defective="false">
+                  <locus n="2">3v-5r</locus>
+                  <title xml:lang="bg">Правила за живота през 12-те месеца</title>
+                  <author>Solomon (Pseudo)</author>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>А се ѡт прѣмѹдрости Соломона еже како разбирати стїа</head>
+                     <incipit defective="false">мс҃ць сектевриа ꙗди и пи млеко</incipit>
+                     <explicit defective="false">или очибольѫ ѡть находа</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3" type="translation" defective="false">
+                  <locus n="3">5r</locus>
+                  <title xml:lang="bg">Молитва против бясно куче или вълк</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М<seg rend="sup">л</seg>тва ѡт бесна ѱа или ѡт влька</head>
+                     <incipit defective="false">комькаи его вь прьвою сѹботѹ. прѣд сл҃нцем</incipit>
+                     <explicit defective="false">да ѹкрот'т се вь име <gap hand="AA"/>аминь</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" type="translation" defective="false">
+                  <locus n="4">5r</locus>
+                  <title xml:lang="bg">Молитва против бясно куче</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М<seg rend="sup">л</seg>тва дрѹга ѡт бесна ѱа или ѡт влька</head>
+                     <incipit defective="false">Пиши на поскѹри. на три чести</incipit>
+                     <explicit defective="false">вьпад'шѹ вь недѹг таков</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD5" type="translation" defective="false">
+                  <locus n="5">5r</locus>
+                  <title xml:lang="bg">Описание на магическа практика за изписване на букви върху хляб срещу бяс, 1</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false">Пиши на хлѣбь пресне слово сїе о҃д҃ и дьждь беснѹющомѹ</incipit>
+                     <explicit defective="false">сїа словеса намерише</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD6" type="translation" defective="false">
+                  <locus n="6">5r</locus>
+                  <title xml:lang="bg">Описание на магическа практика за изписване на букви върху хляб срещу бяс, 2</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>и паки вь дрѹги извод <gap hand="AA"/>ѡт беса слова сїа</head>
+                     <incipit defective="false">Пиши на хлѣбѣ прѣсне</incipit>
+                     <explicit defective="false">да срькнет и исцѣлѣеть</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD7" type="translation" defective="false">
+                  <locus n="7">5r</locus>
+                  <title xml:lang="bg">Молитва против кръвотечение от носа или от устата</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ ѡт нось или ѹста комѹ кр'ьвь течеть да сапишет.</head>
+                     <incipit defective="false">Убиень быс Жахарїа</incipit>
+                     <explicit defective="false">да изгорить</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD8" type="translation" defective="false">
+                  <locus n="8">7v</locus>
+                  <title xml:lang="bg">Молитва против кръвотечение</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ дрѹга ѡт крьви текѹщим носом или ѹсти</head>
+                     <incipit defective="false">п҃. с҃ п҃. ѣ҃</incipit>
+                     <explicit defective="false">крьвь не потечеть</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD9" type="translation" defective="false">
+                  <locus n="9">7v</locus>
+                  <title xml:lang="bg">Молитва против запек на човек или кон</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ ѡт запора воде чл҃вкоу или <sic>нонѹ</sic>
+                     </head>
+                     <incipit defective="false">ѡб онь поль Іѡр'дана</incipit>
+                     <explicit defective="false">или чл҃вкь и конь</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD10" type="translation" defective="false">
+                  <locus n="10">8r</locus>
+                  <title xml:lang="bg">Молитва против запек на човек</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ ѡт запора проход чл҃вкѹ или конѹ</head>
+                     <incipit defective="false">Пиши сїа слова на двою пал'цѹ</incipit>
+                     <explicit defective="false">на ноѕе</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD11" type="translation" defective="false">
+                  <locus n="11">8r</locus>
+                  <title xml:lang="bg">Молитва против бегълци</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ ѡт бегающих</head>
+                     <incipit defective="false">Напиши сице.</incipit>
+                     <explicit defective="false">скоро.скоро.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD12" type="translation" defective="false">
+                  <locus n="12">8</locus>
+                  <title xml:lang="bg">Молитва против запек на кон</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ ѡт запора конѹ</head>
+                     <incipit defective="false">вьзми ѡрьлово перо</incipit>
+                     <explicit defective="false">не ведещѹ и ѹснеть</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD13" type="translation" defective="false">
+                  <locus n="13">9r</locus>
+                  <title xml:lang="bg">Молитва против зъбобол, 1</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ ѡ зѹбї егда болать ч҃вка</head>
+                     <incipit defective="false">вь име ѡ҃ца и с҃на</incipit>
+                     <explicit defective="false">сего име рѣ<seg rend="sup">кь</seg>и пр<seg rend="sup">и</seg>сно и вь
+                вѣки <gap hand="AA"/>амин.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD14" type="translation" defective="false">
+                  <locus n="14">9r</locus>
+                  <title xml:lang="bg">Молитва против зъбобол, 2</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ в҃ томѹжде.</head>
+                     <incipit defective="false">Г҃ь б҃ь г҃и име твое</incipit>
+                     <explicit defective="false">прѣмѹдраго Соломона. ꙗко дрьжава его ес вь име ѡ҃ца <gap hand="AA"/>амин</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD15" type="translation" defective="false">
+                  <locus n="15">9v</locus>
+                  <title xml:lang="bg">Молитва против “дна”, 1</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М<seg rend="sup">л</seg>тва ѡт дна. М<seg rend="sup">л</seg>тва а҃</head>
+                     <incipit defective="false">Г҃и б҃е мои</incipit>
+                     <explicit defective="false">Б҃це помози рабѹ своемѹ. їме рѣ<seg rend="sup">кь</seg> ѡ болезни дна.
+                вьсегда и нн҃</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD16" type="translation" defective="false">
+                  <locus n="16">9v</locus>
+                  <title xml:lang="bg">Молитва против “дна”, 2</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ в҃ томужде. ѡт дна.</head>
+                     <incipit defective="false">Дно лѹта еси</incipit>
+                     <explicit defective="false">дрьжит дна. вь име ѡ҃ца <gap hand="AA"/>вѣки.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD17" type="translation" defective="false">
+                  <locus n="17">10v</locus>
+                  <title xml:lang="bg">Молитва против “дна”, 3</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ г҃ томѹжде. ѡт дна.</head>
+                     <incipit defective="false">Испив'шѹ се сїю днѹ</incipit>
+                     <explicit defective="false">клета бо еси и трьклета. вь име ѡ҃ца и с҃на <gap hand="AA"/> прьсно.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD18" type="translation" defective="false">
+                  <locus n="18">11r</locus>
+                  <title xml:lang="bg">Молитва против змия</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Мл҃ ѡт змїа с҃таго ап҃сла Пав'ла</head>
+                     <explicit defective="false">ектенїе г҃и пом҃лѹи н҃ ї ѡ҃п<supplied>оусть</supplied>
+                     </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD19" type="translation" defective="false">
+                  <locus n="19">13r</locus>
+                  <title xml:lang="bg">Молитва против болести на очите, 1</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М҃лтва егда мѣтилїе вь очи или очболь</head>
+                     <incipit defective="false">и ѹтькни чеснь лѹка на игѹ, и ѡбноси</incipit>
+                     <explicit defective="false">изь очи истрьгаемо.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD20" type="translation" defective="false">
+                  <locus n="20">13v</locus>
+                  <title xml:lang="bg">Молитва против болести на очите, 2</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М҃л в҃ томѹжде.</head>
+                     <incipit defective="false">Г҃ди пом҃лѹи б҃е</incipit>
+                     <explicit defective="false">ꙗко ѡблакь по н҃бѹ вь име <gap/> при҃.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD21" type="translation" defective="false">
+                  <locus n="21">14</locus>
+                  <title xml:lang="bg">Молитва против “наход”</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М҃л ѡт находа</head>
+                     <incipit defective="false">Вь име ѡ҃ца и с҃на</incipit>
+                     <explicit defective="false">с҃ты врачеве Козма и Дамїане дадите здравїе рабѹ б҃жїемѹ им҃ р҃ вь име..
+                д҃ха.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD22" type="translation" defective="false">
+                  <locus n="22">15r</locus>
+                  <title xml:lang="bg">Таблица със съответствията между човешкото тяло и зодиите</title>
+                  <note>Similar text see in f.716a from IX.F.10 from Prague National Museum, 15th
+              c.</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Зачело зодїам н҃бсмѹ крѹгѹ</head>
+                     <incipit defective="false">Овьнь врьхь ес҃ главни,</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD23" type="translation" defective="false">
+                  <locus n="23">16v</locus>
+                  <title xml:lang="bg">Гадание за съдбата на болния</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Ѡ разболев'шим' се ч҃лвцѣхь</head>
+                     <incipit defective="false">Сьмотри болещаго исчисти котори д҃нь на знамена его недѹгь</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD24" type="translation" defective="false">
+                  <locus n="24">17r</locus>
+                  <title xml:lang="bg">Таблица със съответствията между географски обекти и зодиите</title>
+                  <note>Similar text can be found in N 1322 NBKM and N 698 NBKM as a part of Prognostic
+              text, etc. The text differs from the main group of this kind.</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false">Римь ѡв҃ Бѹдим юн'ць.</incipit>
+                     <explicit defective="false">мокрѣшь знаменѹет'се море</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD25" type="translation" defective="false">
+                  <locus n="25">17v-18</locus>
+                  <title xml:lang="bg">Коледник</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сказанїе о лѣтах коледар'никь.</head>
+                     <incipit defective="false">Аще вь неделю коледа бѹдеть</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD26" type="translation" defective="false">
+                  <locus n="26">19-26</locus>
+                  <title xml:lang="bg">Гръмник Зодиак</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>С б҃гмь починаем громов'никь ѡт сконьчанїа <gap/>
+                     </head>
+                     <incipit defective="false">Ѡ животѹ грьменїи Аще в число ѡвне погрьмит</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD27" type="translation" defective="false">
+                  <locus n="27">26-31</locus>
+                  <title xml:lang="bg">Гръмник по растяща и намаляваща луна</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Громов'никь сказѹеть на коеждо м҃с҃ць</head>
+                     <incipit defective="false">М҃сць сек҃ аще вьзгрьмит растѹщи лѹне</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD28" type="translation" defective="false">
+                  <locus n="28">31-46v</locus>
+                  <title xml:lang="bg">Календар лунен</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сказанїе ѡ лѹнное теченїе</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD29" type="translation" defective="false">
+                  <locus n="29">46v-57</locus>
+                  <title xml:lang="bg">Таблици пасхални с луновник и синаксар</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Пасхалїа сь лѹновныкѡм и синаѯаром</head>
+                     <incipit defective="false">имѣе вь кѹпѣ пасхѹ</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD30" type="translation" defective="false">
+                  <locus n="30">61v-62</locus>
+                  <title xml:lang="bg">Типик</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Типикь скарѣ сїе</head>
+                     <incipit defective="false">Вѣдомо да ес ꙗко лѹни кр҃гь начинаеть ѡт а҃ генѹарїа</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD31" type="translation" defective="false">
+                  <title xml:lang="bg">Сведения за изчисляване на Пасха</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Ѡ с҃тои пасцѣ</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD32" type="translation" defective="false">
+                  <locus n="32">61v-62v</locus>
+                  <title xml:lang="bg">Летопис кратък от Адам до днешния ден</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Историкїа вь кратцѣ</head>
+                     <incipit defective="false">Ѡ Адама же до потопа</incipit>
+                     <explicit defective="false">До Стеѱана ц҃ра срьбскаго ѡт Адама лѣт ѕ҃ѡ҃и҃ѕ</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD33" type="translation" defective="false">
+                  <locus n="33">62v-64</locus>
+                  <title xml:lang="bg">Сведения за продължителността на лунната светлина</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>С же ѹченїе вѣдѣти колико лѹна сьвт$ть на в'сакѹ нощь</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD34" type="translation" defective="false">
+                  <locus n="34">64-64v</locus>
+                  <title xml:lang="bg">Сведения за кръга на слънцето или луната</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Учение како обрѣсти крѹг слнцѹ и лѹнѣ</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD35" type="translation" defective="false">
+                  <locus n="35">64v</locus>
+                  <title xml:lang="bg">Сведения за определяне на индикта</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Учение како обретает се їндикто</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD36" type="translation" defective="false">
+                  <locus n="36">65-79v</locus>
+                  <title xml:lang="bg">Таблици пасхални</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD37" type="translation" defective="false">
+                  <locus n="37">80-82</locus>
+                  <title xml:lang="bg">Сведения за щастливите и нещастните дни през различни месеци</title>
+                  <note>Without title</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false">Да вї е<seg rend="sup">с</seg> въ ѹзнанїе кои не знаете чиа лѹна сега
+                свѣтит</incipit>
+                     <explicit defective="false">подобает ꙗко чѹвати се</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD38" type="translation" defective="false">
+                  <locus n="38">81v-82</locus>
+                  <title xml:lang="bg">Описание на магическа практика за съдбата на болния</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD39" type="translation" defective="false">
+                  <locus n="39">82-90</locus>
+                  <title xml:lang="bg">Таблици със слънчевото и лунното движение</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Знаменїа</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD40" type="translation" defective="false">
+                  <locus n="40">92v</locus>
+                  <title xml:lang="bg">Сведения за небесните стихии</title>
+                  <note>Part of astronomy-cosmography work</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>О стїхиах н҃бснаго сѹщ'ства</head>
+                     <incipit defective="false">Небо нѣци рекоше ледь</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD41" type="translation" defective="false">
+                  <locus n="41">95</locus>
+                  <title xml:lang="bg">Сведения за планетите</title>
+                  <note>Part of astronomy-cosmography work</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>О планитох</head>
+                     <incipit defective="false">ззьвѣзди ѹбо</incipit>
+                     <explicit defective="false">кь <supplied>з</supplied>апад</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD42" type="translation" defective="false">
+                  <locus n="42">96</locus>
+                  <title xml:lang="bg">Сведения за нелъстивите</title>
+                  <note>Part of astronomy-cosmography work</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Ѡ нельстивых</head>
+                     <explicit defective="false">
+                        <gap/>ское коло</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD43" type="translation" defective="false">
+                  <locus n="43">96v</locus>
+                  <title xml:lang="bg">Зодиак. За добрите и злите зодии</title>
+                  <note>Only few words from this text are left</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Зодї<unclear>.</unclear> добрих же и злых</head>
+                     <explicit defective="false">близньцы два риба</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD44" type="translation" defective="false">
+                  <locus n="44">97</locus>
+                  <title xml:lang="bg">Молитви за жена, която не може да роди</title>
+                  <note>The texts were written later than the whole content manuscript</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М҃лтва егда не можеть жена родити ѡтроче запрено</head>
+                     <p>М҃лтва втора томѹжжде.</p>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD45" type="translation" defective="false">
+                  <locus n="45">97v</locus>
+                  <title xml:lang="bg">Молитва против “нежит”</title>
+                  <note>The texts were written later than the whole content manuscript.</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М҃лтва ѡт нежита</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD46" type="translation" defective="false">
+                  <locus n="46">98</locus>
+                  <title xml:lang="bg">Рецепта срещу "задих"</title>
+                  <note>only few words from this text are left</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Лекъ ѡт задихъ ч҃кѹ</head>
+                  </sampleText>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu" resp="#AA">
+                  <origDate>16th c., third quarter, with some folia from the 19th c.</origDate>
+                  <ref type="bibl" target="bib:Штављанин-Ђорђевић1986">Штављанин-Ђорђевић, Гроздановић-Паић, Цернић 1986.1:68-72</ref>
+               </origin>
+            </history>
+            <additional>
+               <adminInfo>
+                  <recordHist>
+                     <source>
+                        <p>Directly catalogued from the original manuscript using the printed catalogue from
+                    <ref type="bibl" target="bib:Штављанин-Ђорђевић1986">Штављанин-Ђорђевић, Гроздановић-Паић, Цернић 1986.1:68-72</ref>
+                        </p>
+                     </source>
+                  </recordHist>
+               </adminInfo>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

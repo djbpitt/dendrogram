@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-MYA787a9Stock">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Oktoechos (Sluzheben shestodnev), fragment, archive No. A787a9, 14th c.</title>
+            <author xml:id="MY">Mariya Yovcheva</author>
+            <editor xml:id="DR">Dilyana Radoslavova</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date>19.09.2011</date>
+            <idno type="Repertorium">RC-MYA787a9Stock</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the creators under the Creative Commons Attribution-No Derivative Works 3.0 under legislation in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In short, you could download and disseminate information, but you are not allowed to alter, transform, or build upon the works on this section of the site. All reuse or distribution of this work must contain somewhere a link back to the URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p>
+               <ref type="bibl" target="bib:Steensland2005">Steensland 2005: No 18.</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="2011-09-19">19.09.2011</date>
+            <settlement>Stockholm</settlement>
+         </creation>
+         <langUsage default="false">
+            <language ident="cu">Old Slavic</language>
+            <language ident="bg">Russian</language>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Oktoechos</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change who="#AB" when="2009-04-17" status="draft">Added copyright statement</change>
+         <change who="#AB" when="2009-04-15" status="draft">Corrections</change>
+         <change who="#AB" when="2009-04-13" status="draft">Added Repertorium Identifier</change>
+         <change who="#AB" when="2009-03-02" status="draft">Conversion to Repertorium 3.0</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName xml:lang="en" type="general">octoechos</msName>
+               <country>Sweden</country>
+               <settlement>Stockholm</settlement>
+               <repository>Royal Library</repository>
+               <idno type="shelfmark">A787a9</idno>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="parchment">
+                     <support>
+                        <material>Parchment f relatively good quality. Ff. 1r-2v is the hair side of the sheet and ff. 1v-2r are its slesh side, respectively.</material>
+                     </support>
+                     <extent>
+                        <measure unit="folia">4</measure>
+                        <dimensions unit="mm" type="folia">
+                           <height>ca192</height>
+                           <width>ca135</width>
+                        </dimensions>
+                     </extent>
+                     <condition>Those are 4 separate leaves, as ff. 1,2, and 4 are are sewn together (ff.1 and 4 lengthwise, and f. 2 is sewn on upper lefthand side of f. 1v upside down). F. 2 is preserved partially (135x55 mm). F. 3 is detached. The text runs form 1r-1v, 2v-2r, 3r-v, 4r-v, as there are missing folia between ff. 1 and 2, and between ff. 3 and 4.</condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="20-22" ruledLines="20-22"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Brownish for the text, red for the titles and the initials.</ink>
+               <decoDesc>
+                  <p>Small red geometrical initials in contour, those of the title on f. 4v are filled with red.</p>
+               </decoDesc>
+               <bindingDesc>
+                  <binding>
+                     <p>Unbound</p>
+                  </binding>
+               </bindingDesc>
+               <additions type="inscriptions">
+                  <note>The figure 9 is written on f. 3v (in the middle of the upper margin) and on f. 4r (in the left-hand lower magrin).</note>
+               </additions>
+            </physDesc>
+            <scribeDesc>
+               <scribe>
+                  <locus>1r-4v</locus>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="semiuncial">
+                     <p>Regular semiuncial, 3mm high (interline space: 8 mm)</p>
+                  </scriptDesc>
+                  <scribeLang>
+                     <p>Russian, Church Slavonic</p>
+                  </scribeLang>
+                  <respStmt>
+                     <name full="yes">M. Yovcheva</name>
+                     <resp>de visu</resp>
+                  </respStmt>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>The fragment contains parts of the Sunday offices for 7th and eight modes. </summary>
+               <filiation type="protograph">Russian</filiation>
+               <msItemStruct xml:id="ACD1" defective="false">
+                  <locus n="1">1r-45v</locus>
+                  <title xml:lang="bg">Октоих</title>
+                  <note>Starts with the end of the cathisma for the 7th mode (after the 3rd ode of the kanon). F. 2r starts with the theotokion of the 8th ode of the kanon for the 7th mode. F. 3r starts with the end of the reading from the Acts and Epistles for the same office. F. 3v, l.5 bears the beginnng of the office for the 8th mode. F. 4r starts with the kathisma for the 8th mode (after the 3rd ode of the kanon). The fragment ends with the 2nd troparion of the 5th ode of the kanon for the 8th mode.</note>
+                  <filiation type="antigraph">Russian</filiation>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin resp="#MY" evidence="de visu">
+                  <origDate>14th c.</origDate>
+                  <note>Russian origin.</note>
+               </origin>
+            </history>
+            <additional>
+               <adminInfo>
+                  <recordHist>
+                     <source>
+                        <p>Directly catalogued from the original manuscript using the printed catalogue</p>
+                     </source>
+                  </recordHist>
+               </adminInfo>
+               <listBibl default="false">
+                  <bibl default="false" status="draft">
+                     <ref type="bibl" target="bib:Steensland1996">Steensland 1996</ref>
+                  </bibl>
+                  <bibl default="false" status="draft">
+                     <ref type="bibl" target="bib:Steensland2005">Steensland 2005: 211-225 (see N18).</ref>
+                  </bibl>
+               </listBibl>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-DD312NBKM">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Vita of St. Basil the Young No 312 NBKM</title>
+            <author>Dimitrinka Dimitrova</author>
+            <editor>Anisava Miltenova</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date when="1996-01-08">8 January  1996</date>
+            <idno type="Repertorium">RC-DD312NBKM</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the creators under the Creative Commons Attribution-No Derivative Works 3.0 under legislation in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In short, you could download and disseminate information, but you are not allowed to alter, transform, or build upon the works on this section of the site. All reuse or distribution of this work must contain somewhere a link back to the URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <ref type="bibl" target="bib:Цонев1910">Цонев 1910: 259-260</ref>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="bg">Bulgarian</language>
+            <language ident="en">English</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Vita of St. Basil the Young</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName xml:lang="en" type="general">vita</msName>
+               <msName xml:lang="en" type="specific">vita of St. Basil the Young</msName>
+               <country>Bulgaria</country>
+               <settlement>Sofia</settlement>
+               <repository>National Library</repository>
+               <idno type="shelfmark">312</idno>
+               <idno type="catalogue">312</idno>
+               <altIdentifier type="former">
+                  <idno type="shelfmark">268</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper</material>
+                        <watermark>none</watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">125</measure>
+                        <dimensions type="folia" unit="mm">
+                           <height>210</height>
+                           <width>140</width>
+                        </dimensions>
+                        <dimensions type="written" unit="mm">
+                           <height>160</height>
+                           <width>105</width>
+                        </dimensions>
+                     </extent>
+                     <collation>
+                        <summary>16 quires</summary>
+                        <quire n="1-16">
+                           <extent>8</extent>
+                        </quire>
+                        <signatures>Each quire is signed. </signatures>
+                     </collation>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="18"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>dark brown</ink>
+               <decoDesc>
+                  <decoNote type="capitals">Small red capitals and titles</decoNote>
+               </decoDesc>
+               <bindingDesc>
+                  <p>New binding</p>
+               </bindingDesc>
+            </physDesc>
+            <scribeDesc>
+               <scribe>
+                  <locus>1r-125v</locus>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc type="semiuncial" script="cyrs">
+                     <p>Semiuncial with cursive elements</p>
+                  </scriptDesc>
+                  <scribeLang>
+                     <orthography>Without juses, non-etymological use of jers.</orthography>
+                  </scribeLang>
+                  <respStmt>
+                     <name full="yes">Dimitrinka Dimitrova</name>
+                     <resp>de visu</resp>
+                  </respStmt>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>The manuscript contains 2 texts. </summary>
+               <filiation type="protograph">Middle Bulgarian</filiation>
+               <msItemStruct xml:id="ACD1" type="translation" defective="false">
+                  <locus n="1">1-125r</locus>
+                  <title xml:lang="bg">Житие на св. Василий Нови</title>
+                  <author>Gregory the Monk</author>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Житихе и жизнь и почести чудесъ сказанихе прѣпѡ<seg rend="sup">д</seg>обнаго о҃ца нашего Василиꙗ Новаго съписано Григориїемь мнихѡ<seg rend="sup">м</seg> оученико<seg rend="sup">м</seg>ь егѡ. слово</head>
+                     <incipit defective="false">Непостижнаго Б҃а ѡ чл<seg rend="sup">чс</seg>ѡ<seg rend="sup">м</seg> рѡдѣ. прѣблагаго Б҃а чл҃колюбїа и бл҃гостынѧ. прѣмѫдрьно и неизре<seg rend="sup">ч</seg>ено строѫщїа
+                </incipit>
+                     <explicit defective="false">Сътвори свѣтило въ домоу Г҃ню и сты<seg rend="sup">х</seg> помѧ<seg rend="sup">т</seg> съдѣвлѧ. и нищѫѧ мноуѫ добрѣ тако творити въ вѣчны<seg rend="sup">х</seg> бл҃гь насладитисѧ блг<seg rend="sup">д</seg>тїѫ и чл҃колюбїемь.
+                 </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" type="translation" defective="false">
+                  <locus n="2">125r-125v</locus>
+                  <title xml:lang="bg">Правила за постенето, извлечения</title>
+                  <author>anonymous</author>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>О житїи. сирѣ<seg rend="sup">ч</seg> ѡ пощени и ра<seg rend="sup">д</seg>рѣшени въсего лѣта. Никифо<seg rend="sup">р</seg>
+                     </head>
+                     <incipit defective="false">По<seg rend="sup">д</seg>бае<seg rend="sup">т</seg> вѣти ꙗко аще слоучичи<seg rend="sup">т</seg> сѧ Х<seg rend="sup">с</seg>ва рож<seg rend="sup">д</seg>ства пра<seg rend="sup">з</seg> и сты<seg rend="sup">х</seg> Бг҃оꙗвленїѧ въ срѣ<seg rend="sup">д</seg> и в пѧ<seg rend="sup">к</seg> разрѣшаетсꙗ сырь и ꙗица
+        </incipit>
+                  </sampleText>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu">
+                  <origDate>16th c.</origDate>
+                  <origPlace>unknown</origPlace>
+                  <note>
+                     <bibl default="false" status="draft">
+                        <respStmt>
+                           <name full="yes">Dimitrova, D.</name>
+                           <resp>de visu</resp>
+                        </respStmt>
+                     </bibl>
+                  </note>
+               </origin>
+            </history>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

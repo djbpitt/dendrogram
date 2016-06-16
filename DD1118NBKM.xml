@@ -1,0 +1,345 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-DD1118NBKM">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Nomocanon N 1118 NBKM</title>
+            <author xml:id="DD">Dimitrinka Dimitrova</author>
+            <editor xml:id="AM">Anisava Miltenova</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date when="1995-10-05">5 October 1995</date>
+            <idno type="Repertorium">RC-DD1118NBKM</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the creators under the Creative
+            Commons Attribution-No Derivative Works 3.0 under legislation in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In
+            short, you could download and disseminate information, but you are not allowed to alter,
+            transform, or build upon the works on this section of the site. All reuse or
+            distribution of this work must contain somewhere a link back to the URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <ref type="bibl" target="bib:Стоянов1964">Стоянов, Кодов 1964: 456</ref>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="bg">Bulgarian</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Church laws</item>
+                  <item>Nomocanon</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName xml:lang="en" type="general">nomocanon</msName>
+               <country>Bulgaria</country>
+               <settlement>Sofia</settlement>
+               <repository>National Library</repository>
+               <idno type="shelfmark">1118</idno>
+               <idno type="catalogue">1118</idno>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper</material>
+                        <watermark>none</watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">111</measure>
+                        <dimensions type="folia" unit="mm">
+                           <height>200</height>
+                           <width>145</width>
+                        </dimensions>
+                     </extent>
+                     <collation>
+                        <summary>
+                           14 quires of 8 folia; I, II - 6 f.; XIV - 4 f.</summary>
+                        <quire n="1-2">
+                           <extent>6</extent>
+                        </quire>
+                        <quire n="3-13">
+                           <extent>8</extent>
+                        </quire>
+                        <quire n="14">
+                           <extent>4</extent>
+                        </quire>
+                     </collation>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="21"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>dark brown</ink>
+               <decoDesc>
+                  <decoNote type="capitals">red capitals</decoNote>
+               </decoDesc>
+               <bindingDesc>
+                  <p>Original binding - wooden panels covered with ornamented leather</p>
+               </bindingDesc>
+               <additions type="inscriptions">
+                  <locus>front cover</locus>
+                  <quote xml:lang="cu" defective="false">За поповство<name type="reader" full="yes">Кресто Іѡановъ</name>
+                     <persName type="reader" full="yes">Спасъ Коиновъ</persName>
+                  </quote>
+               </additions>
+            </physDesc>
+            <scribeDesc>
+               <scribe>
+                  <locus>1r-113v</locus>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="semiuncial"/>
+                  <scribeLang>
+                     <orthography>Church Slavonic, with one (small) jus and with one (small )jer</orthography>
+                  </scribeLang>
+                  <respStmt>
+                     <name full="yes">Dimitrinka Dimitrova</name>
+                     <resp>de visu</resp>
+                  </respStmt>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>The manuscript contains 6 texts</summary>
+               <filiation type="source">Russian old printed book</filiation>
+               <msItemStruct xml:id="ACD1" type="translation" defective="false">
+                  <locus n="1">1r-2v</locus>
+                  <title xml:lang="bg">Предисловие към Номоканона</title>
+                  <author>anonymous</author>
+                  <filiation type="protograph">Bulgarian or Russian oldprinting</filiation>
+                  <filiation type="antigraph">unknown</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Предисловїе и сказанїе ѡ еже како подобаетъ быти д҃ховнику и сказовати
+                невозбраннѡ приходѧщымъкъ нему</head>
+                     <incipit xml:lang="cu" defective="false">Прїемлѧй помышленїѧ человѣческаѧ долженъ есть быти образъ б҃лгъ
+                всѣхъ и воздержникъ смиренъ и добродѣтеленъ молѧсѧ нна всѧкъ часъ Б҃гу</incipit>
+                     <explicit xml:lang="cu" defective="false">И елика свѧза има разрѣши не исправина суть по шестому
+                правилу иже въ Карѳагенѣ собора и по четыредесѧть третїему того же собора
+             </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" type="translation" defective="false">
+                  <locus n="2">12v-16r</locus>
+                  <title xml:lang="bg">Чинопоследование на изповед</title>
+                  <filiation type="protograph">Russian old printed book</filiation>
+                  <filiation type="antigraph">unknown</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Послѣдованиїе ѡ исповеданїи</head>
+                     <incipit xml:lang="cu" defective="false">Приводитъ д҃ховныи о҃цъ хотѧщаго исповѣдатисѧ единаго а не два
+                        или многїѧ пред ікѡну Г<seg rend="sup">с</seg>да нашего Іи҃са Хр<seg rend="sup">с</seg>та непокровенна</incipit>
+                     <explicit xml:lang="cu" defective="false">житїемъ хотѧщему ѕлостраданїемъ проходити свое пребыванїе
+                сицевому приличное.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3"
+                             type="translation"
+                             style="non-narrative"
+                             defective="false">
+                  <locus n="3">16v-17v</locus>
+                  <title xml:lang="bg">Молитва, неидентифицирана</title>
+                  <author>anonymous</author>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">unknown</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Молитва надъ разрѣшаемымъ ѿ запрещенїѧ</head>
+                     <incipit xml:lang="cu" defective="false">Блгоытробне Г<seg rend="sup">с</seg>ди Б҃же и чл҃колюбче иже твоихъ ради щедрѡтъ
+                низпославнный единородннаго твоего с҃на въ міръ</incipit>
+                     <explicit xml:lang="cu" defective="false">Ꙗко мл<seg rend="sup">с</seg>тивъ и члколюбецъ Б҃гъ еси и тебе славу возсылаемъ
+                о҃цу и с҃ну +</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" type="translation" defective="false">
+                  <locus n="4">18r-68v</locus>
+                  <title xml:lang="bg">Номоканон, 1</title>
+                  <author>anonymous</author>
+                  <filiation type="protograph">Russian old printed book</filiation>
+                  <filiation type="antigraph">unknown</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Номоканѡннъ сирѣчь законникъ имѣѧ правила по сокращтенїю стыхъ ап<seg rend="sup">с</seg>лъ: Васілїа
+                Великагѡ и стыхъ соборѡвъ правило</head>
+                     <incipit xml:lang="cu" defective="false">Иже рукополагоѧй чрез предѣлъ съ рукополагааемымъ да извержетсѧ
+                по .ле҃. правилу стыхъ апп<seg rend="sup">с</seg>лъ </incipit>
+                     <rubric>Ищи ѡ сихъ исправленїѧ во стомъ Іѡанѣ постникѣ</rubric>
+                     <head>Ѡ чарованїи</head>
+                     <head>Ѡ отравахъ</head>
+                     <head>Ѡ волхованїи</head>
+                     <head>ѿ жирїѧ с҃тагѡ Андреа Хр<seg rend="sup">с</seg>та ради юродивагѡ</head>
+                     <head>Ѡ женахъ</head>
+                     <incipit defective="false">такоже и запрещтаютсѧ и жены егда не имутъ мужа</incipit>
+                     <head>Ѡ женахъ</head>
+                     <incipit defective="false">И жены елицы полѧютсѧ с мужи или сами си малакию творѧтъ</incipit>
+                     <head>Ѡ монасѣхъ</head>
+                     <head>Ѡ женахъ</head>
+                     <incipit defective="false">А жены искушаютсѧ и седееще в домѣхъ своихъ</incipit>
+                     <head>Завѣщанїе великагѡ Васілїа</head>
+                     <incipit defective="false">Аще пресвитеръ или монахъ нечтетъ часъ первый</incipit>
+                     <head>Нїкифора ц҃реградскагѡ правило $сі҃.</head>
+                     <incipit defective="false">Аще кто хощеть ѡставити обитель</incipit>
+                     <head>С҃тыхъ ап<seg rend="sup">с</seg>тѡлъ</head>
+                     <incipit defective="false">Аще кіи мужь или жена ѿдавше своѧ цркви или монастирю</incipit>
+                     <head>ѿ постныхъ великагѡх Васілїа</head>
+                     <incipit defective="false">Аще подобаетъ что въ братствѣ свое имѣти</incipit>
+                     <head>Четвертаго собора</head>
+                     <incipit defective="false">Духовныи отеецъ аще исповѣсть кожу грѣхъ исповѣдающагосѧ</incipit>
+                     <head>Седмагѡ собора</head>
+                     <incipit defective="false">ꙗко не подобаетъ мїрѧнѡмъ да повѣлѣваютъ сщеннику</incipit>
+                     <head>Ап<seg rend="sup">с</seg>ла Павла</head>
+                     <incipit defective="false">Аще кто імать вражду на кого</incipit>
+                     <head>Тѵпикъ сирѣчь сказанїе</head>
+                     <incipit defective="false">Когда престаютъ помѧнь въ дванадесѧтомь дневномъ въ первую седмиццу великаг0х
+                поста</incipit>
+                     <head>Собранїе ѿ различныхъ правилъ ѿ иже каѧ согрѣшенїѧ возбранѧютъ быти сщеннику и
+                внимай со ѡпасенїе<seg rend="sup">м</seg> ѡ друже</head>
+                     <incipit defective="false">Аще растлѣно есть отроча когѡ или самъ си отрока, или блудъ сотворилъ со
+                женою</incipit>
+                     <head>Ѡ возрастѣ рукополагаемы<seg rend="sup">х</seg>
+                     </head>
+                     <incipit defective="false">Ѡ иже кіи подлегоша извержению и отлуженїю которїи суть</incipit>
+                     <head>Ѡ горнилѣ</head>
+                     <incipit defective="false">Въ жертвеницѣ имѣй мѣсто не попираемо</incipit>
+                     <head>Ѡ еже како подобаетъ крестити</head>
+                     <head>Кіи паки второкрещаютсѧ</head>
+                     <head>Ѡ стѣой проскомидїи и колико просфѡръ имѣтти долженъ еси</head>
+                     <incipit defective="false">На с҃той проскомидїи бж<seg rend="sup">с</seg>твеньѧ лїтургіи .е҃. просфѡръ да имаши</incipit>
+                     <head>Ѡ с҃той четьредесѧтницѣ и о всѧкой средѣ и пѧцѣ правило .ѯѳ҃. е с҃тыхъ
+                ап<seg rend="sup">с</seg>толъ</head>
+                     <incipit defective="false">Аще кто не поститсѧ по стую и великую четыредесѧтницу пасхи</incipit>
+                     <head>Ѡ навечерїи просвѣщенїѧ и Хр<seg rend="sup">с</seg>тово рж<seg rend="sup">с</seg>тва</head>
+                     <head>Ѡ постѣ велиїѧ четыредесѧтницы</head>
+                     <head>Ѡ великомъ четветцѣ</head>
+                     <head>Ѡ постѣ стыхъ ап<seg rend="sup">с</seg>тѡлъ и рж<seg rend="sup">с</seg>тва хр<seg rend="sup">с</seg>това и Б҃цы</head>
+                     <head>Ѡ еже когда и гдѣ разрѣшаетсѧ постъ среды и пѧтка</head>
+                     <head>Когда должны суть причщатисѧ иже право живущїи</head>
+                     <explicit xml:lang="cu" defective="false"> Аще кто не хранитъ постъ сты<seg rend="sup">х</seg> ап<seg rend="sup">с</seg>тѡлъ и рж<seg rend="sup">с</seg>тва
+                Хр<seg rend="sup">с</seg>това и Б҃ццы вь цр҃ковь сего не прїемли, ниже чадъ егѡ аще не воздержатсѧ ѿ
+                ме<seg rend="sup">с</seg>нагѡ</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD5" type="translation" defective="false">
+                  <locus n="5">68v-97v</locus>
+                  <title xml:lang="bg">Номоканон, 2</title>
+                  <author>anonymous</author>
+                  <filiation type="protograph">Russian old printed book?</filiation>
+                  <filiation type="antigraph">unknown</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Различны гллавизны собраны ѿ иного номоканона ѡ сщеннницѣхъ</head>
+                     <incipit xml:lang="cu" defective="false">Аще по неебрежению пролїе<seg rend="sup">т</seg> стыѧ дары имать запреещенїе три
+                лета</incipit>
+                     <incipit defective="false">Тогѡжде аще случитсѧ пролити с҃таѧ на входѣ или снѣдена будетъ ѿ нѣкоегѡ
+                животнагѡ что сотворити подобаетъ</incipit>
+                     <incipit defective="false">Аще по забвению бысть не сотвори сщеникъ соединенїе.</incipit>
+                     <head>Ѡ рукоположенїи</head>
+                     <head>Толкованїе ѿ Васалмѡна</head>
+                     <incipit defective="false">Сїѧ два правила</incipit>
+                     <head>Посланїе же иже во стыхъ о҃ца нашего Тарасїаа патрїарха цррегррадскагѡ ко
+                Андрїану папѣ римскому</head>
+                     <head>Окружнѣ еже посланїе Генадїѧ патриарха цреградскагѡ с</head>
+                     <incipit defective="false">Со иными и сїе содержитъ</incipit>
+                     <head>Правило .в҃.е еже в Халкидонѣ собора с҃тагѡ четвертсгѡ</head>
+                     <incipit defective="false">Аще кто еп<seg rend="sup">с</seg>кпъ на сребрѣ рукоположенїе сотворитъ</incipit>
+                     <head>Правило.в҃.е шестагѡ собора</head>
+                     <incipit defective="false">Иже на серебрѣ рукополагаемыхъ</incipit>
+                     <head>Седмагѡ собора правило .е҃.</head>
+                     <incipit defective="false">Седмагѡ собора всѧ печеннаѧ правила прочетшїи</incipit>
+                     <head>Ѡ ѿлученїи безсловеснѣмъ</head>
+                     <incipit defective="false">ѿречено есть еп<seg rend="sup">с</seg>кпѡмъ ѿлучати</incipit>
+                     <head>С҃таго Дїонисїа</head>
+                     <incipit defective="false">Иже безсловеснымъ собѣтомъ</incipit>
+                     <head>Сѵмеѡна Солунскагѡ</head>
+                     <incipit defective="false">Всѧъ ѿлученыи или безсловеснѣ ꙗко сему мнитсѧ</incipit>
+                     <head>Ѡ сщеницѣхъ</head>
+                     <incipit defective="false">Сщенникъ дѣвствуѧ да хранитсѧ ѿ бесѣдъ женскихъ</incipit>
+                     <head>Ѡ іеромонасѣхъ</head>
+                     <incipit defective="false">Аще кои іеромоахъ падетсѧ въ блудъ да престаннетъ літтургисѧти</incipit>
+                     <head>Ѡ инѡццѣхѧ</head>
+                     <incipit defective="false">Понеже нѣцыи иноческимъ житїемъ ѡблещисѧ образуютсѧ</incipit>
+                     <head>Великагѡ Василїа</head>
+                     <incipit defective="false">Аще кои инокъ пїетъ вїно чрез силу</incipit>
+                     <head>Ѡ оустроенїи трапезы</head>
+                     <incipit defective="false">Не приноси брашна во оуста твоѧ</incipit>
+                     <head>Ѡ с҃тѣи и велицѣи четыредесѧтницѣ и ѡ всѧкои средѣ и пѧцѣ, правило .ѯѳ҃.е стыхъ
+                ап<seg rend="sup">с</seg>толъ</head>
+                     <head>ѿ Зонарева толкованіѧ</head>
+                     <incipit defective="false">Всѧцѣмъ образомъ сіе правило ищетъ вѣрбыхъ</incipit>
+                     <head>Великаго Аѳанасїа Алеѯандрійскаго</head>
+                     <incipit defective="false">Среды и пѧтка часъ поста оучиненъ есть</incipit>
+                     <head>Никифора патрїарха</head>
+                     <incipit defective="false">Аще навечерїе коегѡ либо вл<seg rend="sup">д</seg>чнѧгѡ праздника въ среду</incipit>
+                     <head>Ѡ гд<seg rend="sup">с</seg>кихъ праздницѣхъ аще приключатсѧ въ среду или пѧтокъ</head>
+                     <head>Ѡ понеделникѣ</head>
+                     <head>Ѡ великои четыредесѧтницѣ</head>
+                     <head>Ѡ первой седмицѣ</head>
+                     <head>Ѡ великои седмицѣ</head>
+                     <head>Ѡ постѣ Хр<seg rend="sup">с</seg>това рж<seg rend="sup">с</seg>тва</head>
+                     <head>Ѡ постѣ с҃тыхъ ап<seg rend="sup">с</seg>тѡлъ и Б<seg rend="sup">д</seg>цы</head>
+                     <head>Ѡ чаровницѣхъ</head>
+                     <incipit defective="false">Иже чародѣйствуутъ въ дванадесѧттодневномъ, соприемлющими сихъ чарованїѧ,
+                анаѳема</incipit>
+                     <head>Ѡ вурколацѣхъ вопросъ</head>
+                     <incipit defective="false">Аще обрѧщетсѧ мертвецъ глаголемый оу насъ преисподникъ что годе
+                быти</incipit>
+                     <head>Ѡ мерилѣхъ сугубыхъ въ продаѧнїи</head>
+                     <incipit defective="false">Послѣдуетъ обычай мїролюбцемъ и сребролюбцемъ скупо ценитти
+                пшеницу..</incipit>
+                     <head>Ѡ оустроенїи пѣнїѧ въ кратцѣ главизны ѿ правилъ црковныхъ и нѣкїи<seg rend="sup">х</seg> с҃тыхъ
+                собора шестагѡ въ Труллѣ правило .ое҃. ищи въ Маѳри глава .ле҃. .е. стїхїа</head>
+                     <incipit defective="false">Еже пѣти въ цркви приходѧщымъ, хощемъ да не ниже висканїемъ безчиннѡ
+                творити</incipit>
+                     <head>Ѡ д҃ховнѣмъ сродсрвѣ</head>
+                     <incipit defective="false">Аще мужъ и жена случитсѧ имъ крестити оу единагѡ челоовека мл<seg rend="sup">д</seg>нца,
+                повелѣваемъ к тому не смѣситисѧ другъ другу, понежее кумове вмѣнѧютсѧ</incipit>
+                     <explicit xml:lang="cu" defective="false">Такожде аще падетсѧ кто съ поопадїею или съ дїаконисою лѣтъ
+                .иі҃. да нее прицчаститсѧ</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD6"
+                             type="original"
+                             style="non-narrative"
+                             defective="false">
+                  <locus n="6">98r-103v</locus>
+                  <title xml:lang="bg">Показалец на правилата от Номоканона</title>
+                  <author>anonymous</author>
+                  <note>Without end.</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <filiation type="antigraph">unknown</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сказанїе правилѡмъ сирѣчь сказъ</head>
+                  </sampleText>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu" resp="#DD">
+                  <origDate>18th c.</origDate>
+                  <origPlace>unknown</origPlace>
+               </origin>
+            </history>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

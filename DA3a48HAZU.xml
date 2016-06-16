@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-DA3a48HAZU">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Vranešnički Apostol</title>
+            <author xml:id="DA">Desislava Atanasova</author>
+            <editor xml:id="AM">Anisava Miltenova</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date when="2000----">2000</date>
+            <idno type="Repertorium">RC-DA3a48HAZU</idno>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <ref type="bibl" target="bib:Богдановић1982">Богдановић 1982: 20, № 47</ref>
+            <ref type="bibl" target="bib:Mošin1955">Mošin 1955: 143-144, No. 90</ref>
+            <ref type="bibl" target="bib:Цонев1911">Цонев 1911: 1-47</ref>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="ru">Russian</language>
+            <language ident="sr">Serbian</language>
+            <language ident="bg">Bulgarian</language>
+            <language ident="en">English</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Apostles' Acts and Epistles</item>
+                  <item>Fragment</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName type="general" xml:lang="en">apostle</msName>
+               <msName type="specific" xml:lang="en">praxapostolos</msName>
+               <msName type="individual" xml:lang="bg">Вранешнички апостол</msName>
+               <msName type="individual" xml:lang="en">Vranešnica Apostle</msName>
+               <msName type="individual" xml:lang="ru">Вранешничкий апостол</msName>
+               <country>Croatia</country>
+               <settlement>Zagreb</settlement>
+               <repository>Archives of the Croatian Academy of Sciences</repository>
+               <idno type="shelfmark">III.a.48</idno>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="parchment">
+                     <support>
+                        <material>Parchment</material>
+                     </support>
+                     <extent>
+                        <measure unit="folia">26</measure>
+                        <dimensions type="folia" unit="mm">
+                           <height>240</height>
+                           <width>155</width>
+                        </dimensions>
+                     </extent>
+                     <condition>Fragment. Contains only the beginning of Acts of Apostles</condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="28"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Black</ink>
+               <decoDesc>
+                  <p>Decoration in geometrical style</p>
+               </decoDesc>
+               <bindingDesc>
+                  <binding contemporary="false" when="1950----">
+                     <p>New library's binding from the year 1950</p>
+                  </binding>
+               </bindingDesc>
+            </physDesc>
+            <scribeDesc>
+               <scribe>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="uncial">
+                     <p>Small uncial</p>
+                  </scriptDesc>
+                  <scribeLang>
+                     <orthography>Only front jer, two nasals</orthography>
+                  </scribeLang>
+                  <note>
+                     <ref type="bibl" target="bib:Богдановић1982">Богдановић 1982: 20, № 47</ref>
+                  </note>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>The manuscript contains 1 text. This is the first 6 chapters from the Acts of Apostles</summary>
+               <msItemStruct type="translation" xml:id="ACD1" defective="false">
+                  <title xml:lang="bg">Деяния на Апостолите</title>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false">Пракси апостоль с Богомь починаѥмь. На паскѫ дѣꙗние свѧ҃тых апостоль</incipit>
+                     <explicit defective="true">да вскорѣ приде кь немоу и изыде</explicit>
+                  </sampleText>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu" resp="#DA">
+                  <origDate>13th c., second half</origDate>
+                  <origPlace>Macedonia</origPlace>
+                  <ref type="bibl" target="bib:Богдановић1982">Богдановић 1982: 20</ref>
+                  <ref type="bibl" target="bib:Mošin1955">Mošin 1955: 90</ref>
+               </origin>
+            </history>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

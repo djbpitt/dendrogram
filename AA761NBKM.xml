@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-AA761NBKM">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title type="main">Miscellany with Didactic Texts Devoted to Women, NBKM 761, 19th c.</title>
+            <author xml:id="AA">Adelina Angusheva</author>
+            <editor xml:id="AM">Anisava Miltenova</editor>
+            <editor xml:id="AB">Andrej Bojadžiev</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date>30. 08. 1995</date>
+            <idno type="Repertorium">RC-AA761</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the creators under the
+                  Creative Commons Attribution-No Derivative Works 3.0 under legislation in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>.
+                  In short, you could download and disseminate information, but you are not allowed
+                  to alter, transform, or build upon the works on this section of the site. All
+                  reuse or distribution of this work must contain somewhere a link back to the URL
+                     <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p>
+               <ref type="bibl" target="bib:Цонев1923">Цонев
+                  1923: 425-430</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="BG">Bulgarian</language>
+            <language ident="EN">English</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Miscellany of mixed content</item>
+                  <item>Miscellany Devoted to the Women</item>
+                  <item>Text about Evil Women</item>
+                  <item>Sermon against Witches</item>
+                  <item>Didactic texts Devoted to the Women</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change who="#AB" when="2009-04-17" status="draft">Removed constructions
+            &lt;author&gt;anonumous&lt;/author&gt;</change>
+         <change who="#AB" when="2009-04-17" status="draft">Added copyright statement</change>
+         <change who="#AB" when="2009-04-15" status="draft">Corrections</change>
+         <change who="#AB" when="2009-04-13" status="draft">Added Repertorium Identifier</change>
+         <change who="AB" when="2009-03-02" status="draft">Conversion to Repertorium 3.0</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName type="general" xml:lang="en">miscellany</msName>
+               <msName type="specific" xml:lang="en">miscellany of mixed content</msName>
+               <msName type="specific" xml:lang="en">miscellany with didactic texts devoted to women</msName>
+               <country>Bulgaria</country>
+               <settlement>Sofia</settlement>
+               <repository>National Library</repository>
+               <idno type="shelfmark">761</idno>
+               <altIdentifier type="former">
+                  <idno type="shelfmark">140</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper</material>
+                        <watermark>none</watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">129</measure>
+                        <dimensions unit="mm" type="folia">
+                           <height>165</height>
+                           <width>110</width>
+                        </dimensions>
+                     </extent>
+                     <foliation>Original with letters</foliation>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Dark brown</ink>
+               <decoDesc>
+                  <p>Richly decorated with miniatures covering the entire page and presenting images
+                     of saints</p>
+               </decoDesc>
+            </physDesc>
+            <scribeDesc>
+               <scribe n="1">
+                  <locus>ff. 1-129</locus>
+                  <name full="yes">Daskal Todor Pirdopski</name>
+                  <scriptDesc script="cyrs" type="semiuncial">
+                     <p>Late seniuncial</p>
+                  </scriptDesc>
+                  <scribeLang>
+                     <orthography>
+                        <p>Without juses, with two jers, inconsistently used
+                            </p>
+                     </orthography>
+                  </scribeLang>
+                  <respStmt>
+                     <name full="yes">Adelina Angusheva</name>
+                     <resp>de visu</resp>
+                  </respStmt>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>The manuscript contains 10 texts</summary>
+               <filiation type="protograph">Bulgarian</filiation>
+               <filiation type="antigraph">Middle Bulgarian</filiation>
+               <msItemStruct xml:id="ACD1" defective="false">
+                  <locus n="1">1-25v</locus>
+                  <title xml:lang="bg">Поучение за жените-магьосници, самовили и бродници</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Поученїе ѡ жен магесницахъ и самовилахъ и ѡ баѧтелѣхъ</head>
+                     <incipit defective="false">Слушаите православны<seg rend="sup">х</seg> хр҃тїане</incipit>
+                     <explicit defective="false">въ вѣкахъ</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" defective="false">
+                  <locus n="2">25v-33v</locus>
+                  <title xml:lang="bg">Поучение за апостол Петър и Симон влъхва</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Поученїе ѡ с҃того и славнаго и первовѣрховнаго апостола Петра</head>
+                     <incipit defective="false">
+                        <add status="unremarkable">И друго чудо послушаите</add>Когато ходеше хо
+                        свѣтатъ</incipit>
+                     <explicit defective="false">та да са мъчи сосъ дїаволите. б҃гу</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3" defective="false">
+                  <locus n="3">36v-48v</locus>
+                  <title xml:lang="bg">Поучение срещу магиосник</title>
+                  <note>Without beginning</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false">
+                        <gap/>и на този островъ имаше нѣкоі магіесникъ</incipit>
+                     <explicit defective="false">и тамо се престави б҃гу аминъ</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" defective="false">
+                  <locus n="4">50r-60r</locus>
+                  <title xml:lang="bg">Житие на св. Киприян и Юстина</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Поученїе и жизнъ ст҃аго великомученика Кыпрїана и стыѧ мученицы
+                        Ѹстинны</head>
+                     <incipit defective="false">Слушаите бл҃гословени х҃рстїане да вы прикажемъ
+                        другиго магіесника </incipit>
+                     <explicit defective="false">и прїѧ вѣнець ѡт б҃а</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD5" defective="false">
+                  <locus n="5">60r-64v</locus>
+                  <title xml:lang="bg">Поучение за християните</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText>
+                     <head>Поученїе х҃рстіаномъ полезнѡ</head>
+                     <incipit defective="false">Гдѣ са тїе дѣто викатъ</incipit>
+                     <explicit defective="false">б҃гу получити ѡ Хр҃с҃тѣ Ї҃се <gap hand="AA"/> аминъ</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD6" defective="false">
+                  <locus n="6">65r-71v</locus>
+                  <title xml:lang="bg">Поучение за жените-магьосници</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Инное поученїе ѡ женахъ магесницах и баѧтелѣх</head>
+                     <incipit defective="false">И друго чудо послушаіте</incipit>
+                     <explicit defective="false">толкова са враговщины женскихъ на този свѣтъ. како
+                        то рече с҃тыи Іѡанъ Златоуст</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD7" type="translation" defective="false">
+                  <locus n="7">73r-95v</locus>
+                  <title xml:lang="bg">Поучение за злите жени от Йоан Златоуст</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Поученїе ста҃го Иѡанна Златоустагѡ</head>
+                     <incipit defective="false">Нищо нѣ е прилично</incipit>
+                     <explicit defective="false">законѧтъ сосъ любовъ да го пази</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD8" defective="false">
+                  <locus n="8">96v- 102v</locus>
+                  <title xml:lang="bg">Поучение за добрите жени</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Поученїе ѡ добрихъ женахъ какѡ угодиша б҃гу</head>
+                     <incipit defective="false">Сега требува и да похвалимъ</incipit>
+                     <explicit defective="false">и вѣчныхь ѡ хр҃тѣ І<seg>с</seg>е г<seg>с</seg>дѣ
+                        нашемъ. емуже слава. аминъ.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD9" defective="false">
+                  <locus n="9">103r-115v</locus>
+                  <title xml:lang="bg">Поучение за моми и жени</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Поученіе полезно всѧкому хрстїанину</head>
+                     <incipit defective="false">Послушаіте друго како подобает жены и момы да
+                        живѣѧть</incipit>
+                     <explicit defective="false">блгодатию и члвѣколюбїе г҃сда <gap hand="AA"/>аминъ.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD10" defective="false">
+                  <locus n="10">116r-134v</locus>
+                  <title xml:lang="bg">Поучение за богоугодните мъже и жени</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="antigraph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Поученіе другое полезно есть хрстіаномъ</head>
+                     <explicit defective="false">и пречестн'аго и тако спасе се во веки
+                        аминъ.</explicit>
+                  </sampleText>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu" resp="#AA">
+                  <origDate>19th c.</origDate>
+                  <origPlace>unknown</origPlace>
+               </origin>
+            </history>
+            <additional>
+               <adminInfo>
+                  <recordHist>
+                     <source>
+                        <p>Directly catalogued from the original manuscript using the printed
+                           catalogue from <ref type="bibl" target="bib:Цонев1923">Цонев 1923: 425-430</ref>
+                        </p>
+                     </source>
+                  </recordHist>
+               </adminInfo>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

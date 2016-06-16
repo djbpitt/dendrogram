@@ -1,0 +1,4 @@
+Procedure
+
+Run createMatrix.py to create output.txt (comma-separated list of values) and labels.txt (sigla)
+Run dendrogram.R to create ...

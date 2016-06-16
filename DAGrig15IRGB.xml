@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-DAGrig15IRGB">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Apostle</title>
+            <author xml:id="DA">Desislava Atanasova</author>
+            <editor xml:id="DR">Dilyana Radoslavova</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature, </publisher>
+            <pubPlace>Sofia</pubPlace>
+            <idno type="Repertorium">RC-DAGrig15II</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by its creator(s) under
+                        the Creative Commons Attribution-No Derivative Works 3.0 License under
+                        legislation in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In short, you could download and disseminate
+                        information, but you are not allowed to alter, transform, or build upon the
+                        works on this section of the site. All reuse or distribution of this work
+                        must contain somewhere a link back to the URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <ref type="bibl" target="bib:Шмидт1984">Сводный каталог 1984: 329; </ref>
+            <ref type="bibl" target="bib:Викторов1879">Викторов 1879: 12. </ref>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="bg">Bulgarian</language>
+            <language ident="en">English</language>
+            <language ident="cu">Old Slavonic</language>
+         </langUsage>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName xml:lang="en" type="general">apostle</msName>
+               <msName type="specific" xml:lang="en">full praxapostolos</msName>
+               <p>The fragment belonging to a big codex, found of Grigorovic at the time of his trip. </p>
+               <country>Russia</country>
+               <settlement>Moscow</settlement>
+               <repository>Russian State Library</repository>
+               <idno type="shelfmark">Grig. 15. I</idno>
+               <altIdentifier type="old">
+                  <idno type="shelfmark">M.1697</idno>
+               </altIdentifier>
+               <altIdentifier>
+                  <idno type="description">182</idno>
+                  <note>
+                     <bibl default="false" status="draft">
+                        <ref type="bibl" target="bib:Шмидт1984">Сводный каталог 1984: 206–207</ref>
+                     </bibl>
+                  </note>
+               </altIdentifier>
+               <altIdentifier>
+                  <idno type="collNr">15.I</idno>
+                  <collection>В. И. Григорович</collection>
+                  <note>
+                     <ref type="bibl" target="bib:Викторов1879">Викторов 1879: 12</ref>
+                  </note>
+               </altIdentifier>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc>
+                  <supportDesc>
+                     <support>
+                        <material>Parchment, rough and uneven</material>
+                     </support>
+                     <extent>
+                        <measure unit="folia">2</measure>
+                        <dimensions type="folia" unit="mm">
+                           <height>240</height>
+                           <width>168</width>
+                        </dimensions>
+                     </extent>
+                     <foliation> No foliation. </foliation>
+                     <condition>The manuscript is damaged after scission; patches of reagent. </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="2" writtenLines="30-31"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Dark brown</ink>
+               <decoDesc>
+                  <decoNote type="initials"> Initials of geometric type, cinnabar contour;  yellow decoration. </decoNote>
+               </decoDesc>
+               <bindingDesc>
+                  <p>Without binding. </p>
+               </bindingDesc>
+            </physDesc>
+            <scribeDesc>
+               <scribe>
+                  <locus>1r-2v</locus>
+                  <name full="yes">anomymous</name>
+                  <scriptDesc script="cyrs" type="uncial"/>
+                  <scribeLang>
+                     <orthography>Serbian orthography
+                            </orthography>
+                  </scribeLang>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <msItemStruct xml:id="ACD1" defective="false">
+                  <locus n="1">1r–1v</locus>
+                  <title xml:lang="bg">Послания на Апостолите. Евр. 9: 9–10: 11</title>
+                  <note>
+                     <date type="churchCal">Unspecified. </date>
+                  </note>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" defective="false">
+                  <locus n="2">2r-2v</locus>
+                  <note>
+                     <p>Hymnography. The text is unidentified. </p>
+                  </note>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3" defective="false">
+                  <colophon>
+                     <note>The long colophon of the copist Theodor who finished manuscript at the time of <name full="yes">Stefan Urosh</name> the king of the <geogName>Serbia</geogName> (1276–1277) and archbishop <name full="yes">Ioanikij</name>. </note>
+                  </colophon>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu" resp="#DA">
+                  <origDate>1276–1277</origDate>
+                  <origPlace>Serbia</origPlace>
+               </origin>
+               <acquisition>
+                  <p>The fragment in the collection
+                            of Grigorović as a part of this collection was housed in the State
+                            Library in Moscow.</p>
+               </acquisition>
+            </history>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

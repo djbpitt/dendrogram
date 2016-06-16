@@ -1,0 +1,54 @@
+Tom Lombardi, 2016-06-16
+
+Sequence analysis, optimal matching method
+Alignment in bioinformatics
+qgraph package:
+	Use distance matrix to create graph and 
+	Use force direction and weighted edges to structure graph
+R input would be full square matrix, values vary from 0 to infinity
+
+Linkage types:
+
+Single: Unbalanced chaining isn't useful. One exception is non-linear data, e.g., circle of points with class 1 and ring around them with class 2, single will pick this up. Unclear whether that's relevant for this data. Experiment with this if the data looks non-linear.
+
+Average: Takes the average of the points, rather than the max or min. Unclear when it would be better than the others.
+
+Complete: Most popular because it produces balanced trees, forcing the categories that are furthest apart to be furthest apart. Start with this.
+
+Thresholding: Unclear how to threshold where the clustering stops being meaningful, that is, no a priori way to predict the optimal k. "Elbow graphs" can take into consideration a metric that determines the quality of the cluster (e.g., points within the cluster are as close as possible; distance between clusters should be maximal). There methods plot at k= 2 through 15 and looks for the place in the graph where the metric stops producing major returns, that is, the "elbow" in the graph, where it stops dropping precipitously and levels off. Unsure how to do this from a distance matrix. There are metrics for cluster quality; we pick one and run it. There may also be some techniques based on depth.
+
+Visualizations:
+Some folks use heat maps with numbers in them, but dendrogram or graph are probably more communicative. Voronoi diagram needs an input of a series of x,y coordinates; unclear how to get there. Maybe principal components. You can take principal components of any matrix; whether the two principal components of the input matrix would be useful is less clear.
+
+Dendrogram is probably more informative because of height, but network might be easier for others. We can generate both in R. 
+
+Dendrogram and clustering suggest order for plectogram. Qgraph is a good place to start. 
+
+Stages
+
+1. Matrix of distances
+2. Visualize at console or in RStudio
+(Thresholding; easier to handle from network side because it's just filtering edges by weight; because the distance metric is non-linear, it should be possible to find the big jump and use that as the cut-off; possible complication is that there may be several)
+3. Web app
+4. Rserve
+
+hclust will plot the results and throw away the objects it's built on, but you can assign the output to a variable and then introspect the variable. str() for any R object will identify the items that can be accessed inside the object (methods and attributes). Reference a variable (a branch?) and pull back its values; can be made into an R function. But perhaps it's easier to let the SVG visualization determine the items.
+
+Tom uses hclust, which is simpler than cluster for teaching.
+
+Consider also Shiny (http://shiny.rstudio.com/)
+
+agnes() takes a dissimilarity matrix: the closest things have a value of 0
+
+R script:
+
+setwd("~/Dropbox/repertorium/2013-08-03_sofia/dendrogram")
+similarities<-scan('output.txt', sep=",")
+dat = 1000 - similarities
+size = sqrt(length(dat))
+m = matrix(dat, nrow=size, ncol=size)
+library(cluster)
+dendrogram = agnes(m, diss=TRUE, method="complete")
+labels<-scan('labels.txt',what='',sep=',')
+clusters = agnes(m,diss=TRUE,method='complete')
+plot(clusters)

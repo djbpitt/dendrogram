@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-MY15Upps">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Canons, prayers, troparia, etc. (Paraklitik/Molebnik), archive No. 15, dated year 166-?</title>
+            <author xml:id="MY">Mariya Yovcheva</author>
+            <editor xml:id="DR">Dilyana Radoslavova</editor>
+            <respStmt>
+               <name full="yes">Predrag Matejich</name>
+               <resp>Catalogue</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date>12.09.2011</date>
+            <idno type="Repertorium">RC-MY15Upps</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the creators under the Creative Commons Attribution-No Derivative Works 3.0 under legislation in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In short, you could download and disseminate information, but you are not allowed to alter, transform, or build upon the works on this section of the site. All reuse or distribution of this work must contain somewhere a link back to the URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p>
+               <ref type="bibl" target="bib:Глубоковский1918">Глубоковский 1918</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="2011-09-12">12.09.2011</date>
+            <settlement>Uppsala</settlement>
+         </creation>
+         <langUsage default="false">
+            <language ident="cu">Old Slavic</language>
+            <language ident="bg">Russian</language>
+            <language ident="en">English</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Prayers</item>
+                  <item>Canonicon</item>
+                  <item>Paraklitikon service</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName xml:lang="en" type="general">paraklitikon</msName>
+               <country>Sweden</country>
+               <settlement>Uppsala</settlement>
+               <repository>University Library</repository>
+               <idno type="shelfmark">15</idno>
+               <altIdentifier type="old">
+                  <idno>33</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper. Extensively damaged by humidity</material>
+                        <watermark>unclear</watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">142</measure>
+                        <dimensions unit="mm" type="folia">
+                           <height>150</height>
+                           <width>90</width>
+                        </dimensions>
+                     </extent>
+                     <foliation>Modern foliation in pencil: 1-142.</foliation>
+                     <condition>The manuscript is in relatively good condition. </condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="13"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Brownish</ink>
+               <decoDesc>
+                  <p>Red titles and small initials without ornamentation</p>
+               </decoDesc>
+               <bindingDesc>
+                  <binding>
+                     <p>Leather binding, original</p>
+                  </binding>
+               </bindingDesc>
+               <additions type="addText">
+                  <note>ff. 100r, 102r-102b are later additions</note>
+               </additions>
+               <additions type="inscriptions">
+                  <locus>f. 142v</locus>
+                  <note>Most likely by the same hand</note>
+                  <quote xml:lang="cu" defective="false">Сія книга глаголемая каноних <unclear>...</unclear> Ѳеодора Весильева сына Вош <unclear>...</unclear>
+                  </quote>
+               </additions>
+            </physDesc>
+            <scribeDesc>
+               <scribe>
+                  <locusGrp>
+                     <locus>1r-99v</locus>
+                     <locus>101r-101v</locus>
+                     <locus>103r-141v</locus>
+                  </locusGrp>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="semiuncial"/>
+                  <scribeLang>
+                     <p>Russian</p>
+                  </scribeLang>
+                  <respStmt>
+                     <name full="yes">M. Yovcheva</name>
+                     <resp>de visu</resp>
+                  </respStmt>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <filiation type="protograph">Russian</filiation>
+               <msItemStruct xml:id="ACD1" defective="false">
+                  <locus n="1">1r-19v</locus>
+                  <title xml:lang="bg">Служба за нашия Господ Иисус Христос от Теоктист Студийски</title>
+                  <filiation type="protograph">Russian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" defective="false">
+                  <locus n="2">20r-39r</locus>
+                  <title xml:lang="bg">Служба за Благовещение</title>
+                  <note>F. 39v is blank</note>
+                  <filiation type="protograph">Russian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3" defective="false">
+                  <locus n="3">40r-55r</locus>
+                  <title xml:lang="bg">Служба за Богородица</title>
+                  <note>F. 55v is blank</note>
+                  <filiation type="protograph">Russian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" defective="false">
+                  <locus n="4">56r-77r</locus>
+                  <title xml:lang="bg">Параклис на ангела хранител</title>
+                  <note>F. 77v is blank</note>
+                  <filiation type="protograph">Russian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD5" defective="false">
+                  <locus n="5">78r-89r</locus>
+                  <title xml:lang="bg">Параклис на Николай чудотворец</title>
+                  <filiation type="protograph">Russian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD6" defective="false">
+                  <locus n="6">89r-94v</locus>
+                  <title xml:lang="bg">Молитви</title>
+                  <note>
+                     <p>To St Nicholaos the Wanderworker, Theotokos, and Jesus Christ.</p>
+                     <p>Ff. 95r-v are blank.</p>
+                  </note>
+                  <filiation type="protograph">Russian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD7" defective="false">
+                  <locus n="7">96r-107r</locus>
+                  <title xml:lang="bg">Молитви преди сън</title>
+                  <note>100r, 102r-102b are later additions of prayers.</note>
+                  <filiation type="protograph">Russian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD8" defective="false">
+                  <locus n="8">107r-128v</locus>
+                  <title xml:lang="bg">Параклис за всички дни и часове, творение на Андрей Критски</title>
+                  <note>Followed by prayers.</note>
+                  <filiation type="protograph">Russian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD9" defective="false">
+                  <locus n="9">129r-141v</locus>
+                  <title xml:lang="bg">Тропари и кондаци за избрани празници и светци</title>
+                  <note>
+                     <p>Ff. 142r is blank.</p>
+                  </note>
+                  <filiation type="protograph">Russian</filiation>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu" resp="#MY">
+                  <origDate>166-?</origDate>
+                  <note>The manuscript once belonged to a Theodor Vasiliev.</note>
+                  <ref>P. Mateijch</ref>
+                  <ref type="bibl" target="bib:Глубоковский1918">Глубоковский 1918</ref>
+               </origin>
+               <acquisition/>
+            </history>
+            <additional>
+               <adminInfo>
+                  <recordHist>
+                     <source>
+                        <p>Directly catalogued from the original manuscript using the printed catalogue from ...</p>
+                     </source>
+                  </recordHist>
+               </adminInfo>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,667 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-AM309NBKM">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Miscellany, NBKM 309, 16th c., second half</title>
+            <author xml:id="AM">Anisava Miltenova</author>
+            <editor xml:id="DR">Dilyana Radoslavova</editor>
+            <respStmt>
+               <name xml:id="AB" full="yes">Andrej Bojadziev</name>
+               <resp>edition of XML code</resp>
+            </respStmt>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <idno type="Repertorium">RC-AM309NBKM</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the creators under
+                        the Creative Commons Attribution-No Derivative Works 3.0 under legislation
+                        in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In short, you could download and disseminate
+                        information, but you are not allowed to alter, transform, or build upon the
+                        works on this section of the site. All reuse or distribution of this work
+                        must contain somewhere a link back to the URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p>
+               <ref type="bibl" target="bib:Цонев1910">Цонев 1910: 254-257</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <creation>
+            <date when="1995-08-21">21.08.1995</date>
+            <settlement>Sofia</settlement>
+         </creation>
+         <langUsage default="false">
+            <language ident="cu">Old Slavic</language>
+            <language ident="bg">Bulgarian</language>
+            <language ident="en">English</language>
+            <language ident="de">German</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Miscellany of mixed content</item>
+                  <item>Prognostic books</item>
+                  <item>Visionary literature</item>
+                  <item>Homilies</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change who="#AB" when="2009-04-17" status="draft">Removed constructions
+                &lt;author&gt;anonumous&lt;/author&gt;</change>
+         <change who="#AB" when="2009-04-17" status="draft">Added copyright statement</change>
+         <change who="#AB" when="2009-04-15" status="draft">Corrections</change>
+         <change who="#AB" when="2009-04-13" status="draft">Added Repertorium Identifier</change>
+         <change who="#AB" when="2009-03-02" status="draft">Conversion to Repertorium 3.0</change>
+         <change who="#AB" when="2009-09-02" status="draft">Conversion to Repertorium 4.0</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName type="general" xml:lang="en">miscellany</msName>
+               <msName type="specific" xml:lang="en">apocryphal miscellany</msName>
+               <msName type="specific" xml:lang="en">miscellany of mixed content</msName>
+               <msName xml:lang="bg" type="individual">Беляковски сборник</msName>
+               <msName xml:lang="en" type="individual">Beljakovec Miscellany</msName>
+               <msName xml:lang="ru" type="individual">Беляковецкий сборник</msName>
+               <country>Bulgaria</country>
+               <settlement>Sofia</settlement>
+               <repository key="NBKM">National Library</repository>
+               <idno type="shelfmark">309</idno>
+               <idno type="old">68</idno>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <formula>4o</formula>
+                        <material>Paper</material>
+                        <watermark>unclear</watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">174</measure>
+                        <dimensions unit="mm" type="folia">
+                           <height>185</height>
+                           <width>135</width>
+                        </dimensions>
+                     </extent>
+                     <condition>Without begining and end; many folia appear to be missing and
+                                disordered after restoration</condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="26"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Dark brown</ink>
+               <decoDesc>
+                  <p>Red titles and small initials</p>
+               </decoDesc>
+            </physDesc>
+            <scribeDesc>
+               <scribe n="1">
+                  <locus>1-174</locus>
+                  <persName full="yes">Anonymous</persName>
+                  <scriptDesc script="cyrs">
+                     <p>Semiuncial Sredna Gora type</p>
+                  </scriptDesc>
+                  <scribeLang>
+                     <orthography>
+                        <p>Without juses, with two jers, used inconsistently; predominate
+                                    small jer</p>
+                     </orthography>
+                  </scribeLang>
+                  <respStmt>
+                     <name full="yes">A. Miltenova</name>
+                     <resp>de visu</resp>
+                  </respStmt>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>Miscellany contains 29 texts; the content is restored on the base of
+                        the miscellany N 17, CSBS, Sofia.</summary>
+               <filiation type="protograph"> Middle Bulgarian</filiation>
+               <filiation type="apograph">MS 17 CSBS</filiation>
+               <msItemStruct xml:id="ACD1" defective="false">
+                  <locus n="3">109r-110r</locus>
+                  <title xml:lang="bg">Коледник</title>
+                  <note>Without beginning and title</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="true">пролѣ<seg rend="sup">т</seg> дьж<seg rend="sup">д</seg>евнаа. жетва
+                                са <gap/> и вѣтрьнаа. брани езыко<seg rend="sup">м</seg>
+                        <gap/> нице ѡ<seg rend="sup">с</seg>скоуденї. винобер<gap/> по места
+                     </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" defective="false">
+                  <locusGrp>
+                     <locus n="4">110r-110v</locus>
+                     <locus>108r-108v</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Трепетник</title>
+                  <note>divination by the trembling of certain parts of the human body</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>А се трепетникь.</head>
+                     <incipit defective="false">Аще потрепещь<seg rend="sup">т</seg> теме или ти<seg rend="sup">л</seg>
+                                    печа<seg rend="sup">л</seg> ѿ друга ка<seg rend="sup">ж</seg>
+                     </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3" defective="false">
+                  <locusGrp>
+                     <locus n="5">108v,</locus>
+                     <locus>113r-113v,</locus>
+                     <locus>146r-151v</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Сказание за 12-те сънища на цар Шахиншахи</title>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Протлькованїе .в҃ї. сънове Шаикиша ц҃ра.</head>
+                     <incipit defective="false">Бѣше ц҃рь вь градѣ Іеріхонѣ. именемь Шаикышь. видѣль бѣ сьнове.
+                                в҃і.</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" defective="false">
+                  <locus n="6">151v-153v</locus>
+                  <title xml:lang="bg">Въпроси и отговори. Разумник</title>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>А се разумныкь. выпроси Іѡана. и Василїа. и Грїгорїа.</head>
+                     <incipit defective="false">Въпро<seg rend="sup">с</seg> .а҃.Что ѥ<seg rend="sup">с</seg> высота
+                                    нб<seg rend="sup">с</seg>на и гльбина морскаа</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD5" defective="false">
+                  <locusGrp>
+                     <locus n="7">154r-155v</locus>
+                     <locus>90r-90v</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Видение на пророк Даниил</title>
+                  <note>Without beginning and title. The copy is concordant with the text
+                            included in the Dragolov sbornik, who preserved first Bulgarian
+                            translation with original interpolations.</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <filiation type="translation">1</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="true">на мѣсто нарицаемое Маріани. поставе<seg rend="sup">т</seg>
+                                моучителꙗ на месте тѡ<seg rend="sup">м</seg>. и прише<seg rend="sup">д</seg>ше до нарицаемаго Енеѥ</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD6" defective="false">
+                  <locus n="8">91r-93r</locus>
+                  <title xml:lang="bg">Въпроси и отговори. Разумник-Указ</title>
+                  <note>This copy contained a text without initial part and title. <listBibl default="false">
+                        <bibl default="false" status="draft">
+                           <ref type="bibl" target="bib:Милтенова1986b">Miltenova 1986: 20-44.</ref>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <filiation type="redaction">2</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false">Въ годину, м<seg rend="sup">с</seg>ци в҃і. не<seg rend="sup">д</seg>ли,
+                                н҃в. а д҃ни тѯ҃е. часове ҃и҃ц҃ѯ. на свѣте соу<seg rend="sup">т</seg> г.
+                                ц҃рїе. ꙗкоже стаа троица на нбсѣхь. и место в҃і ап<seg rend="sup">с</seg>ль, в҃і. прѣстоль вѣнчаны<seg rend="sup">х</seg> црьскы<seg rend="sup">х</seg>
+                     </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD7" defective="false">
+                  <locusGrp>
+                     <locus n="9">93v-95v</locus>
+                     <locus>164r-167v</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Летопис кратък (Беляковски)</title>
+                  <note>The "Beljakovski letopis" includs historical events till 1567 year;
+                            additional latter notes - till 1696 year. <listBibl default="false">
+                        <bibl default="false" status="draft">Angelov, B. St. 1984: 65-74. </bibl>
+                     </listBibl>
+                  </note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>ОУказанїе вь кратцѣ сущи<seg rend="sup">м</seg> ѿ
+                                Адама до н҃нꙗшнꙗго врѣмене.</head>
+                     <incipit defective="false">Адамь роди Сиѳа. Сиѳь Еноса. Енось Каинана.</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD8" defective="false">
+                  <locusGrp>
+                     <locus n="10">118r-121v,</locus>
+                     <locus>168r-168v,</locus>
+                     <locus>156r</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Поучение за всяка неделя от Йоан Златоуст</title>
+                  <author>John Chrysostom (Pseudo)</author>
+                  <note>The text is concordance with the Sermon about this world and the
+                            Doomsday and Sermon about the vain life. The earliest copy is in MS N
+                            74, UB - Leiden, 13th c.; the text is included very often in the MS
+                            mixed cointent; other copies: N 433 NBKM - Sofia, N 677 HBKM - Sofia,
+                            etc.</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Поученїе Іѡ<seg rend="sup">н</seg>а Зла<seg rend="sup">т</seg>уста чьтенїе
+                                на всаку не<seg rend="sup">д</seg>лю. ѡ<seg rend="sup">ч</seg> бл<seg rend="sup">с</seg>ви.</head>
+                     <incipit defective="false">Въсакому хр<seg rend="sup">с</seg>тїаниноу м҃лѥщому б҃а днь и нощь
+                                    до<seg rend="sup">с</seg>ень ѥ<seg rend="sup">с</seg> раю</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD9" defective="false">
+                  <locus n="11">156r-160v</locus>
+                  <title xml:lang="bg">Сказание за 12-те петъка</title>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сказанїе ѡ .в҃і. петце великыи<seg rend="sup">х</seg>. ѡ<seg rend="sup">ч</seg> бл<seg rend="sup">с</seg>ви.</head>
+                     <incipit defective="false">Въ западнои стране землꙗ ѥ<seg rend="sup">с</seg> оуравнена. и есть
+                                вь нѥ<seg rend="sup">м</seg> гра<seg rend="sup">д</seg> великь именемь Драчь
+                         </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD10" defective="false">
+                  <locusGrp>
+                     <locus n="12-23">160v-163v</locus>
+                     <locus>160v-163v</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Физиолог</title>
+                  <note>The copy represents second reduced group of the second Physiologus's
+                            translation in South Slavic literature; the second group is concordant
+                            with first group (N 433, 16th c., NBKM - Sofia; N 100 MSPC (Gruić) -
+                            Belgrade, etc.) <listBibl default="false">
+                        <bibl default="false" status="draft">
+                           <ref type="bibl" target="bib:Стойкова1994">Стойкова 1994: 87-88</ref>
+                        </bibl>
+                     </listBibl>
+                  </note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <filiation type="translation">2</filiation>
+                  <msItemStruct xml:id="ACD10.1" defective="false">
+                     <locus n="10.1">160v-161v</locus>
+                     <title xml:lang="bg">Физиолог. За елена</title>
+                     <sampleText xml:lang="cu">
+                        <head>Слово ѡ еленїи. ѡ<seg rend="sup">ч</seg> блвы.</head>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD10.2" defective="false">
+                     <locus n="10.2">161v-162r</locus>
+                     <title xml:lang="bg">Физиолог. За морското конче</title>
+                     <sampleText xml:lang="cu">
+                        <head>Слово ѡ едропе.</head>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD10.3" defective="false">
+                     <locus n="10.3">162r-162v</locus>
+                     <title xml:lang="bg">Физиолог. За орела</title>
+                     <sampleText xml:lang="cu">
+                        <head>Слово ѡ орла ѡ<seg rend="sup">ч</seg> бл<seg rend="sup">с</seg>ви.
+                             </head>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD10.4" defective="false">
+                     <locus n="10.4">162v</locus>
+                     <title xml:lang="bg">Физиолог. За кълвача</title>
+                     <note>Without end</note>
+                     <sampleText xml:lang="cu">
+                        <head>Слово ѡ дѣте<seg rend="sup">л</seg>.</head>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD10.5" defective="false">
+                     <locus n="10.5">163r</locus>
+                     <title xml:lang="bg">Физиолог. За яребицата</title>
+                     <note>Without beginning</note>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD10.6" defective="false">
+                     <locus n="10.5">163r-163v</locus>
+                     <title xml:lang="bg">Физиолог. За гълъба</title>
+                     <sampleText xml:lang="cu">
+                        <head>Слово ѡ гулоуби.</head>
+                        <incipit defective="false">Голꙋбь ѥ<c rend="c">с</c> добрѣиши все<seg rend="sup">х</seg>
+                        </incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD10.7" defective="false">
+                     <locusGrp n="10.7">
+                        <locus>163v</locus>
+                        <locus>1r</locus>
+                     </locusGrp>
+                     <title xml:lang="bg">Физиолог. За вълка</title>
+                     <sampleText xml:lang="cu">
+                        <head>Слово ѡ влька.</head>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD10.8" defective="false">
+                     <locus n="10.8">1r-1v</locus>
+                     <title xml:lang="bg">Физиолог. За морския таралеж</title>
+                     <sampleText xml:lang="cu">
+                        <head>Сло<seg rend="sup">в</seg> ѡ хину.</head>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD10.9" defective="false">
+                     <locus n="10.9">1v-2r</locus>
+                     <title xml:lang="bg">Физиолог. За змията</title>
+                     <sampleText xml:lang="cu">
+                        <head>Слово ѡ змїи</head>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD10.10" defective="false">
+                     <locus n="10.10">2v-3r</locus>
+                     <title xml:lang="bg">Физиолог. За пауна</title>
+                     <sampleText xml:lang="cu">
+                        <head>Слово ѡ паоунѣ.</head>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD10.11" defective="false">
+                     <locus n="10.11">3r-3v</locus>
+                     <title xml:lang="bg">Физиолог. За лисицата</title>
+                     <sampleText xml:lang="cu">
+                        <head>Сло<seg rend="sup">в</seg> ѡ лисици.</head>
+                     </sampleText>
+                  </msItemStruct>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD11" defective="false">
+                  <locus n="24">4r-26v</locus>
+                  <title xml:lang="bg">Повест за Акир Премъдри</title>
+                  <note>The copy is concordant with text in MS No. 29, Savina Monastery, ov.
+                            1380 year, with MS No. 828 NB -Belgrade, 15th c., etc. 
+                     <ref type="bibl" target="bib:Григорьев1913">Григорьев 1913</ref>
+                  </note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <filiation type="translation">1?</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Слово прѣмудраго Акѵрїа како оучаше с҃на своего сестричища Анадана
+                                    ѡ<seg rend="sup">ч</seg> бл<seg rend="sup">с</seg>ви.</head>
+                     <incipit defective="false">С҃нагрипь ц҃рь великы вь та врѣмена азь Акѵрїе книжникь бѣ<seg rend="sup">хь</seg>.</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD12" defective="false">
+                  <locus n="25">27r-56v</locus>
+                  <title xml:lang="bg">Поучение за прекрасния Йосиф от Ефрем Сирин</title>
+                  <note>This sermon is included very often in the MSS with mixed content; the
+                            earlist copy: MS N 104 NB - Belgrade, 14th c.</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Прѣпо<seg rend="sup">д</seg>бнаго и б҃гоноснаго оца нашего Ефрема
+                        слово ѡ прѣкраснѡ<seg rend="sup">м</seg> Іѡсифе ѡ<seg rend="sup">ч</seg>
+                                    бл<seg rend="sup">с</seg>ви.</head>
+                     <incipit defective="false">Б҃же авраамовь. б҃же ісаакѡвь. б҃же іаковль.</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD13" defective="false">
+                  <locus n="26">56v-68v</locus>
+                  <title xml:lang="bg">Евангелие Томино</title>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Дѣтьства г҃а нашего како расте и чюдеса твораше. по въсе д҃ни
+                                    растѡ<seg rend="sup">м</seg>. ѡ<seg rend="sup">ч</seg> бл<seg rend="sup">с</seg>вы.</head>
+                     <incipit defective="false">Азь Ѳома іс҃льтенинь еже ѿ езыкь братїе.
+                        вѣдите дѣиствїа ꙗко сьтвори велїе чюдо г҃ь нашь І҃с Х҃с.</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD14" defective="false">
+                  <locus n="28">109r-110r</locus>
+                  <title xml:lang="bg">Житие на св. Алексий Римски</title>
+                  <title xml:lang="">Vita of St. Alexis of Rome</title>
+                  <note>Witout end - the text is not finished by scriber and is interrupted at
+                            the middle of the page.</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Житїе чл҃ка б҃жїа Алеѯа.</head>
+                     <incipit defective="false">Бѣ члкь блговѣрень вь Римѣ гра<seg rend="sup">д</seg>ѣ. имене<seg rend="sup">м</seg> Ефимїань. чьстень бѣ цремь римскы<seg rend="sup">м</seg>.</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD15" defective="false">
+                  <locus n="29">76r-82r</locus>
+                  <title xml:lang="bg">Чудеса на св. Николай Мирликийски. Чудо за сина на Агрипа</title>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Чю<seg rend="sup">до</seg> ст҃го Николы ѡ с҃на Агрипова. како избави
+                                его из рукы срацинскыи<seg rend="sup">х</seg>. ѡ<seg rend="sup">ч</seg>
+                                б҃лсви.</head>
+                     <incipit defective="false">Агрипь црь нѣкто живѣше вь стране антїѡхїисцеи близь срацинь. и
+                                бѣше бгать ѕѣло</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD16" defective="false">
+                  <locus n="30">82r-84r</locus>
+                  <title xml:lang="bg">Чудеса на св. Николай Мирликийски. Чудо за Димитрий</title>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Чюдо второе ст҃го Николы.</head>
+                     <incipit defective="false">Ч҃лкь нѣкто живеше вь <sic>Котантинѣ</sic> градѣ.
+                                вь место рекомѣ<seg rend="sup">м</seg> Елефтерїа. имене<seg rend="sup">м</seg> Димитрїе.</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD17" defective="false">
+                  <locus n="31">84v-87r</locus>
+                  <title xml:lang="bg">Поучение за отделянето на душата от тялото от Теофил Александрийски</title>
+                  <author cert="ascribed">Theophilos of Alexandria</author>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Ѳеофїла архїеп<seg rend="sup">с</seg>кпа алеѯа<seg rend="sup">н</seg>дрьскаго сло<seg rend="sup">в</seg> ѡ исхожденіи д҃ши. ѡ<seg rend="sup">ч</seg> бл<seg rend="sup">с</seg>ви.</head>
+                     <incipit defective="false">Еще не вѣсте братїе моа. како вь стра<seg rend="sup">х</seg> и бѣду
+                                имаме постра<seg rend="sup">д</seg>ти вь ча<seg rend="sup">с</seg> исхода
+                         </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD18" defective="false">
+                  <locusGrp>
+                     <locus n="32">87r-89v</locus>
+                     <locus>114r-117r</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Житие на св. Петка</title>
+                  <note type="calendar">14 October</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М<seg rend="sup">с</seg>ца ѡ<seg rend="sup">х</seg>товріа д҃і. четенїе ѡ
+                                мученїи с҃тоую великом<seg rend="sup">ч</seg>нихцу Петку. ѡ<seg rend="sup">ч</seg> бл<seg rend="sup">с</seg>ви.</head>
+                     <incipit defective="false">Въ д҃ни ѡни моучителные цр<seg rend="sup">с</seg>твующимь елинѡ<seg rend="sup">м</seg> бѣ чл҃кь. вь градѣ и<seg rend="sup">х</seg>
+                                б҃лгочьстивь хр<seg rend="sup">с</seg>тіанинь</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD19" defective="false">
+                  <locusGrp>
+                     <locus n="33">133r-133v</locus>
+                     <locus>134r-134v</locus>
+                     <locus>122r-122v</locus>
+                     <locus>122r-122v</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Поучение за Второ пришествие от Йоан Златоуст</title>
+                  <author>John Chrysostom</author>
+                  <note>Without title, beginning and end. This text is concordant with the
+                            text in the MS named Zlatoust of Jagich, 13th-14th c. (N Q. p. I. 56 RNB
+                            - St. Peterburg).</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false"> ...соудище рѣка ѡгньнаа и аг҃гли лютїи и немл<seg rend="sup">с</seg>тивїи</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD20" defective="false">
+                  <locus n="34">127r-128v</locus>
+                  <title xml:lang="bg">Повест за Варлаам и Йоасаф. Притча за тримата приятели</title>
+                  <author>John Chrysostom (Pseudo)</author>
+                  <note type="calendar">Annunciation</note>
+                  <note>Without beginning and title.</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="true">второму дроу<seg rend="sup">г</seg>, и ре<seg rend="sup">ч</seg>
+                                ему, помниши лы друже колику прїеты ѿ мене чьсть
+                         </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD21" defective="false">
+                  <locus n="35">128v-129r</locus>
+                  <title xml:lang="bg">Поучение за добрите жени от Йоан Златоуст</title>
+                  <author cert="ascribed">John Chrysostom (Pseudo)</author>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Поученїе Іѡанна Зла<seg rend="sup">т</seg>устаго о жена<seg rend="sup">х</seg> добры<seg rend="sup">х</seg> мльчаливы<seg rend="sup">х</seg>.</head>
+                     <incipit defective="false">Р<seg rend="sup">ч</seg>е г҃ь кь Евве. кь мужу твоему вьзвращенїе
+                                твое, и тьи те обладает</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD22" defective="false">
+                  <locus n="36">129v-131v</locus>
+                  <title xml:lang="bg">Поучение за злите жени</title>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сло<seg rend="sup">в</seg> ѡ жена<seg rend="sup">х</seg> злыхь.</head>
+                     <incipit defective="false">Ничто же по<seg rend="sup">д</seg>бно е<seg rend="sup">с</seg> на земли
+                                ѡ жена<seg rend="sup">х</seg> злихь и езычнѣ<seg rend="sup">х</seg>. никои
+                                ѕвѣрь</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD23" defective="false">
+                  <locus n="37">131r-132v</locus>
+                  <title xml:lang="bg">Разказ за милостинята, от Патерика</title>
+                  <author>John Chrysostom (Pseudo)</author>
+                  <note>Story from patericon (the precious stone in the fish)</note>
+                  <note type="calendar">4 December</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <filiation type="antigraph">Prologue?</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М<seg rend="sup">с</seg>ца декеврїа, д҃. днь поучение Іѡнна Зла<seg rend="sup">т</seg>оустаго. ѡ мл<seg rend="sup">с</seg>тини даеи нищи<seg rend="sup">м</seg>, Х<seg rend="sup">с</seg>оу даеть, и .р҃. кратице
+                                прїемлѥть. ѡ<seg rend="sup">ч</seg> бл҃ви.</head>
+                     <incipit defective="false">Бѣше жена некаа хр<seg rend="sup">с</seg>тїаница. имущи мужа елина
+                         </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD24" defective="false">
+                  <locusGrp>
+                     <locus n="38">136v-137v</locus>
+                     <locus>135v-136r</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Поучение за обущаря от Йоан Златоуст</title>
+                  <author>John Chrysostom (Pseudo)</author>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Пооученїе с҃тго Іѡанна Зл<seg rend="sup">т</seg>устаго некое<seg rend="sup">м</seg> оусмошевцемь.</head>
+                     <incipit defective="false">Беста два оусмошевца. близь себѣ суща дѣлающа</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD25" defective="false">
+                  <locus n="39">137v-139r</locus>
+                  <title xml:lang="bg">Разказ как пророк Даниил съкруши идола Вила</title>
+                  <note>Prologue?</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сло<seg rend="sup">в</seg> ѡ Данїиле пр<seg rend="sup">о</seg>рцѣ. како
+                                Вила б҃а вьвилонскаго <sic>ськуши</sic> и ч<seg rend="sup">с</seg>тнаго и<seg rend="sup">х</seg> змїю съкруши. вьврьжень бы<seg rend="sup">с</seg> вь ровь кь львѡ<seg rend="sup">м</seg>
+                                спсенїе.</head>
+                     <incipit defective="false">Съи Даниль вѣликы вь пр<seg rend="sup">о</seg>рцѣ<seg rend="sup">х</seg> любимь беше вьвилоньскы<seg rend="sup">м</seg> ц҃ремь
+                         </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD26" defective="false">
+                  <locusGrp>
+                     <locus n="40">139v-145v</locus>
+                     <locus>96r-97v</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Апокалипсис на Йоан Богослов</title>
+                  <note>Without end. The copy coincides with the text in the MS N 34 from
+                            Monastery "St. Catherine" on the Sinai - the oldest copy.</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сло<seg rend="sup">в</seg> с҃тго Іѡа<seg rend="sup">н</seg> Б҃гослова о
+                                пришествы г<seg rend="sup">с</seg>нѥ како хоще<seg rend="sup">т</seg> сьнити
+                                на землю бл<seg rend="sup">с</seg>ви оч҃е.</head>
+                     <incipit defective="false">По вьзне<seg rend="sup">с</seg>нїи г҃а нашего Іѵ<seg rend="sup">с</seg>
+                        Х<seg rend="sup">с</seg>а азь Іѡань въше<seg rend="sup">д</seg>шаго на
+                                гору ѳаво<seg rend="sup">р</seg>скую. на нѥ иже прѣж<seg rend="sup">д</seg>е
+                                    стр<seg rend="sup">с</seg>ти свое, показа на<seg rend="sup">м</seg>
+                                бж҃тво свое.</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD27" defective="false">
+                  <locusGrp>
+                     <locus n="41">98r-107v</locus>
+                     <locus>169r-173v</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Житие на апостол Петър, апокрифно</title>
+                  <note>The copy is without title and begining. The text is edited by <ref type="bibl" target="bib:Архангельский1899">Архангельский 1899: 112-119</ref> and used by
+                     <ref type="bibl" target="bib:Радченко1903">Радченко 1903: 199-211</ref>
+                  </note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <incipit defective="false"> ...пакы р<seg rend="sup">ч</seg>е ему Петрь. а ты юноше кто еси,
+                                ꙗко лице твое виж<seg rend="sup">д</seg>оу добро и красно ѕѣло
+                         </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD28" defective="false">
+                  <locus n="42">169v-173v</locus>
+                  <title xml:lang="bg">Разказ за Самсон</title>
+                  <note>The copy is published by 
+                     <ref type="bibl" target="bib:Архангельский1899">Архангельский 1899: 123-126</ref>. 
+                   </note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <filiation type="translation" n="1"/>
+                  <sampleText xml:lang="cu">
+                     <head>Слово ѡ Самѱѡнѣ.</head>
+                     <incipit defective="false">Бѣше моу<seg rend="sup">ж</seg> имене<seg rend="sup">м</seg> Маное.
+                                    бе<seg rend="sup">з</seg>че<seg rend="sup">д</seg>нь бѣше</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD29" defective="false">
+                  <locusGrp>
+                     <locus n="43">173v</locus>
+                     <locus>112r-112v</locus>
+                     <locus>111r-111v</locus>
+                  </locusGrp>
+                  <title xml:lang="bg">Разказ за монаха, който бягал от манастира си, защото го обиждали, от Патерика</title>
+                  <note>Without end</note>
+                  <filiation type="protograph">Middle Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>О иже ѿ юнаго възраста постивша се, и грьдости
+                                    ра<seg rend="sup">д</seg> ѿриновениа.</head>
+                     <incipit defective="false">Имѣше нѣкы ѿць бра<seg rend="sup">т</seg>
+                                міранина. скончавшу же <seg rend="sup">с</seg> емоу</incipit>
+                  </sampleText>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="conjecture" resp="#AM">
+                  <origDate>16th c., second half</origDate>
+                  <note>
+                     <ref type="bibl" target="bib:Цонев1910">Цонев, Б.
+                                1910: 254-257.</ref>
+                     <ref type="bibl" target="bib:Архангельский1899">Архангельский 
+                                1899: 101-126.</ref>
+                  </note>
+               </origin>
+            </history>
+            <additional>
+               <adminInfo>
+                  <recordHist>
+                     <source>
+                        <p>Directly catalogued from the original manuscript using the
+                           printed catalogue from <ref type="bibl" target="bib:Милтенова1989">Милтенова 1989:
+                              114-125</ref>
+                        </p>
+                     </source>
+                  </recordHist>
+               </adminInfo>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

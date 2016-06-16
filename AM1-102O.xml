@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-AM1-102O">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Hagiographic Miscellany, Odessa, State Library, 1/102, 16th c.</title>
+            <author xml:id="AM">Anisava Miltenova</author>
+            <editor xml:id="AB">Andrej Bojadžiev</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature BAS</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date>17.07.2000</date>
+            <idno type="Repertorium">RC-AM1-102O</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the
+            creators under the Creative Commons Attribution-No Derivative Works
+            3.0 under legislation in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In short, you could download and disseminate
+            information, but you are not allowed to alter, transform, or build
+            upon the works on this section of the site. All reuse or
+            distribution of this work must contain somewhere a link back to the
+            URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p>No source.</p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="ru">Russian</language>
+            <language ident="sr">Serbian</language>
+            <language ident="bg">Bulgarian</language>
+            <language ident="en">English</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>vita</item>
+                  <item>synaxarion</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+      <revisionDesc status="draft">
+         <change who="#AB" when="2009-04-17" status="draft">Removed constructions
+        &lt;author&gt;anonumous&lt;/author&gt;</change>
+         <change who="#AB" when="2009-04-17" status="draft">Added copyright statement</change>
+         <change who="#AB" when="2009-04-15" status="draft">Corrections</change>
+         <change who="#AB" when="2009-04-13" status="draft">Added Repertorium Identifier</change>
+         <change who="AB" when="2009-03-02" status="draft">Conversion to Repertorium 3.0</change>
+      </revisionDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName xml:lang="en" type="general">miscellany</msName>
+               <msName xml:lang="en" type="specific">hagiographic miscellany</msName>
+               <country>Ukraine</country>
+               <settlement>Odessa</settlement>
+               <repository>State Library</repository>
+               <collection>V. Grigirovich</collection>
+               <idno type="shelfmark">1/102</idno>
+               <altIdentifier type="former">
+                  <idno type="shelfmark">1/211</idno>
+               </altIdentifier>
+               <altIdentifier type="former">
+                  <idno type="shelfmark">20</idno>
+               </altIdentifier>
+               <altIdentifier type="former">
+                  <idno type="shelfmark">34</idno>
+               </altIdentifier>
+               <altIdentifier>
+                  <idno type="catalogue">20</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper</material>
+                        <watermark>
+                           <motif>Crown</motif>
+                           <ref type="bibl" target="bib:Tromonin1965">
+                              <num>618</num>
+                              <date>1538</date>
+                           </ref>
+                        </watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">195</measure>
+                        <dimensions unit="mm" type="folia">
+                           <height>190</height>
+                           <width>130</width>
+                        </dimensions>
+                     </extent>
+                     <foliation>Newly foliated by pencil</foliation>
+                     <collation>
+                        <summary>21 quires, 6-14 folia each</summary>
+                     </collation>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="20-25"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Dark brown; black</ink>
+               <decoDesc>
+                  <p>Red initials and small titles; no special ornament</p>
+               </decoDesc>
+               <bindingDesc>
+                  <binding>
+                     <p>New library binding</p>
+                  </binding>
+               </bindingDesc>
+               <additions type="inscriptions">
+                  <list type="ordered">
+                     <item>
+                        <locus>f. 1r</locus>
+                        <date>1517</date>
+                        <quote xml:lang="cu" defective="false">Въ лѣ<seg rend="sup">т</seg> ҂зк҃е ҃ прише<seg rend="sup">л</seg> ѿ. старецъ Ісаіѧ. принеслъ ко великому кнз҃ю книгу. житїе ст҃гѡ савы
+                  србск<unclear>..</unclear>
+                        </quote>
+                     </item>
+                     <item>
+                        <locus>f. 19v</locus>
+                        <quote xml:lang="cu" defective="false">ѡ пренесенїи мощеи прп<seg rend="sup">д</seg>вна<seg rend="sup">г</seg> семеѡ<seg rend="sup">н</seg>. ѿ
+                  ст҃ыѧ горы въ српъскую землю.</quote>
+                     </item>
+                  </list>
+               </additions>
+            </physDesc>
+            <scribeDesc>
+               <scribe n="1">
+                  <locus>ff. 1-157</locus>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="semiuncial"/>
+                  <scribeLang>
+                     <summary>Russian features</summary>
+                     <orthography>
+                        <p>only one jus (small); two jers (nonconsistent)</p>
+                     </orthography>
+                  </scribeLang>
+                  <respStmt>
+                     <name xml:id="RVB" full="yes">R. V. Bulatova</name>
+                     <resp>de visu</resp>
+                  </respStmt>
+               </scribe>
+               <scribe n="2">
+                  <locus>158-195</locus>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="semiuncial">
+                     <p>Middle Semiuncial</p>
+                  </scriptDesc>
+                  <scribeLang>
+                     <summary>Russian features</summary>
+                     <orthography>
+                        <p>Only one jus (small); occasionally big jus; two jers
+                  (nonconsistent); </p>
+                     </orthography>
+                  </scribeLang>
+                  <respStmt>
+                     <name ref="#RVB" full="yes">Bulatova, R.V.</name>
+                     <resp>de visu</resp>
+                  </respStmt>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>Contains 5 texts</summary>
+               <filiation type="protograph">Serbian, Bulgarian</filiation>
+               <filiation type="antigraph">Serbian, Bulgarian</filiation>
+               <msItemStruct xml:id="ACD1" type="original" defective="false">
+                  <locus n="1">1r-44v</locus>
+                  <title xml:lang="bg">Житие на св. Сава</title>
+                  <author>Dometian archbishop</author>
+                  <note>Without end. The text is related with the <date type="churchCal">14 January</date>
+                  </note>
+                  <filiation type="protograph">Serbian</filiation>
+                  <filiation type="antigraph">Serbian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Житїе и по<seg rend="sup">д</seg>виѕи. въ пустыни съ
+                  ѡ҃це<seg rend="sup">м</seg>. и ѡсѡ<seg rend="sup">б</seg>
+                  хож<seg rend="sup">д</seg>енїиа. и ѡ чѧсти чюдесъ сповѣданїе.
+                иже в с҃ты<seg rend="sup">х</seg> о҃ца н҃шего савы.
+                  пръвоархїеп<seg rend="sup">с</seg>кпа и учителѧ србьскаго.
+                съписанно прп<seg rend="sup">д</seg>бны<seg rend="sup">м</seg>
+                  дометїано<seg rend="sup">м</seg> іерѡмонахѡ<seg rend="sup">м</seg>. монастырѧ хїландара. бл҃гослови о҃че.</head>
+                     <incipit defective="false">Начинаем же повѣсть. възыскающе ѿнуд же по<seg rend="sup">д</seg>бно. подобно же
+                възыскати ѿ корь ѿрасль. и обрѧщем и ѡбьемле<seg rend="sup">м</seg>, не
+                  ѿ трънїѧ но и лозы грѡз<seg rend="sup">д</seg>ъ. </incipit>
+                     <explicit defective="true">и ꙗко же въ мало врѣмен'нѣмь, и
+                прельстнѣмь се<seg rend="sup">м</seg> житїи, донде<seg rend="sup">же</seg>
+                     </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" type="original" defective="false">
+                  <locus n="2">48r-80r</locus>
+                  <title xml:lang="bg">Житие на св. Константин и Елена</title>
+                  <author>Euthymios of Tŭrnovo</author>
+                  <note>
+                     <date type="churchCal">21 May</date>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <head>Еѵѳимїа патрїарха тръновска<seg rend="sup">г</seg>.
+                  похва<seg rend="sup">л</seg>ное ст҃ымь великымь и равноап<seg rend="sup">с</seg>льнымь ц҃ремь кѡнстантїноу. и еленѣ. бл<seg rend="sup">с</seg>ви. о҃че.</head>
+                     <incipit defective="false">Сл҃нца свѣтлѣише настоащее показа сѧ тръжество. всѣ<seg rend="sup">х</seg> просвѣщающи мысли. и д҃шѧ веселѧщи. </incipit>
+                     <explicit defective="false"> их же буди въсѣмъ на<seg rend="sup">м</seg> получити.
+                  блг<seg rend="sup">д</seg>тїю и чл҃колюбїемъ г҃а нашего і҃ѵ
+                х҃а, съ нимже ѡ҃цу коупно съ с҃тым<seg rend="sup">м</seg>
+                  д҃хѡ<seg rend="sup">м</seg>, слава и дръжава. честь и
+                покланѧнїе въ неоуставны<seg rend="sup">ѧ</seg>
+                        <seg function="formula">вѣкы вѣкѡмь, аминь.</seg>
+                     </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3" type="original" defective="false">
+                  <locus n="3">84r-124v</locus>
+                  <title xml:lang="bg">Житие на св. Стефан Лазаревич</title>
+                  <author>Constantine of Kostenets</author>
+                  <note>
+                     <date type="churchCal">12 June?</date>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <head>Житїе и жизнь пр<seg rend="sup">с</seg>нопомнима<seg rend="sup">го</seg> словуща<seg rend="sup">го</seg> бл҃гоч<seg rend="sup">с</seg>тиваго г<seg rend="sup">с</seg>на. деспѡта
+                стефана. съписано повелѣнїемь, и понуж<seg rend="sup">д</seg>енїемь. с҃тѣ н'шаго патрїарха. землѧ тоѧ сръбьскыѧ. кѵръ
+                никонѡмь. и полатны<seg rend="sup">х</seg> начѧлник. Видѣнїем'же
+                  трїс҃тыи<seg rend="sup">м</seg> ꙗвленїемь. самому
+                тезоименитому прославлѧющу сїа быти. бл<seg rend="sup">с</seg>ви
+                  ѡ<seg rend="sup">ч</seg>.</head>
+                     <incipit defective="false">Азъ есмь ре<seg rend="sup">ч</seg> сыи при купинѣ.
+                съвръшаа тѧ вож<seg rend="sup">д</seg>а людїи мои<seg rend="sup">х</seg>. ꙗко не има<seg rend="sup">м</seg> посуществу моемоу
+                подобїа. </incipit>
+                     <explicit defective="false">слава давшему тѧ въ послѣ<seg rend="sup">д</seg>нѧѧ
+                роды. хр<seg rend="sup">с</seg>тїанѡ<seg rend="sup">м</seg>
+                похвало. слава съвръшающему великаа и дивнаа б҃у нашему. ему же
+                слава въ вѣкы вѣко<seg rend="sup">м</seg> аминь.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" type="original" defective="false">
+                  <locus n="5">126r-157r</locus>
+                  <title xml:lang="bg">Житие на св. Стефан Дечански</title>
+                  <author>Grigorij Camblak</author>
+                  <note>
+                     <date type="churchCal">11 November</date>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <head>М<seg rend="sup">с</seg>ца ноꙗ<seg rend="sup">м</seg>врїа,
+                въ а҃і. д҃нь. житїе и жительство. с҃тго великом<seg rend="sup">ч</seg>нка въ ц҃рѣхь. Стефана сербьскаго, иже въ деча<seg rend="sup">х</seg>. списано григорїе<seg rend="sup">м</seg>
+                  мнихѡ<seg rend="sup">м</seg>, и презвѵтерѡ<seg rend="sup">м</seg>. игуменѡ<seg rend="sup">м</seg> бывши<seg rend="sup">м</seg> тоꙗж<seg rend="sup">д</seg>е ѡбители, бл<seg rend="sup">с</seg>ви ѡ҃че.</head>
+                     <incipit defective="false">Бѣаше и сеи великааго и славнѣишаго сербьска<seg rend="sup">г</seg> ѧзыка. не токмо воиньствеными силами
+                  другы<seg rend="sup">х</seg>ѧзыкъ превъсходити. и славою
+                  богатьство<seg rend="sup">м</seg>. и мѣста красотою и
+                  величьство<seg rend="sup">м</seg>. </incipit>
+                     <explicit defective="false">и судїи б҃гу показавъ блаженныи ѡнъ испистиши гла<seg rend="sup">с</seg>, се азъ идѣти ꙗже ми дасть б҃гъ. ему же
+                слава съ ѡ҃цемъ безначалны<seg rend="sup">м</seg>. и пр<seg rend="sup">с</seg>ты<seg rend="sup">м</seg> и бл҃гы<seg rend="sup">м</seg> и животворѧщи<seg rend="sup">м</seg> д҃хъ и
+                н҃нѣ же и в неимущии конца вѣкъ. ами<seg rend="sup">н</seg>.
+             </explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD5" type="original" defective="false">
+                  <locus n="5">158r-195v</locus>
+                  <title xml:lang="bg">Житие на Иларион Мъгленски</title>
+                  <author>Euthymios of Tŭrnovo</author>
+                  <note>
+                     <date type="churchCal">21 October</date>
+                  </note>
+                  <sampleText xml:lang="cu">
+                     <head>Житие и жизнь, прп<seg rend="sup">д</seg>бнаго ѡ҃ца н҃шего
+                илариѡна, еп<seg rend="sup">с</seg>кпа мегленьскаго. в нем же и
+                како пренесенъ бы<seg rend="sup">с</seg>. славныи градъ терновъ.
+                списано еоуфимиемъ патрїархомъ терновьски<seg rend="sup">м</seg>. бл<seg rend="sup">с</seg>ви ѡ<seg rend="sup">ч</seg>.</head>
+                     <incipit defective="false">Сла<seg rend="sup">д</seg>ка оубѡ настоащаѧ жизнь. нъ
+                бесм҃ртїе всѧкаа сладѡсти сладъчаше, и вѣсть самохытръствовати
+                  члв<seg rend="sup">ч</seg>ство </incipit>
+                     <explicit defective="false">и въдворѧши сѧ ликостоании. наслаж<seg rend="sup">д</seg>аа сѧ несытно ѡна, ꙗже і око не видѣ и оухо не слыша.
+                и на ср<seg rend="sup">д</seg>це ч҃лкоу не в'зыдоша. ѡ самѣмъ
+                х҃е г<seg rend="sup">с</seg>дѣ нашемъ. емоу же слава и держава
+                съ ѡ҃цемъ и съ с҃тымъ д҃хомъ. нынѣ и присно, и во вѣкы вѣкомъ
+                аминь.</explicit>
+                  </sampleText>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin resp="#AM" evidence="de visu">
+                  <origDate>16th c., first half</origDate>
+                  <origPlace cert="low">Unknown. It is possible that the
+              manuscript has been written by Russian writter in Hilandar.
+            </origPlace>
+               </origin>
+               <acquisition/>
+            </history>
+            <additional>
+               <adminInfo>
+                  <recordHist>
+                     <source>
+                        <p>Directly catalogued from the original manuscript.</p>
+                     </source>
+                  </recordHist>
+               </adminInfo>
+            </additional>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

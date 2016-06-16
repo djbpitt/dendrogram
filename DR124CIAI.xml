@@ -1,0 +1,394 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-DR124CIAI">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Prayer-book, Church-Historical and Archival Institute, Sofia, No. 124, 17th c., last quarter</title>
+            <author xml:id="DR">Dilyana Radoslavova</author>
+            <editor xml:id="AM">Anisava Miltenova</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <date when="1996-09-18">18 September 1996</date>
+            <idno type="Repertorium">RC-DR124CIAI</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the creators under the Creative Commons Attribution-No Derivative Works 3.0 under legislation in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In short, you could download and disseminate information, but you are not allowed to alter, transform, or build upon the works on this section of the site. All reuse or distribution of this work must contain somewhere a link back to the URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <p>
+               <ref type="bibl" target="bib:Спространов1900">Спространов 1900: 171-172</ref>
+               <ref type="bibl" target="bib:Христова1982">Своден каталог 1982: No. 598</ref>
+            </p>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="bg">Bulgarian</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords>
+               <list type="simple">
+                  <item>prayer-book</item>
+                  <item>prayers</item>
+                  <item>rites</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName type="general" xml:lang="en">euchologion</msName>
+               <country>Bulgaria</country>
+               <settlement>Sofia</settlement>
+               <repository>Church-Historical and Archival Institute</repository>
+               <idno type="shelfmark">124</idno>
+               <idno type="catalogue">124</idno>
+               <altIdentifier type="former">
+                  <idno type="shelfmark">44</idno>
+               </altIdentifier>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper</material>
+                        <watermark>unclear</watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">91</measure>
+                        <dimensions type="folia" unit="mm">
+                           <height>210</height>
+                           <width>155</width>
+                        </dimensions>
+                        <dimensions type="written" unit="mm">
+                           <height>155</height>
+                           <width>90</width>
+                        </dimensions>
+                     </extent>
+                     <foliation>Modern, in the bottom right-hand corner</foliation>
+                     <collation>
+                        <summary>
+                                    13 extant quires</summary>
+                        <quire n="1">
+                           <extent>6</extent>
+                        </quire>
+                        <quire n="2">
+                           <extent>8</extent>
+                        </quire>
+                        <quire n="3">
+                           <extent>7</extent>
+                        </quire>
+                        <quire n="4">
+                           <extent>2</extent>
+                        </quire>
+                        <quire n="5-12">
+                           <extent>8</extent>
+                        </quire>
+                        <quire n="13">
+                           <extent>4</extent>
+                        </quire>
+                        <signatures>Original, with Old Slavic letters as numerals (from 25 to 36)</signatures>
+                     </collation>
+                     <condition>The quire signatures indicates
+              that the original first 20 quires of the MS are missing; there are missing 1 folio between ff. 6 and 7, 1 folio between ff. 19 and 20; some folia, probably 6, between ff. 22 and 23; 2 folia between ff. 87 and 88, as well as the very end of the MS</condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="21-22"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Brown</ink>
+               <decoDesc>
+                  <decoNote type="headpiece">A headpiece in braided Balkan style without frame</decoNote>
+                  <decoNote type="initials">Large red initials in new-Byzantine style and large braided initials in Balkan style</decoNote>
+               </decoDesc>
+               <bindingDesc>
+                  <binding>
+                     <p>Without binding</p>
+                  </binding>
+               </bindingDesc>
+            </physDesc>
+            <scribeDesc>
+               <scribe n="1">
+                  <locusGrp>
+                     <locus>1r-91v</locus>
+                  </locusGrp>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="semiuncial">
+                     <p>High quality</p>
+                  </scriptDesc>
+                  <scribeLang>
+                     <orthography type="resava">
+                        <p>Resava orthography</p>
+                     </orthography>
+                  </scribeLang>
+                  <note>Similar to the hand of MS NBKM 621 as well as to the writing style of hieromonk Vasilij (Church-Historical and Archival Institute, Sofia, No. 54)</note>
+                  <respStmt>
+                     <name full="yes">Dilyana Radoslavova</name>
+                     <resp>de visu</resp>
+                  </respStmt>
+               </scribe>
+            </scribeDesc>
+            <msContents type="translation" defective="false">
+               <summary>The manuscript contains various rites and prayers</summary>
+               <filiation type="protograph"> Bulgarian</filiation>
+               <filiation type="antigraph">Middle Bulgarian</filiation>
+               <filiation type="apograph">unknown</filiation>
+               <msItemStruct xml:id="ACD1"
+                             type="translation"
+                             style="non-narrative"
+                             defective="false">
+                  <locus n="1">1r-10v</locus>
+                  <title xml:lang="bg">Чинопоследование на Велик водосвет</title>
+                  <note>The beginning of the text is missing</note>
+                  <note>
+                     <date type="churchCal">Epiphany</date>
+                  </note>
+                  <sampleText xml:lang="cu"/>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" type="translation" defective="false">
+                  <locus n="2">10v-21v</locus>
+                  <title xml:lang="bg">Чинопоследование над коливо за умрели</title>
+                  <note>The end of the text is missing</note>
+                  <sampleText xml:lang="cu">
+                     <head>чинь бываемыи на<seg rend="sup">д</seg> коливомь оусоп'шы<seg rend="sup">м</seg>
+                     </head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3" type="translation" defective="false">
+                  <locus n="3">22r-38v</locus>
+                  <title xml:lang="bg">Молитви различни "на всяка потреба"</title>
+                  <note>This text contains 14 prayers; the beginning and the end are missing; some prayers are preserved in fragments</note>
+                  <sampleText xml:lang="cu"/>
+                  <msItemStruct xml:id="ACD3.1" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва над върбови клонки на Цветница</title>
+                     <note>
+                        <date type="churchCal">Palm Sunday</date>
+                     </note>
+                     <sampleText xml:lang="cu">
+                        <head>мл҃тва въ не<seg rend="sup">д</seg>лю цвѣтоносну на<seg rend="sup">д</seg> връбїи</head>
+                        <rubric>іереи г҃лѥ<seg rend="sup">т</seg> г҃у пом҃ли<seg rend="sup">м</seg> се</rubric>
+                        <incipit defective="false">
+                г҃и б҃е въседръжителю. сказавыи кѡв'чзегѡ<seg rend="sup">м</seg> образь ц҃рков'ныи</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.2" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва на Въскресение Христово</title>
+                     <sampleText xml:lang="cu">
+                        <head>мл҃тва на въскр<seg rend="sup">с</seg>енїе х҃во</head>
+                        <rubric>г҃у по<seg rend="sup">м</seg>
+                        </rubric>
+                        <incipit defective="false">
+                вл<seg rend="sup">д</seg>ко г҃и б҃е нашь, спо<seg rend="sup">д</seg>обивыи на<seg rend="sup">с</seg> прѣити врѣме ч<seg rend="sup">с</seg>тнаго и бж<seg rend="sup">с</seg>внаго поста</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.3" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва над месо на Пасха</title>
+                     <sampleText xml:lang="cu">
+                        <head>
+                           <unclear>м</unclear>л҃тва на<seg rend="sup">д</seg> месѡмь <unclear>...</unclear> на с҃тую пасху</head>
+                        <rubric>г҃у <unclear>...</unclear>
+                        </rubric>
+                        <incipit defective="false">
+                е<unclear>...</unclear>родныи с҃не б҃жїи. показавыи оученикѡ<seg rend="sup">м</seg> славу свое<seg rend="sup">г</seg>
+                        </incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.4" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва над осквернен кладенец</title>
+                     <note>The begining of the text is missing</note>
+                     <sampleText xml:lang="cu">
+                        <rubric>: изврѣщи оно въпа<seg rend="sup">д</seg>щеѥ вънь скврьное, и исчрьпати. м҃, вѣдрь и излїати вънь. и въжещи, три свѣщи ѡколо. и покадивь окр<seg rend="sup">с</seg>ть. та<seg rend="sup">з</seg>. по<seg rend="sup">п</seg>, г҃лѥ<seg rend="sup">т</seg>, бл<seg rend="sup">с</seg>вень б҃ь нашь. таже тр<seg rend="sup">с</seg>тое по ѡ҃че нашь. ꙗко твое ѥ<seg rend="sup">с</seg> цр<seg rend="sup">с</seg>тво. поемь. тро<seg rend="sup">п</seg>ре, д҃нев'ни та<seg rend="sup">ж</seg> г҃у по<seg rend="sup">м</seg> и г҃лѥ<seg rend="sup">т</seg> мл҃тву сїю вел'ми</rubric>
+                        <incipit defective="false">
+             б҃е великыи и див'ныи. иже неизре<seg rend="sup">ч</seg>н'ною бл҃гостинею, и богаты<seg rend="sup">м</seg> промыслѡ<seg rend="sup">м</seg>строеи чл҃чьскы животь</incipit>
+                        <rubric>и въливаеть въ кладенець воду ѿ с҃ты<seg rend="sup">х</seg> б҃гоꙗвлѥнїи. и пїеть пръвѣе попь ѿ неѥ, и по нѥмь людїи. та<seg rend="sup">ж</seg> ч<seg rend="sup">с</seg>тнѣишую херувїмь. сла<seg rend="sup">в</seg> и н҃нꙗ г҃и пом҃лю<seg rend="sup">и</seg> г<seg rend="sup">щ</seg>. г҃и бл<seg rend="sup">с</seg>ви. и ѿпу<seg rend="sup">с</seg>. д҃ню.</rubric>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.5" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва над осквернена храна, 1</title>
+                     <sampleText xml:lang="cu">
+                        <head>мл҃тва аще въпадеть что скврьно въ сьсудь вина или масла, или медь.</head>
+                        <rubric>достоить въпа<seg rend="sup">д</seg>шеѥ изврѣщи вънь. и инь съсоудь омыв'ше чисть. из'вънутрь оуду, и из'вьнь. и покадивь кр<seg rend="sup">с</seg>та ѡбраз'но. и въливаеть воду ѿ с҃ты<seg rend="sup">х</seg> б҃гоꙗвлѥнїи, г<seg rend="sup">щ</seg>. и тако прѣливаеть вино, или маслѡ, или медь, въ тьи съсудь чистыи. г҃лѥ<seg rend="sup">т</seg> попь. бл<seg rend="sup">с</seg>вень б҃ь на<seg rend="sup">ш</seg>. тр<seg rend="sup">с</seg>тое и по ѡ҃че нашь. тро<seg rend="sup">п</seg>, д҃нев'ныи и б<seg rend="sup">о</seg>. по семь. г҃у пом҃лим' се. та<seg rend="sup">ж</seg> г҃лѥ<seg rend="sup">т</seg> мл҃тву сїю съсудо<seg rend="sup">м</seg>
+                        </rubric>
+                        <incipit defective="false">
+              с҃тыи вл<seg rend="sup">д</seg>ко г҃и і҃се х҃е б҃е нашь. иже твои<seg rend="sup">м</seg> бл҃гооутроб'нымь на землю пришьствїе<seg rend="sup">м</seg>
+                        </incipit>
+                        <rubric>и тако въкушаеть пръвѣе попь. потомь прочїи чл҃ци. и тако г҃леть ч<seg rend="sup">с</seg>тнѣишую херувїмь. сла<seg rend="sup">в</seg> и н҃нꙗ г҃и пом҃лю<seg rend="sup">и</seg> г<seg rend="sup">щ</seg>. г҃и бл<seg rend="sup">с</seg>ви. и ѿпу<seg rend="sup">с</seg>. д҃ню. зри по<seg rend="sup">д</seg>обаеть вѣ<seg rend="sup">д</seg>ти тебе ѡ с҃щен'ниче, испитовати добрѣ о семь, аще будеть раз'гнило се въпа<seg rend="sup">д</seg>шее въ винь, или въ маслѣ, или въ медѣ, или въ прѣсолы, или въ тур'шїи, или въ кон'босѣ, никто же да не въкусить ѿ сихь прѣж<seg rend="sup">д</seg>е ре<seg rend="sup">ч</seg>н'ны<seg rend="sup">х</seg>. нъ да пролѣет' се и въ попранїе. чл҃комь да будеть.</rubric>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.6" type="translation" defective="false">
+                     <title xml:lang="bg">Молитви отпустителни</title>
+                     <msItemStruct xml:id="ACD3.6.1" type="translation" defective="false">
+                        <title xml:lang="bg">Молитва отпустителна над човек, дал обет да пости</title>
+                        <sampleText xml:lang="cu">
+                           <head>мл҃тва о иже самы себе заклеше постити се на нѣколико лѣта, и пакы хотещихь по<seg rend="sup">с</seg> оставити.</head>
+                           <rubric>не по<seg rend="sup">д</seg>обаеть имь без' сїю мл҃тву по<seg rend="sup">с</seg> оставити. нъ приходеть въ цр҃ковь къ с҃щен'нику. и с҃щен'никь на<seg rend="sup">д</seg> нимъ ничто же г҃лѥть. тъкмо, г҃у пом҃лим' се. и мл҃тву сїю</rubric>
+                           <incipit defective="false">
+                б҃е страшныи, и чл҃колюбивыи, сил'ныи и мл<seg rend="sup">с</seg>рдыи</incipit>
+                        </sampleText>
+                     </msItemStruct>
+                     <msItemStruct xml:id="ACD3.6.2" type="translation" defective="false">
+                        <title xml:lang="bg">Молитва отпустителна за всяка клетва</title>
+                        <sampleText xml:lang="cu">
+                           <head>мл҃тва б҃. раз<seg rend="sup">д</seg>рѣшена на въсаку клетву</head>
+                           <incipit defective="false">
+              вл<seg rend="sup">д</seg>ко г҃и б҃е въседръжителю. иже сп҃сенїа ради родоу чл҃чьскому</incipit>
+                        </sampleText>
+                     </msItemStruct>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.7" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва против всякакво оскверняване</title>
+                     <sampleText xml:lang="cu">
+                        <head>мл҃тва ѿ въсакые скврьны</head>
+                        <incipit defective="false">
+              г҃и б҃е нашь, единь бл҃гыи чл҃колюб'ць. единь с҃ть и на с҃ты<seg rend="sup">х</seg> почиваеи</incipit>
+                        <rubric>сла<seg rend="sup">в</seg> и н҃нꙗꙗ, г҃и пом҃луи, г<seg rend="sup">щ</seg>, бл<seg rend="sup">с</seg>ви и ѿпу<seg rend="sup">с</seg>
+                        </rubric>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.8" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва на изход души</title>
+                     <sampleText xml:lang="cu">
+                        <head>мл҃тва на исходь д҃ши чл҃комь</head>
+                        <rubric>г҃лѥть іереи. бл<seg rend="sup">с</seg>вень б҃ь нашь. тр<seg rend="sup">с</seg>тое. и по ѡ҃че на<seg rend="sup">ш</seg> ꙗко твое ѥ<seg rend="sup">с</seg> цр<seg rend="sup">с</seg>тво. таже г҃у пом҃лим' се. и мл҃тву сїю ве<seg rend="sup">л</seg>
+                        </rubric>
+                        <incipit defective="false">
+              вл<seg rend="sup">д</seg>ко г҃и б҃е въседръжителю ѡ҃че г҃а нашего і҃с х҃а</incipit>
+                        <rubric>сла<seg rend="sup">в</seg> и н҃нꙗ г҃и пом҃луи г<seg rend="sup">щ</seg>. г҃и бл<seg rend="sup">с</seg>ви и ѿпоу<seg rend="sup">с</seg>
+                        </rubric>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.9" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва над абортирала жена</title>
+                     <sampleText xml:lang="cu">
+                        <head>мл҃тва женѣ егда извръжеть отроче</head>
+                        <rubric>г҃лѥ<seg rend="sup">т</seg> іереи. бл<seg rend="sup">с</seg>вень б҃ь нашь, тр<seg rend="sup">с</seg>тое, и по ѡ<seg rend="sup">ч</seg> нашь. ꙗко твое ѥ<seg rend="sup">с</seg> цр<seg rend="sup">с</seg>тво. та<seg rend="sup">ж</seg> тро<seg rend="sup">п</seg>. д҃ню. и б<seg rend="sup">о</seg>. по се<seg rend="sup">м</seg> г҃лѥ<seg rend="sup">т</seg>. г҃у пом҃лим се. и мл҃тву сїю ве<seg rend="sup">л</seg>ми.</rubric>
+                        <incipit defective="false">
+              вл<seg rend="sup">д</seg>ко г҃и б҃е нашь, рождеи се ѿ с҃тые б҃це и пр<seg rend="sup">с</seg>но д҃вы марїе</incipit>
+                        <rubric>та<seg rend="sup">ж</seg>. сла<seg rend="sup">в</seg> и н<seg rend="sup">н</seg>ꙗ. г҃и пом҃луи, г<seg rend="sup">щ</seg>. г҃и бл<seg rend="sup">с</seg>ви и ѿпу<seg rend="sup">с</seg> д҃ню.</rubric>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.10" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва над осквернен съд</title>
+                     <sampleText xml:lang="cu">
+                        <head>мл҃тва на<seg rend="sup">д</seg> оскврьн'шим' се съсудѣ</head>
+                        <rubric>іереи, г҃лѥ<seg rend="sup">т</seg>. бл<seg rend="sup">с</seg>вень б҃ь нашь. тр<seg rend="sup">с</seg>тое, и по ѡ҃че нашь, тро<seg rend="sup">п</seg> д҃нѥв'ныи. и б<seg rend="sup">о</seg> та<seg rend="sup">ж</seg> ф҃у пом҃ли<seg rend="sup">м</seg> се. и мл҃тву. сїю вел'ми.</rubric>
+                        <incipit defective="false">
+              г҃и б҃е нашь, рекыи връховному ап<seg rend="sup">с</seg>лу своему петру. въ съсудѣ плащаничнѣ<seg rend="sup">м</seg> нечистому и скврънному въсему чисту быти</incipit>
+                        <rubric>слава и н҃нꙗ. г҃и пом҃луи г<seg rend="sup">щ</seg>. г҃и бл<seg rend="sup">с</seg>ви и ѿпу<seg rend="sup">с</seg>.</rubric>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.11" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва за водосвет</title>
+                     <sampleText xml:lang="cu">
+                        <head>мл҃тва ос҃тити воду въ крат'цѣ</head>
+                        <rubric>іереи г҃лѥть, бл<seg rend="sup">с</seg>вень б҃ь на<seg rend="sup">ш</seg> тр<seg rend="sup">с</seg>тое. и по ѡ҃че нашь тро<seg rend="sup">п</seg> д҃нѥвы. и б<seg rend="sup">о</seg>. по се<seg rend="sup">м</seg>. г҃у пом҃лим' се и мл҃тву сїю вел'ми.</rubric>
+                        <incipit defective="false">
+              б҃е великоименитыи. твореи чюдеса, имже нѣ<seg rend="sup">с</seg> числа</incipit>
+                        <rubric>слава и н҃нꙗ. г҃и пом҃луи г<seg rend="sup">щ</seg>. г҃и бл<seg rend="sup">с</seg>ви и ѿпусть. д҃нѥв'ны.</rubric>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.13" type="translation" defective="false">
+                     <title xml:lang="bg">Молитва над осквернена храна, 2</title>
+                     <sampleText xml:lang="cu">
+                        <head>мл҃тва на<seg rend="sup">д</seg> оскврьн'шїим се брашнѣ</head>
+                        <rubric>г҃лѥть іереи. бл<seg rend="sup">с</seg>вень б҃ь нашь. таже. тр<seg rend="sup">с</seg>тое и по ѡ҃че на<seg rend="sup">ш</seg> ꙗко твое ѥ<seg rend="sup">с</seg> цр<seg rend="sup">с</seg>тво. тро<seg rend="sup">п</seg>. д҃нѥв'ныи и б<seg rend="sup">о</seg>. по семь. г҃у по<seg rend="sup">м</seg>. и мл҃тву сїю ве<seg rend="sup">л</seg>ми.</rubric>
+                        <incipit defective="false">
+              г҃и і҃с х҃е б҃е нашь. заповѣдавы връхов'ному ап<seg rend="sup">с</seg>лу твоему петру. видѣнїемь и гласо<seg rend="sup">м</seg>
+                        </incipit>
+                        <rubric>сла<seg rend="sup">в</seg> и н҃нꙗ г҃и пом҃луи г<seg rend="sup">щ</seg> г҃и бл<seg rend="sup">с</seg>ви. и ѿпу<seg rend="sup">с</seg> д҃нѥв'ныи.</rubric>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD3.14" type="translation" defective="false">
+                     <title xml:lang="bg">Молитви над ново вино</title>
+                     <sampleText xml:lang="cu">
+                        <head>мл҃твы бл<seg rend="sup">с</seg>вити вино кипѣло</head>
+                        <rubric>попь. бл<seg rend="sup">с</seg>вень б҃ь нашь. таже тр<seg rend="sup">с</seg>тое и по ѡ҃че нашь. ꙗко твое ѥ<seg rend="sup">с</seg> цр<seg rend="sup">с</seg>тво.</rubric>
+                     </sampleText>
+                     <msItemStruct xml:id="ACD3.14.1" type="translation" defective="false">
+                        <title xml:lang="bg">Молитви над ново вино. Молитва над ново вино, 1</title>
+                        <sampleText xml:lang="cu">
+                           <rubric>и покадивь. вино г҃лѥ<seg rend="sup">т</seg> г҃у пом҃лим' се. по се<seg rend="sup">м</seg> м<seg rend="sup">л</seg> сїе ве<seg rend="sup">л</seg>гла<seg rend="sup">с</seg>
+                           </rubric>
+                           <incipit defective="false">
+                    г҃и і҃се х҃е б҃е нашь. прѣложивыи воду въ вино. въ кана галилеисцѣмь брацѣ</incipit>
+                           <rubric>слава, и н҃нꙗ. г҃и помилуи. г<seg rend="sup">щ</seg>. г҃и бл<seg rend="sup">с</seg>ви. и ѿпу<seg rend="sup">с</seg> д҃хевны.</rubric>
+                        </sampleText>
+                     </msItemStruct>
+                     <msItemStruct xml:id="ACD3.14.2" type="translation" defective="false">
+                        <title xml:lang="bg">Молитви над ново вино. Молитва над ново вино, 2</title>
+                        <sampleText xml:lang="cu">
+                           <head>и мл҃тву втора тому<seg rend="sup">жд</seg>.</head>
+                           <incipit defective="false">г҃и бл҃гыи чл҃колюб'че. призри на вино сїе</incipit>
+                           <rubric>та<seg rend="sup">ж</seg> ч<seg rend="sup">с</seg>тнѣишую херувїмь. сла<seg rend="sup">в</seg> и н҃нꙗ, г҃и пом҃луи г<seg rend="sup">щ</seg>. г҃и бл<seg rend="sup">с</seg>ви</rubric>
+                        </sampleText>
+                     </msItemStruct>
+                  </msItemStruct>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" type="translation" defective="false">
+                  <locus n="4">38v-40r</locus>
+                  <title xml:lang="bg">Тропари и богородични за дните от седмицата</title>
+                  <sampleText xml:lang="cu">
+                     <head>тропаре и б҃городич'ны прѣз<seg rend="sup">д</seg>нелю</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD5" type="translation" defective="false">
+                  <locus n="5">40r-40v</locus>
+                  <title xml:lang="bg">Отпусти за дните от седмицата</title>
+                  <sampleText xml:lang="cu">
+                     <head>ѿпусте през<seg rend="sup">д</seg> нелю</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD6" type="translation" defective="false">
+                  <locus n="6">40v-46v</locus>
+                  <title xml:lang="bg">Правила епитимийни</title>
+                  <sampleText xml:lang="cu">
+                     <head>правило изложено льгьчаише. по іѡан'ну постнику. еже не по<seg rend="sup">д</seg>обаеть ни мало что оставити. или простити. нъ въса да постыть каеи се съ поклоны сухоꙗденїемь. по ед'нущь на д҃нь</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD7" type="translation" defective="false">
+                  <locus n="7">46v-48r</locus>
+                  <title xml:lang="bg">Правила за степените на сродство и за законните бракове</title>
+                  <sampleText xml:lang="cu">
+                     <head>ѡ разлїичи сърод'ства. о брацѣ<seg rend="sup">х</seg> законо<seg rend="sup">м</seg>. заповѣдїи с҃ты<seg rend="sup">х</seg> ѿць</head>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD8" type="translation" defective="false">
+                  <locus n="8">49r-91r</locus>
+                  <title xml:lang="bg">Чинопоследование на опело и погребение на свещеник</title>
+                  <sampleText xml:lang="cu">
+                     <head>чинь погрыбанїю с҃щеника</head>
+                  </sampleText>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="de visu" resp="#DR">
+                  <origDate>17th c., last quarter</origDate>
+                  <origPlace>Unknown</origPlace>
+                  <ref type="bibl" target="bib:Спространов1900">Спространов 1900</ref>
+               </origin>
+            </history>
+         </msDesc>
+      </body>
+   </text>
+</TEI>

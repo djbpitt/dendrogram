@@ -1,0 +1,702 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://repertorium.obdurodon.org/tei_ms_repertorium.sch" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!DOCTYPE TEI
+  SYSTEM "../schema/tei_ms_repertorium.dtd">
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="RC-AS22PANT">
+   <teiHeader type="text">
+      <fileDesc>
+         <titleStmt>
+            <title>Miscellany from St. Pantelejmon Monastery N 22</title>
+            <author xml:id="AS">Ana Stoykova</author>
+            <editor xml:id="AM">Anisava Miltenova</editor>
+            <editor xml:id="DB">David J. Birnbaum</editor>
+         </titleStmt>
+         <publicationStmt>
+            <publisher>Institute of Literature</publisher>
+            <pubPlace>Sofia</pubPlace>
+            <idno type="Repertorium">RC-AS22PANT</idno>
+            <availability status="free" default="false">
+               <p>The intellectual content of this file is copyrighted by the creators under
+                        the Creative Commons Attribution-No Derivative Works 3.0 under legislation
+                        in <ref target="http://creativecommons.org/licenses/by-nd/3.0/deed.bg">Bulgaria</ref>. In short, you could download and disseminate
+                        information, but you are not allowed to alter, transform, or build upon the
+                        works on this section of the site. All reuse or distribution of this work
+                        must contain somewhere a link back to the URL <ref target="http://www.ilit.bas.bg/repertorium/">http://www.ilit.bas.bg/repertorium/</ref>
+               </p>
+            </availability>
+         </publicationStmt>
+         <sourceDesc default="false">
+            <ref type="bibl" target="bib:Tachiaos1981">Tachiaos 1981: 59</ref>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <langUsage default="false">
+            <language ident="en">English</language>
+            <language ident="bg">Bulgarian</language>
+            <language ident="cu">Old Slavic</language>
+         </langUsage>
+         <textClass default="false">
+            <keywords scheme="Repertorium">
+               <list type="simple">
+                  <item>Miscellany with mixed content</item>
+               </list>
+            </keywords>
+         </textClass>
+      </profileDesc>
+      <encodingDesc>
+         <listPrefixDef>
+            <prefixDef ident="bib"
+                       matchPattern="([A-Za-zА-Яа-я]+)"
+                       replacementPattern="bib.xml#$1">
+               <p> In the context of this project, private URIs with the prefix "bib" point to bibl
+                  elements in the project's bib.xml file.</p>
+            </prefixDef>
+         </listPrefixDef>
+      </encodingDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <msDesc>
+            <msIdentifier>
+               <msName type="general" xml:lang="en">miscellany</msName>
+               <msName type="specific" xml:lang="en">miscellany of mixed content</msName>
+               <country>Greece</country>
+               <settlement>Mount Athos</settlement>
+               <repository>St. Pantelejmon Monastery (Rossikon) Library</repository>
+               <idno type="shelfmark">22</idno>
+               <idno type="catalogue">22</idno>
+            </msIdentifier>
+            <physDesc>
+               <objectDesc form="codex">
+                  <supportDesc material="paper">
+                     <support>
+                        <material>Paper</material>
+                        <watermark>none</watermark>
+                     </support>
+                     <extent>
+                        <measure unit="folia">311</measure>
+                        <dimensions type="folia" unit="mm">
+                           <height>280</height>
+                           <width>190</width>
+                        </dimensions>
+                     </extent>
+                     <condition>Without end</condition>
+                  </supportDesc>
+                  <layoutDesc>
+                     <layout columns="1" writtenLines="26"/>
+                  </layoutDesc>
+               </objectDesc>
+               <ink>Dark brown</ink>
+               <decoDesc>
+                  <p>Titles and initials in red</p>
+               </decoDesc>
+               <bindingDesc>
+                  <p>Leather on wood</p>
+               </bindingDesc>
+               <additions type="inscriptions">
+                  <locus>f. 116r</locus>
+                  <quote xml:lang="cu" defective="false">Сїе слово нѣстъ добро</quote>
+               </additions>
+            </physDesc>
+            <scribeDesc>
+               <scribe>
+                  <locus>1r-311v</locus>
+                  <name full="yes">anonymous</name>
+                  <scriptDesc script="cyrs" type="semiuncial"/>
+                  <scribeLang>
+                     <orthography>Without juses, only small jer</orthography>
+                  </scribeLang>
+                  <note>
+                     <ref type="bibl" target="bib:Tachiaos1981">Tachiaos 1981: 59</ref>
+                  </note>
+               </scribe>
+            </scribeDesc>
+            <msContents defective="false">
+               <summary>The manuscript contains 15 texts.</summary>
+               <filiation type="protograph">Bulgarian</filiation>
+               <msItemStruct xml:id="ACD1" type="translation" defective="false">
+                  <locus n="1">1r-71r</locus>
+                  <title xml:lang="bg">Житие на св. Атанасий Атонски</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Житїе и подвизи и ѡтчести чюдесь сповѣданїе прѣпод<seg rend="sup">о</seg>бнаго ѡт<seg rend="sup">ь</seg>ца
+                                нашего Аѳанасїа иже вь Аѳонѣ, бл҃с҃ви ѡтче</head>
+                     <incipit defective="false">Ꙗже изредыхь моужи написан'нна житїа</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD2" type="translation" defective="false">
+                  <locus n="2">71r-115v</locus>
+                  <title xml:lang="bg">Житие на св. Григорий, епископ на Велика Армения</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Житїе с҃тго Григорїа еп҃скпа велїкыѥ Арменїе, и Рип3имїе и Ганꙗны
+                                и инѣхь .л҃ѕ҃. д҃вць страд<seg rend="sup">а</seg>вших вь Арменїи</head>
+                     <incipit defective="false">Црьствоующоу Дїѡклитїаноу римлꙗни, тирїдатоу же Армениѥю
+                           </incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD3" type="translation" defective="false">
+                  <locus n="3">116r-134v</locus>
+                  <title xml:lang="bg">Житие на св. Ипатий</title>
+                  <note>without beginning</note>
+                  <filiation type="protograph">Bulgarian</filiation>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD4" type="translation" defective="false">
+                  <locus n="4">135r-160v</locus>
+                  <title xml:lang="bg">Покаяние на Киприян</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Покаанїе Киприановѡ, бл҃с҃ви ѡт<seg rend="sup">ч</seg>
+                     </head>
+                     <incipit defective="false">Елици ѡ Х҃свѣхь таинах блазните се</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD5" defective="false">
+                  <locus n="5">157r-160v</locus>
+                  <title xml:lang="bg">Житие на св. Киприян и Юстина</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>М҃чнїе с҃тго Кипрїана и с҃твыѥ Иоустины, бл҃с҃ви ѿче</head>
+                     <incipit defective="false">Пр<seg rend="sup">о</seg>рочьскымь словесемь сьбывающем се</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD6" type="translation" defective="false">
+                  <locus n="6">161r-176r</locus>
+                  <title xml:lang="bg">Житие на св. седем отрока от Ефес</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Страданїе с҃тых седмїих ѡтрокь иже вь Ефесѣ, Маѯимилїана и
+                                Амелиха, Мартина и Диѡниса и іѡанна, Еѯакоустодїана и Антонина,
+                                бл҃сви ѿче</head>
+                     <incipit defective="false">Егда вьц҃ри се Декїе ц҃рь</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD7" type="translation" defective="false">
+                  <locus n="7">176r-187v</locus>
+                  <title xml:lang="bg">Разказ за живота на Ксенофонт болярина</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Сповѣданїе ѡтчьско ѡ житїи Ѯенофонта болꙗринна, како с҃на своꙗ
+                                видѣ на вьскрсенїе г҃нїе, бл҃сви ѿч</head>
+                     <incipit defective="false">Сповѣда намь нѣкыи ѡтць великь</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD8" type="translation" defective="false">
+                  <locus n="8">188r-206v</locus>
+                  <title xml:lang="bg">Разказ за иконата на Господ в Халкопатрия</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Повѣсть д҃шепольз'на ѡ чьстнѣи и с҃тѣи иконѣ г҃а нашего і҃у Х҃а,
+                                иже вь Хал'копратїи и которыѥ рад вины наречена быст испороучникь, и
+                                о Ѳеѡдѡрѣ нѣкоѥмь крьмчїе византенїноу и о Аврамїи евреинину</head>
+                     <incipit defective="false">Владычныимь чюдесмь вьспоминанїе</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD9" type="translation" defective="false">
+                  <locus n="9">207r-224v</locus>
+                  <title xml:lang="bg">Слово похвално за 40 мъченици от Севастия от Ефрем Сирин</title>
+                  <author>Ephrem the Syrian</author>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Иже вь с҃тых ѡ҃ца нашего бл҃жен'наго Ефрема похвала с҃тыимь
+                                великомоученикѡмь четыридестим</head>
+                     <incipit defective="false">Образь м҃чниччьскыи исписати хощоу</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD10" type="translation" defective="false">
+                  <locus n="10">225r-237v</locus>
+                  <title xml:lang="bg">Поучение на Христофор Александрийски</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Иже вь с҃тых ѡтца нашего Хр҃стофора архїепїскопа алеѯан'дрїскаго,
+                                повѣсть и поученїе д҃шепользно, ꙗвлꙗющи чесомꙋ оупод҃би се житїе се,
+                                бл҃сви ѿче</head>
+                     <incipit defective="false">Вьсе оубо любимици ихже по всѣх врѣмень</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD11" type="translation" defective="false">
+                  <locus n="11">238r-242v</locus>
+                  <title xml:lang="bg">Видение на цар Амфилохий</title>
+                  <author>anonymous</author>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Слѡво ѡ постницѣ Амфилѡхїи како ѿ агг҃ль ос҃щень бысть, бл҃сви
+                                ѿче</head>
+                     <incipit defective="false">Бѣ ѥттерь мних, именемь Амфилѡхїе</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD12" type="original" defective="false">
+                  <locus n="12">243r-265v</locus>
+                  <title xml:lang="bg">Житие на св. Петър Коришки</title>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Житїе и жизнь с҃тго и пр҃под<seg rend="sup">о</seg>бнаго ѡ҃ца нашего Петра иже вь
+                                Коришкои горѣ постившаго се, бл҃сви ѿче</head>
+                     <incipit defective="false">Бл҃го и кь бл҃гомоу оумилѥнїю себѣ оубо</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD13" type="translation" defective="false">
+                  <locus n="13">266r-274v</locus>
+                  <title xml:lang="bg">Житие на св. Минодора, Митродора и Нимфодора</title>
+                  <note>
+                     <date type="churchCal" when="-09-10"/>
+                  </note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Септеврїа .і҃. М҃чнїе с҃тых жень Минод҃ры, Митрод҃ры, и
+                                Ним'фодоры, бл҃сви ѿче</head>
+                     <incipit defective="false">Ниже женамь, ниже ѡтрѡковицамь м҃чнїа</incipit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD14" type="original" defective="false">
+                  <locus n="14">274v-283r</locus>
+                  <title xml:lang="bg">Житие на св. Лазар Сръбски</title>
+                  <note>
+                     <date type="churchCal" when="-06-15">15 June</date>
+                  </note>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>іюнїа .е҃і҃. Ѡ бл҃жен'нѣмь и пр҃снопоминаемѣмь кнѧзе Лазаре, и иже
+                                сь нимь избиѥнных православныхь ѡт нечестивыих агарень и ѡтчести
+                                житїа его вьспомѣнутїе и ѡ страданїи его, и мощеи прѣнесенїи, слѡво.
+                                Бл҃сви ѿче</head>
+                     <incipit defective="false">Вьси оубо страд҃льчьсцїи подвизи прославлѥни, и чюдимо ѥс
+                                вьсоуду праведныих страданїе, троуди убо поутникѡмь припоутныѥ
+                                прохлаждають сѣни и оутроужденїи приѥмше ѡт поути шьствнаго
+                                оуласкавають троуда.</incipit>
+                     <explicit defective="false">да и мы страстныи, страстеи и грѣхѡвь различныихь свободоу
+                        оулоучивше, и тамошных бл҃гь наслѣдници боудемь о Х҃ѣ І҃сѣ г҃и
+                                нашемь. емоу же слава и дрьжава, ч҃сть и покланꙗнїе сь безначелныимь
+                                ѡ҃цемь, и прѣс҃тымь и благыимь и животворщимь д҃хѡмь, и н҃нꙗ и
+                                пр҃сно и вь вѣкы вѣкѡмь. амїнь.</explicit>
+                  </sampleText>
+               </msItemStruct>
+               <msItemStruct xml:id="ACD15" type="translation" defective="false">
+                  <locus n="15">283r-311v</locus>
+                  <title xml:lang="bg">Физиолог</title>
+                  <note>
+                     <ref type="bibl" target="bib:Александров1893">Александров 1893</ref>; 
+                     <ref type="bibl" target="bib:Стойкова1994">Стойкова 1994</ref>
+                  </note>
+                  <filiation type="translation">1</filiation>
+                  <filiation type="protograph">Bulgarian</filiation>
+                  <filiation type="litRedaction">Pseudo-Basil's</filiation>
+                  <sampleText xml:lang="cu">
+                     <head>Начело ес҃ствословникуꙋ имѣѥ изьѡбличенїа скотѡмь животныимь</head>
+                     <explicit defective="false">Тако вь неприлежанїи ходеще ниже мл҃твою. ниже бдѣнїемь
+                                вьспоминають чеда своꙗ. ѡбнемагающе б҃жїю помощь о грѣсѣ<seg rend="sup">х</seg>
+                                ихь.</explicit>
+                  </sampleText>
+                  <msItemStruct xml:id="ACD15.1" defective="false">
+                     <locus n="15.1">283r-284v</locus>
+                     <title xml:lang="bg">Физиолог. За лъва</title>
+                     <sampleText xml:lang="cu">
+                        <head>Прьвое ѡ львѣ</head>
+                        <incipit xml:lang="cu" defective="false">Начнѣмь рещи ѡ львѣ ц҃рѣ звѣремь. іѥже кіакѡвь
+                           скоть ѥсть. ибо Іаковь бл҃влꙗше Іоудоу гл҃ааше. скѵмень
+                                    львовь.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.2" defective="false">
+                     <locus n="15.2">284v-285v</locus>
+                     <title xml:lang="bg">Физиолог. За харадрия</title>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ харадрїи слово</head>
+                        <incipit defective="false">Есть птица гл҃іема харадрїе. ꙗкоже въ вторемь законѣ писано
+                                    бы<seg rend="sup">т</seg>ть</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.3" defective="false">
+                     <locus n="15.3">285v-286r</locus>
+                     <title xml:lang="bg">Физиолог. За слънчевия гущер</title>
+                     <sampleText xml:lang="cu">
+                        <head>О саврѣ сл҃нчнѣи повѣсть</head>
+                        <incipit defective="false">Есть же нарицаемаа савра сл҃нчнаа. вьніѥ<seg rend="sup">д</seg>а постарит се.
+                                    помежаеть очеса.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.4" defective="false">
+                     <locus n="15.4">286r-286v</locus>
+                     <title xml:lang="bg">Физиолог. За щъркела</title>
+                     <sampleText xml:lang="cu">
+                        <head>О стрьцѣ слѡво</head>
+                        <incipit defective="false">Д҃вдь же гл҃іеть. оуподѡбих се неесыти поыстыннѣи.
+                                    фисїѡлѡгь изьѡобличи о стрьцѣ. ꙗко чедолюбивь іе зѣлѡ.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.5" defective="false">
+                     <locus n="15.5">286v-287r</locus>
+                     <title xml:lang="bg">Физиолог. За нощния гарван</title>
+                     <sampleText xml:lang="cu">
+                        <head>О нощнѣмь вранѣ</head>
+                        <incipit defective="false">Гл҃іѥь пѣснопѣвьць. быхь ꙗко нощныи вр҃ань на нырищи.
+                                    фисїѡлѡгь ѡбличи. ꙗко сьи птищь любить нощь паче дн҃е.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.6" defective="false">
+                     <locus n="15.6">287r-288r</locus>
+                     <title xml:lang="bg">Физиолог. За магарето</title>
+                     <sampleText xml:lang="cu">
+                        <head>О ѡнагрѡ<seg rend="sup">х</seg>
+                        </head>
+                        <incipit defective="false">Писано бысть вь Іѡвѣ кто ѡстави ѡсла дївлꙗго свобѡдна. ꙗко
+                                    чрѣдѣ начелникь ѥсть.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.7" defective="false">
+                     <locus n="15.7">288r-289r</locus>
+                     <title xml:lang="bg">Физиолог. За ехидната</title>
+                     <sampleText xml:lang="cu">
+                        <head>О ехиднѣ</head>
+                        <incipit defective="false">Добрѣ Іѡаннь гл҃ааше к' фарисеѡмь. рож<seg rend="sup">д</seg>енїа ехїднова. кто
+                                    показа вамь бѣжати ѿ боу<seg rend="sup">д</seg>щааго гнѣва.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.8" defective="false">
+                     <locus n="15.8">289r-290v</locus>
+                     <title xml:lang="bg">Физиолог. За змията</title>
+                     <sampleText xml:lang="cu">
+                        <head>О змїи слѡво прьво</head>
+                        <incipit defective="false">Г҃ь обличи о змїи. вь еы<seg rend="sup">г</seg>лїи. боудете рече моудри  ꙗко
+                                    зьмїе. и цѣли ꙗко голоубїе</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.9" defective="false">
+                     <locus n="15.9">290v-291r</locus>
+                     <title xml:lang="bg">Физиолог. За магарето-кентавър и сирената</title>
+                     <sampleText xml:lang="cu">
+                        <head>О инокіетаврѡхь и сирїнѣхь</head>
+                        <incipit defective="false">Г҃ла Исаїа пр<seg rend="sup">о</seg>ркь. ꙗок бѣсѡве и сирїни и ѡнокіетаври.
+                                    играють вь вавилонѣ.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.10" defective="false">
+                     <locus n="15.10">291r-292r</locus>
+                     <title xml:lang="bg">Физиолог. За таралежа</title>
+                     <sampleText xml:lang="cu">
+                        <head>О ѥжи повѣсть</head>
+                        <incipit defective="false">Ехидна имоущїи видѣнїе ѡмлатоу ихже и ѥже нарычють и
+                                    вьсма бодливо ѥ<seg rend="sup">т</seg>.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.11" defective="false">
+                     <locus n="15.11">292r-293r</locus>
+                     <title xml:lang="bg">Физиолог. За пантерата</title>
+                     <sampleText xml:lang="cu">
+                        <head>О панѳїрѣ слѡво</head>
+                        <incipit defective="false">Пр<seg rend="sup">о</seg>ркь пр<seg rend="sup">о</seg>рчьствова рекыи. быхѡмь ꙗко и панѳїрь
+                                    Ефремоу.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.12" defective="false">
+                     <locus n="15.12">293r-293v</locus>
+                     <title xml:lang="bg">Физиолог. За яребицата</title>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ ѥребици</head>
+                        <incipit defective="false">Іеремїа пр<seg rend="sup">о</seg>ркь г҃лїѥь. вьз'гласи еребица. сьбираіѥ еже
+                                    не рѡди</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.13" defective="false">
+                     <locus n="15.13">293v-294r</locus>
+                     <title xml:lang="bg">Физиолог. За лисицата</title>
+                     <sampleText xml:lang="cu">
+                        <head>О лисици сказанїе</head>
+                        <incipit defective="false">Фисїѡлогь ѡбличи ѡ лисици ꙗко льстивь гадь іе<seg rend="sup">т</seg>. ег<seg rend="sup">д</seg>а
+                                    загладнѣет' и не ѡбрѣтаеть лова съ конца. еже ꙗсти.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.14" defective="false">
+                     <locus n="15.14">294r-295r</locus>
+                     <title xml:lang="bg">Физиолог. За кита</title>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ китѣ аспедохелѡни</head>
+                        <incipit defective="false">Сѡломѡнь вь притча<seg rend="sup">х</seg> поучаѥть. и прѣщаѥть г҃ліѥ не
+                                    вьнѣмли женѣ пронорливѣ.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.15" defective="false">
+                     <locus n="15.15">295r-295v</locus>
+                     <title xml:lang="bg">Физиолог. За аспидата</title>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ аспидѣ дроугоє</head>
+                        <incipit defective="false">О нѥиже вьспомѣноу Д҃вдь. ꙗко и аспида затикающїа оуши
+                                    свои. ꙗже не слышить гласа ѡбавающа прѣмоудрааго обавника
+                                    ѡбаваема</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.16" defective="false">
+                     <locus n="15.16">295v-296r</locus>
+                     <title xml:lang="bg">Физиолог. За лешояда</title>
+                     <note>
+                        <ref type="bibl" target="bib:Белова2001">Белова 2001: гип</ref>
+                     </note>
+                     <sampleText xml:lang="cu">
+                        <head>О птищи великааго гѵ̋п'па</head>
+                        <incipit defective="false">Добрѣ рече Г҃ь нашь сп҃сь вь еѵ<seg rend="sup">г</seg>лїи. еже горе вь чрѣвѣ
+                                    имоущїимь и дѡіещїимь вь ѡны д҃ни</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.17" defective="false">
+                     <locus n="15.17">296v</locus>
+                     <title xml:lang="bg">Физиолог. За мраволъва</title>
+                     <sampleText xml:lang="cu">
+                        <head>О мравольвѣ</head>
+                        <incipit defective="false">Елифаѯь ѳеманскыи ц҃рь обличи. мравольвьць обхож<seg rend="sup">д</seg>ааше.
+                                    занѥже не имѣти ѥмоу ꙗсти что.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.18" defective="false">
+                     <locus n="15.18">296v-298r</locus>
+                     <title xml:lang="bg">Физиолог. За мравката</title>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ мравїахь</head>
+                        <incipit defective="false">Сѡломѡнь вь притча<seg rend="sup">х</seg> рече. оупо<seg rend="sup">д</seg>оби се мравїи ѡ
+                                    лѣностиве. самыи бо фисїѡлогь. іе<seg rend="sup">т</seg>ства бесловесныимь скотомь и
+                                    гадѡмь рече.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.19" defective="false">
+                     <locus n="15.19">306r-306v</locus>
+                     <title xml:lang="bg">Физиолог. За невестулката</title>
+                     <note>
+                        <ref type="bibl" target="bib:Белова2001">Белова 2001, under "невестка"</ref>
+                     </note>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ невѣска<seg rend="sup">х</seg> слѡво</head>
+                        <incipit defective="false">Законь г҃ліеть. да не ꙗси нневѣстку ниже по<seg rend="sup">д</seg>бїе іее.
+                           заніеже таково іе<seg rend="sup">т</seg>ство имать.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.20" defective="false">
+                     <locus n="15.20">298v-299v</locus>
+                     <title xml:lang="bg">Физиолог. За еднорога</title>
+                     <sampleText xml:lang="cu">
+                        <head>О инорѡзѣ слѡво</head>
+                        <incipit defective="false">Пѣснопѣвьць г҃ліеть. и вьзнесет' се ꙗко инорога рогь мои.
+                                    заніеже таково іе<seg rend="sup">т</seg>ство имать.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.21" defective="false">
+                     <locus n="15.21">299v-300v</locus>
+                     <title xml:lang="bg">Физиолог. За вълка</title>
+                     <sampleText xml:lang="cu">
+                        <head>О вльцѣ слѡво прьвоѥ</head>
+                        <incipit defective="false">Ѡ нѥмже вьспомѣноу г҃ь нашь і҃с х҃с вь с҃ты<seg rend="sup">х</seg> свои<seg rend="sup">х</seg>
+                                    бл҃говѣстїи блюдете се ѿ льживыи<seg rend="sup">х</seg> пр<seg rend="sup">о</seg>ркь</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.22" defective="false">
+                     <locus n="15.22">300v-301r</locus>
+                     <title xml:lang="bg">Физиолог. За глигана</title>
+                     <note>See <ref type="bibl" target="bib:Белова2001">Белова 2001</ref>
+                     </note>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ иноцѣ дивніемь слѡво</head>
+                        <incipit defective="false">Ѡ нѥмже вьспомѣноу Д҃вдь и инокь дивїи позова виноград
+                                    мои. фисїѡлогь ѡбличи ѡ нѥмь. исходить оубо ѿ 
+                                    лоуга.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.23" defective="false">
+                     <locus n="15.23">301r- 301v</locus>
+                     <title xml:lang="bg">Физиолог. За бобъра</title>
+                     <sampleText xml:lang="cu">
+                        <head>О кастори слѡво</head>
+                        <incipit defective="false">Есть скоть г҃ліемыи касторь. и кротькь зѣлѡ и мльчаливь.
+                                    ибо ноуж<seg rend="sup">д</seg>наа его на исцѣліенїе вьроучают се</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.24" defective="false">
+                     <locus n="15.24">301v</locus>
+                     <title xml:lang="bg">Физиолог. За мечката</title>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ медвѣдѣ слово</head>
+                        <incipit defective="false">Законь г҃ліеть. да не ꙗси медвѣда ниже подѡбїа емоу. заніе
+                                    же моужь и жена іе<seg rend="sup">т</seg> размѣшень сьи гадь</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.25" defective="false">
+                     <locus n="15.25">301v-302v</locus>
+                     <title xml:lang="bg">Физиолог. За видрата и крокодила</title>
+                     <sampleText xml:lang="cu">
+                        <head>О енидри и о коркодїлѣ</head>
+                        <incipit defective="false">Есть скоть г҃ліемыи енидрїе. имѣіе лѣпотоу пьсїю. враг'же
+                                    іе<seg rend="sup">т</seg> кор'кодиловь.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.26" defective="false">
+                     <locus n="15.26">302v</locus>
+                     <title xml:lang="bg">Физиолог. За хнемона и змията</title>
+                     <sampleText xml:lang="cu">
+                        <head>О хнемѡнѣ и о зьмеи</head>
+                        <incipit defective="false">Есть скоть г҃ліемыи хнемонь. зѣло врагь іесть зьмею. ег<seg rend="sup">д</seg>а
+                                    оубо обрѣщерть дивьнаго зьмеа.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.27" defective="false">
+                     <locus n="15.27">303r-303v</locus>
+                     <title xml:lang="bg">Физиолог. За гърлицата</title>
+                     <sampleText xml:lang="cu">
+                        <head>О грьлици</head>
+                        <incipit defective="false">Вь пѣснехь Сѡломѡннь св<seg rend="sup">д</seg>ѣл'ствоует'. и гла<seg rend="sup">т</seg> грьличи. нь
+                                    не оуслыша се на земли нашеи.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.28" defective="false">
+                     <locus n="15.28">303v-304v</locus>
+                     <title xml:lang="bg">Физиолог. За жабата</title>
+                     <sampleText xml:lang="cu">
+                        <head>О жебѣ воднѣи и ѡ соусѣи</head>
+                        <incipit defective="false">Соуть двоѥ жабы. соухыѥ. и водные. да оубо соухаа.
+                                    трьпить вара дневнꙗго. и пламене сл҃нчнаго.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.29" defective="false">
+                     <locus n="15.29">304v-305v</locus>
+                     <title xml:lang="bg">Физиолог. За елена и змията</title>
+                     <sampleText xml:lang="cu">
+                        <head>О ѥлѣни и ѡ змїи</head>
+                        <incipit defective="false">Д҃вдь же г҃ліеть. ꙗко же жедаіеть елень на источникы
+                                    водныіе. тако желаіеть д҃ша наша кь тебѣ б҃е.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.30" defective="false">
+                     <locus n="15.30">305v</locus>
+                     <title xml:lang="bg">Физиолог. За саламандъра</title>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ саламандрѣ</head>
+                        <incipit defective="false">Фисїѡлогь обличи о сламандрѣ ꙗко и аще вьнидеть вь сковраду
+                                    огньиноую. оугашаіеть се ѡгньѿ ніее.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.31" defective="false">
+                     <locus n="15.31">305v-306r</locus>
+                     <title xml:lang="bg">Физиолог. За диаманта</title>
+                     <sampleText xml:lang="cu">
+                        <head>О адамантѣ</head>
+                        <incipit defective="false">Фисїѡлогь обличи ѡ адаманте. ꙗко адаманть на вьсточнѣи
+                                    страннѣ обрѣтаіет се. не дьнїю нь нощїю.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.32" defective="false">
+                     <title xml:lang="bg">Физиолог. За лястовицата</title>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ ластовици слѡво</head>
+                        <incipit defective="false">Ластовица. мимошь<seg rend="sup">д</seg>ши зимѣ. на пролѣтїе ꙗвлꙗіет се. и на
+                                    оутрїа цвилиь и вьзбоуз<seg rend="sup">д</seg>аіеть спещїихь</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.33" defective="false">
+                     <locus n="15.33">306v-307r</locus>
+                     <title xml:lang="bg">Физиолог. За дъба</title>
+                     <sampleText xml:lang="cu">
+                        <head>О доубѣ перидеѯїи</head>
+                        <incipit defective="false">Есть доубь вь Индїи перидекси нарицаіемь. пло<seg rend="sup">д</seg> же егѡ
+                                    сладькь и бл҃гь зѣлѡ.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.34" defective="false">
+                     <locus n="15.34">307r-308v</locus>
+                     <title xml:lang="bg">Физиолог. За гълъба</title>
+                     <sampleText xml:lang="cu">
+                        <head>О голоубѡ<seg rend="sup">х</seg>
+                        </head>
+                        <incipit defective="false">Ибо Іѡань рече. ꙗко видѣхь н҃бса ѿврьста. и д҃хь
+                                    сьходещь ꙗко голоубь и прѣбывающь на<seg rend="sup">д</seg> нимь.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.35" defective="false">
+                     <locusGrp n="15.35">
+                        <locus n="15.35.1">308v-309r</locus>
+                        <locus n="15.35.2">311r</locus>
+                     </locusGrp>
+                     <title xml:lang="bg">Физиолог. За дипса</title>
+                     <sampleText xml:lang="cu">
+                        <head>О дрпсѣ</head>
+                        <incipit defective="false">Есть гадь г҃ліемы дрѡпс. лють ѕѣло. ꙗко ловцоу не мощи
+                                    приближити се емоу. имат же рогы ꙗко назоубліени.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.36" defective="false">
+                     <locus n="15.36">309r-309v</locus>
+                     <title xml:lang="bg">Физиолог. За заека</title>
+                     <sampleText xml:lang="cu">
+                        <head>О заіеци</head>
+                        <incipit defective="false">О іемже вьспомѣноу Д҃вдь камень прибѣжище заецемь.
+                                    вьніег<seg rend="sup">д</seg>а ловимь бываеть заіець бѣгаеть вь каменїе.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.37" defective="false">
+                     <locus n="15.37">309v</locus>
+                     <title xml:lang="bg">Физиолог. За кълвача</title>
+                     <sampleText xml:lang="cu">
+                        <head>О дѣтлѣ</head>
+                        <incipit defective="false">Сьи птищь іесть мнѡго пьстрь ходит бо по дрѣвїю. и сь
+                                    клюномь своимь оудараеть. а оухомь послоушаеть.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.38" defective="false">
+                     <locus n="15.38">309v-310r</locus>
+                     <title xml:lang="bg">Физиолог. За орела</title>
+                     <sampleText xml:lang="cu">
+                        <head>О ѡрлѣ</head>
+                        <incipit defective="false">Есть оубо ц҃рь птичь. орьль бо наричет се многы<seg rend="sup">х</seg> ради
+                                    винь его. тьи бо живеть р҃ лѣть и сьстарает се.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.39" defective="false">
+                     <locus n="15.39">310r-310v</locus>
+                     <title xml:lang="bg">Физиолог. За слона</title>
+                     <note>Without end.</note>
+                     <sampleText xml:lang="cu">
+                        <head>Ѡ слонѣ</head>
+                        <incipit defective="false">Вьніег<seg rend="sup">д</seg>а хощеть моужь сь женою сьвькоупити се грьбомь
+                                    сьвькоуплꙗют се заніе нне имоуть сьставы и носить зачетое за
+                                    годиноу.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.40" defective="false">
+                     <locus n="15.40">311r</locus>
+                     <title xml:lang="bg">Физиолог. За кремъка</title>
+                     <sampleText xml:lang="cu">
+                        <head>О камени изимающимь ѡгнь</head>
+                        <incipit defective="false">Есть каменїе. да ег<seg rend="sup">д</seg>а приближит се другь кь другоу.
+                                    вьзгарает се и запалꙗють елика соуть окр<seg rend="sup">т</seg>ть.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.41" defective="false">
+                     <locus n="15.41">311r-311v</locus>
+                     <title xml:lang="bg">Физиолог. За тризъбия морски звяр</title>
+                     <sampleText xml:lang="cu">
+                        <head>О гадѣ морсцѣмь трьзоубѣ</head>
+                        <incipit defective="false">Есть гадь сицевыи. крила имѣе дльга. да аще видить корабь
+                                    плавающь. вьзвышаеть и ть крилѣ свои.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+                  <msItemStruct xml:id="ACD15.42" defective="false">
+                     <locusGrp n="15.42">
+                        <locus n="15.42.1">311v</locus>
+                        <locus n="15.42.2">309r</locus>
+                     </locusGrp>
+                     <title xml:lang="bg">Физиолог. За щрауса</title>
+                     <sampleText xml:lang="cu">
+                        <head>О строуѳокамилѣ</head>
+                        <incipit defective="false">Вьніег<seg rend="sup">д</seg>а хощеть снести ꙗица. познаваіеть врѣме
+                                    вьз<seg rend="sup">д</seg>оухоу и вьніег<seg rend="sup">д</seg>а боудеть топлота велика на
+                                    вьз<seg rend="sup">д</seg>оусѣ.</incipit>
+                     </sampleText>
+                  </msItemStruct>
+               </msItemStruct>
+            </msContents>
+            <history>
+               <origin evidence="catalogue" resp="#AS">
+                  <origDate>15th c., first quarter</origDate>
+                  <origPlace>Mount Athos</origPlace>
+                  <ref type="bibl" target="bib:Tachiaos1981">Tachiaos 1981: 59</ref>
+               </origin>
+            </history>
+         </msDesc>
+      </body>
+   </text>
+</TEI>
