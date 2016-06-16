@@ -29,7 +29,7 @@ def find_ngrams(input_list, n):
 # Build an array with all ngrams of content items in each ms, converted to a set
 # Note: Assumes the loss of duplicate information under set conversion is not significant
 # Result is a list of tuples of filename plus flattened array of ngrams
-files = glob.glob('*.xml')
+files = glob.glob('data/*.xml')
 all_contents = []
 for filename in files:
     input_file = open(filename, 'rb')

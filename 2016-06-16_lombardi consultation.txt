@@ -43,12 +43,18 @@ agnes() takes a dissimilarity matrix: the closest things have a value of 0
 R script:
 
 setwd("~/Dropbox/repertorium/2013-08-03_sofia/dendrogram")
-similarities<-scan('output.txt', sep=",")
-dat = 1000 - similarities
-size = sqrt(length(dat))
-m = matrix(dat, nrow=size, ncol=size)
+similarities<-scan('output.txt', sep=",") # read vector of reals
+size = sqrt(length(similarities)) # to determine matrix dimensions
+logs = log(similarities) # reduce extreme variation
+subtracted = max(logs) + 1 - logs # convert from similarity to dissimilarity
+m = matrix(subtracted, nrow=size, ncol=size)
 library(cluster)
 dendrogram = agnes(m, diss=TRUE, method="complete")
 labels<-scan('labels.txt',what='',sep=',')
 clusters = agnes(m,diss=TRUE,method='complete')
-plot(clusters)
+labels<-scan('labels.txt','',sep=',')
+par(cex=0.2)
+plot(clusters, labels=labels)
+
+
+
