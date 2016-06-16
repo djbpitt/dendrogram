@@ -11,7 +11,6 @@ logs = log(similarities) # reduce extreme variation
 subtracted = max(logs) + 1 - logs # convert from similarity to dissimilarity
 m = matrix(subtracted, nrow=size, ncol=size)
 library(cluster)
-dendrogram = agnes(m, diss=TRUE, method="complete")
 labels<-scan('labels.txt',what='',sep=',')
 clusters = agnes(m,diss=TRUE,method='complete')
 labels<-scan('labels.txt','',sep=',')
