@@ -53,5 +53,5 @@ output.close()
 
 #Output labels
 output = open('labels.txt', 'w')
-output.write(','.join([item[0].split('.')[0] for item in all_contents]))
+output.write(','.join([item[0].split('.')[0].split('/')[1] for item in all_contents]))
 output.close()
