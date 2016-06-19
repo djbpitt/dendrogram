@@ -1,10 +1,3 @@
-Procedure
-
-Run createMatrix.py to create output.txt (comma-separated list of values) and labels.txt (sigla)
-
-Run the following in R:
-
-setwd("~/Dropbox/repertorium/2013-08-03_sofia/dendrogram")
 similarities<-scan('output.txt', sep=",") # read vector of reals
 size = sqrt(length(similarities)) # to determine matrix dimensions
 logs = log(similarities + 1) # reduce extreme variation
@@ -15,5 +8,7 @@ labels<-scan('labels.txt',what='',sep=',')
 clusters = agnes(m,diss=TRUE,method='complete')
 labels<-scan('labels.txt','',sep=',')
 par(cex=0.2)
+svg('output.svg')
 plot(clusters, labels=labels)
+dev.off()
 

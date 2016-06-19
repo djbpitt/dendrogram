@@ -42,7 +42,7 @@ for filename in files:
 
 # Generate pairwise reports with intersection count
 # Result is list of counts of intersections (pairwise)
-labels = [item[0] for item in all_contents]
+# This list be converted into a matrix in Rx
 output_reports = []
 for first in all_contents:
     for second in all_contents:
