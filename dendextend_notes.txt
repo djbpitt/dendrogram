@@ -1,0 +1,64 @@
+dendextend notes:
+
+https://cran.r-project.org/web/packages/dendextend/vignettes/introduction.html
+
+See although methodological notes about agglomerative clustering in general at http://stats.stackexchange.com/questions/63546/comparing-hierarchical-clustering-dendrograms-obtained-by-different-distances/63549#63549
+
+To cut and separate sub-dendrograms, see http://stackoverflow.com/questions/18789059/r-plot-smaller-clusters-from-hclust
+
+m is a matrix object
+Create agnes object called "clusters" the old-fashioned way
+agnes can treat a matrix like dissimilarities with diss=TRUE, so it can operate directly on the matrix:
+agnex(m, type="complete")
+
+
+library(dendextend)
+library(dendextendRcpp)
+# no need to load magrittr; dendextend provides %>%
+
+# convert to dendrogram object, which has additional properties
+clusters = agnex(m, type="complete")
+dend = as.dendrogram(clusters)
+dend %>% set("labels", labels) %>% hang.dendrogram %>% set("labels_cex", 0.2) %>% plot
+
+or use hclust, in which case convert the matrix object to a dist object first, since otherwise it doesn't know that it's dissimilarities:
+as.dendrogram(hclust(as.dist(m), method = 'complete')) %>% set("labels", labels) %>% hang.dendrogram %>% set("labels_cex", 0.2) %>% plot
+
+This is clearer with chaining:
+
+as.dist(m) %>% # convert matrix to dist object
+hclust(method = "complete") %>% # use hclust to cluster (can't accept non-dist matrix, unlike agnes)
+as.dendrogram %>% # it's possible to plot an hclust object, but better to convert to dendrogram object to make it pretty later
+set("labels", labels) %>% # prepare to use labels when plotting later
+hang.dendrogram %>% # hang the labels high
+set("labels_cex", 0.2) %>% # make the label text small
+plot # draw the plot—finally!
+
+Other stuff to do:
+
+set("labels_col", value = c(2:6), k = 5) %>% # color the 5 partitions differently
+
+Or (better for us), color the branches, rather than the labels, and use default colors:
+set("branches_k_color", k = 3)
+
+sort (sorts by labels; helpful for tanglegram?)
+
+abline(h = 2, lty = 2) # draws a dashed line at height 2; must be called *after* plot()
+
+rect.dendrogram is broken in Anaconda R (crashes kernel), works in RStudio
+To color rectangles to match branches and use thin lines:
+
+dend %>% 
+  set("labels", labels) %>% 
+  set("labels_cex", 0.225) %>% # make the label text small
+  set("branches_k_color", k = 8, value = 1:9) %>% # number of partitions and colors
+  set("branches_lwd", 0.5) %>% # thin lines
+  hang.dendrogram %>% # pull labels up to lines
+  plot
+rect.dendrogram(dend, k = 8, lwd = 0.5, border = 1:9) # match number of partitions and colors; thin lines
+
+Last <path> elements are the rectangles. To make them clickable (zoom in on subtree), give them a fill (anything), set the fill-opacity property to 0, and move them to the top, so that they don't mask the clickable ms identifiers. Figure out how to handle event bubbling.
+
+Get fancy with color: http://vis.supstat.com/2013/04/plotting-symbols-and-color-palettes/
+
+

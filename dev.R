@@ -17,7 +17,7 @@ for (currentMethod in c('average', 'single', 'complete', 'ward', 'weighted')){
   # Write svg
   svg(paste(currentMethod,'.svg',sep=''))
   plot(clusters, labels=labels, which.plots = 2, cex = 0.2, 
-       cex.main = 0.5, cex.lab = 0.5, cex.axis = 0.5, cex.sub = 0.5, 
+       cex.main = 0.5, cex.lab = 0.5, cex.axis = 0.5, cex.sub = 0.5,
        main = paste('Repertorium corpus,', currentMethod, 'linkage,', size, 'manuscripts'))
   dev.off()
 }
